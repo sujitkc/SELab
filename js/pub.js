@@ -28,25 +28,65 @@ function string_of_publication (str_pub, pub_type, func, name) {
   .reduce(function(s1, s2) { return s1 + s2; } , "") + "</ol>";
 }
 
+// function that constructs the links for the preprint and online version of the paper.
+function preprint_online(x) {
+  var preprint = "";
+  var online   = "";
+  if(x.preprint != "") {
+    preprint = "&nbsp;&nbsp;&nbsp;&nbsp;<a href=\"" + x.preprint + "\">Preprint</a>";
+  }
+  if(x.online != "") {
+    online = "&nbsp;&nbsp;&nbsp;&nbsp;<a href=\"" + x.online + "\">Online</a>";
+  }
+  return [preprint, online]; 
+}
+
 function journal(journals, name) {
   return string_of_publication("Journal", journals,
-     function(x) {
-         return "<br><li>" + stringOfAuthors(x.authors, name) + "<i>. " + x.paper + "</i>, " + x.name + ", " + x.issue + ", " + x.year + "</li>";
-    }, name);
+    function(x) {
+      var value = preprint_online(x);
+      var preprint = value[0];
+      var online   = value[1];
+      return "<br><li>" + stringOfAuthors(x.authors, name) + "<i>. " + x.paper +
+        "</i>, " + x.name + ", " + x.issue + ", " + x.year + preprint + online + "</li>";
+    }
+    , name);
 }
 
 function conference(conferences, name) {
   return string_of_publication("Conference", conferences,
-     function(x) {
-         return "<br><li>" + stringOfAuthors(x.authors, name) + "<i>. " + x.paper + "</i>, " + x.name + ", " + x.venue + ", " + x.year + "</li>";
-    }, name);
+    function(x) {
+      var value = preprint_online(x);
+      var preprint = value[0];
+      var online   = value[1];
+      return "<br><li>" + stringOfAuthors(x.authors, name) + "<i>. " + x.paper +
+        "</i>, " + x.name + ", " + x.venue + ", " + x.year + preprint + online + "</li>";
+    }
+    , name);
 }
 
 function workshop(workshops, name) {
   return string_of_publication("Workshop", workshops,
-     function(x) {
-         return "<br><li>" + stringOfAuthors(x.authors, name) + "<i>. " + x.paper + "</i>, " + x.name + ", " + x.venue + ", " + x.year + "</li>";
-    }, name);
+    function(x) {
+      var value = preprint_online(x);
+      var preprint = value[0];
+      var online   = value[1];
+      return "<br><li>" + stringOfAuthors(x.authors, name) + "<i>. " + x.paper +
+        "</i>, " + x.name + ", " + x.venue + ", " + x.year +  preprint + online + "</li>";
+    }
+    , name);
+}
+
+function techrep(techreps, name) {
+  return string_of_publication("Technical Reports", techreps,
+    function(x) {
+      var value = preprint_online(x);
+      var preprint = value[0];
+      var online   = value[1];
+      return "<br><li>" + stringOfAuthors(x.authors, name) + "<i>. " + x.paper +
+        "</i>, " + x.year + preprint + online + "</li>";
+    }
+    , name);
 }
 
 function pubs (name) {
@@ -61,7 +101,9 @@ function pubs (name) {
          "name" : "MITE 2016",
          "venue" : "Madurai, INDIA",
          "date" : "December",
-         "year" : "2016"
+         "year" : "2016",
+         "preprint" : "../preprints/training-design.pdf",
+         "online" : ""
       },
       {
         "paper" : "SymTest : A Framework for Symbolic Testing of Embedded Software",
@@ -72,7 +114,10 @@ function pubs (name) {
          "name" : "ISEC 2016",
          "venue" : "Goa, INDIA",
          "date" : "February",
-         "year" : "2016"
+         "year" : "2016",
+         "preprint" : "../preprints/symtest.pdf",
+         "online" : "http://dl.acm.org/citation.cfm?id=2856642"
+
       },
       {
         "paper" : "Test-the-REST: An Approach to Testing RESTful Web-services",
@@ -87,7 +132,10 @@ function pubs (name) {
         "name" : "ISEC 2010",
         "venue" : "Mysore, INDIA",
         "date" : "February",
-        "year" : "2016"
+        "year" : "2016",
+         "preprint" : "",
+         "online" : "http://ieeexplore.ieee.org/abstract/document/5359602/"
+
       },
       {
         "paper" : "Using Spreadsheets for Finite State Modelling",
@@ -102,7 +150,10 @@ function pubs (name) {
         "name" : "ISEC 2009",
         "venue" : "Pune, INDIA",
         "date" : "February",
-        "year" : "2016"
+        "year" : "2016",
+         "preprint" : "",
+         "online" : "http://dl.acm.org/citation.cfm?id=1506223"
+
       },
       {
         "paper" : "Web Services Testing: New Challenges, New Approaches",
@@ -117,7 +168,10 @@ function pubs (name) {
         "name" : "STeP-IN Summit",
         "venue" : "Bangalore, INDIA",
         "date" : "February",
-        "year" : "2010"
+        "year" : "2010",
+         "preprint" : "",
+         "online" : ""
+
       },
       {
         "paper" : "Software Reliability Prediction in Philips Healthcare -- An Experience Report",
@@ -132,7 +186,10 @@ function pubs (name) {
         "name" : "ISSRE",
         "venue" : "Mysore, INDIA",
         "date" : "2009",
-        "year" : "2009"
+        "year" : "2009",
+         "preprint" : "",
+         "online" : ""
+
       },
       {
         "paper" : "Test Sequence Computation for Regression Testing of Reactive Systems",
@@ -147,7 +204,10 @@ function pubs (name) {
         "name" : "ISEC 2008",
         "venue" : "Hyderabad, INDIA",
         "date" : "February",
-        "year" : "2008"
+        "year" : "2008",
+         "preprint" : "",
+         "online" : "http://dl.acm.org/citation.cfm?doid=1342211.1342238"
+
       },
       {
         "paper" : "Specification Based Regression Testing using Explicit State Space Enumeration",
@@ -162,10 +222,13 @@ function pubs (name) {
         "name" : "ICSEA 2006",
         "venue" : "Tahiti, French Polynesia",
         "date" : "",
-        "year" : "2006"
+        "year" : "2006",
+         "preprint" : "",
+         "online" : "http://ieeexplore.ieee.org/document/4031805/"
+
       },
       {
-         "paper" : "Connected Testing of RESTful Web-Services",
+         "paper" : "Connectedness Testing of RESTful Web-Services",
          "authors" : [
            {
              "name" : "Sujit Kumar Chakrabarti"
@@ -177,7 +240,10 @@ function pubs (name) {
          "name" : "ISEC 2010",
          "venue" : "Mysore, INDIA",
          "date" : "February",
-         "year" : "2010"
+         "year" : "2010",
+         "preprint" : "",
+         "online" : "http://dl.acm.org/citation.cfm?id=1730902"
+
       },
       {
          "paper" : "Formal verification of avionics self-adaptive software",
@@ -186,7 +252,7 @@ function pubs (name) {
              "name" : "Rajanikanth N. Kashi"
            },
            {
-             "name" : "Meenakshi DSouza"
+             "name" : "Meenakshi D'Souza"
            },
            {
              "name" : "S Kumar Baghel"
@@ -199,7 +265,10 @@ function pubs (name) {
          "name" : "ISEC 2016",
          "venue" : "Goa, INDIA",
          "date" : "February",
-         "year" : "2016"
+         "year" : "2016",
+         "preprint" : "",
+         "online" : ""
+
       },
       {
          "paper" : "A Robust and Scalable Architecture for Airborne Radar Simulation",
@@ -221,7 +290,10 @@ function pubs (name) {
          "name" : "IEEE Region 10 Technical Conference on Convergent Technologies For The Asia-Pacific",
          "venue" : "Bangalore, India",
          "date" : "October",
-         "year" : "2003"
+         "year" : "2003",
+         "preprint" : "",
+         "online" : ""
+
       },
       {
          "paper" : "A Robust Design of Airborne Radar Simulation Software using design patterns",
@@ -243,7 +315,10 @@ function pubs (name) {
          "name" : "National Conference on Object Oriented Technology 2003 (NCOOT 2003)",
          "venue" : "Lonere, Maharastra, India",
          "date" : "August",
-         "year" : "2003"
+         "year" : "2003",
+         "preprint" : "",
+         "online" : ""
+
       },
       {
          "paper" : "Airborne Radar Data Processor Simulation Using Software In The-Loop Model",
@@ -265,7 +340,10 @@ function pubs (name) {
          "name" : "International Radar Symposium India",
          "venue" : "Bangalore, India",
          "date" : "December",
-         "year" : "2003"
+         "year" : "2003",
+         "preprint" : "",
+         "online" : ""
+
       },
       {
         "paper" : "Specifying and Constructing Safety-Critical Real-time Systems using TAU",
@@ -289,7 +367,10 @@ function pubs (name) {
         "name" : "Telelogic User Group Conference",
         "venue" : "Miami, Florida, USA",
         "date" : "October",
-        "year" : "2004"
+        "year" : "2004",
+        "preprint" : "",
+         "online" : ""
+
       },
       {
         "paper" : "Perspectives on the use of Model Based Development Approach For Safety Critical Avionics Software Development",
@@ -304,13 +385,16 @@ function pubs (name) {
         "name" : "International Conference on Aerospace Science and Technology (INCAST) 2008",
         "venue" : "National Science Seminar Complex IISc, Bangalore, India",
         "date" : "",
-        "year" : "2008"
+        "year" : "2008",
+        "preprint" : "",
+         "online" : ""
+
       },
       {
         "paper" : "Architectural Semantics of AADL using Event-B",
         "authors" : [
           {
-            "name" : "Meenakshi DSouza"
+            "name" : "Meenakshi D'Souza"
           },
           {
             "name" :"Manoranjan Satpathy"
@@ -322,13 +406,16 @@ function pubs (name) {
         "name" : "IEEE International Conference on Computing, Communication and Information Technology (IC3I)",
         "venue" : "",
         "date" : "",
-        "year" : "2014"
+        "year" : "2014",
+        "preprint" : "",
+         "online" : ""
+
       },
       {
         "paper" : "Verification of Message Sequence Structures",
         "authors" : [
           {
-            "name" : "Meenakshi DSouza"
+            "name" : "Meenakshi D'Souza"
           },
           {
             "name" :"Teodor Knapik"
@@ -337,13 +424,16 @@ function pubs (name) {
         "name" : "International Conference on Distributed Computing and Internet Technology (ICDCIT)",
         "venue" : "171-182, LNCS 7753, Springer",
         "date" : "",
-        "year" : "2013"
+        "year" : "2013",
+        "preprint" : "",
+         "online" : ""
+
       },
       {
         "paper" : "Improving estimation accuracy by using Case Based Reasoning and a combined estimation approach",
         "authors" : [
           {
-            "name" : "Meenakshi DSouza"
+            "name" : "Meenakshi D'Souza"
           },
           {
             "name" :"Srinivasa Gopal"
@@ -352,13 +442,16 @@ function pubs (name) {
         "name" : "ACM, India Software Engineering Conference (ISEC)",
         "venue" : "Kanpur, India",
         "date" : "",
-        "year" : "2012"
+        "year" : "2012",
+        "preprint" : "",
+         "online" : ""
+
       },
       {
         "paper" : "A framework for decentralized access control",
         "authors" : [
           {
-            "name" : "Meenakshi DSouza"
+            "name" : "Meenakshi D'Souza"
           },
           {
             "name" :"Abhishek Bhatnagar"
@@ -376,13 +469,16 @@ function pubs (name) {
         "name" : "ACM Conference on Computer and Communications Security (ASIACCS)",
         "venue" : "",
         "date" : "",
-        "year" : "2007"
+        "year" : "2007",
+        "preprint" : "",
+         "online" : ""
+
       },
       {
         "paper" : "Formal safety analysis of mode transitions in aircraft flight control system",
         "authors" : [
           {
-            "name" : "Meenakshi DSouza"
+            "name" : "Meenakshi D'Souza"
           },
           {
             "name" :"Kuntal Das Barman"
@@ -397,13 +493,16 @@ function pubs (name) {
         "name" : "26th IEEE Digital Avionics Systems Conference (DASC)",
         "venue" : "",
         "date" : "",
-        "year" : "2007"
+        "year" : "2007",
+        "preprint" : "",
+         "online" : ""
+
       },
       {
         "paper" : "Tool for Translating Simulink Models into Input Language of a Model Checker",
         "authors" : [
           {
-            "name" : "Meenakshi DSouza"
+            "name" : "Meenakshi D'Souza"
           },
           {
             "name" :"Abhishek Bhatnagar"
@@ -415,13 +514,16 @@ function pubs (name) {
         "name" : "8th International Conference on Formal Engineering Methods (ICFEM)",
         "venue" : "LNCS, Volume No. 4260, 606-620",
         "date" : "",
-        "year" : "2006"
+        "year" : "2006",
+        "preprint" : "",
+         "online" : ""
+
       },
       {
         "paper" : "A framework for rapid-prototyping of context based ubiquitous computing applications",
         "authors" : [
           {
-            "name" : "Meenakshi DSouza"
+            "name" : "Meenakshi D'Souza"
           },
           {
             "name" :"Namit Chaturvedi"
@@ -436,13 +538,16 @@ function pubs (name) {
         "name" : "IEEE International Conference on Sensor networks, Ubiquitous and Trustworthy Computing (SUTC)",
         "venue" : "306-311",
         "date" : "",
-        "year" : "2006"
+        "year" : "2006",
+        "preprint" : "",
+         "online" : ""
+
       },
       {
         "paper" : "Reasoning about Layered Message Passing Systems",
         "authors" : [
           {
-            "name" : "Meenakshi DSouza"
+            "name" : "Meenakshi D'Souza"
           },
           {
             "name" :"Ramaswamy Ramanujam"
@@ -451,7 +556,10 @@ function pubs (name) {
         "name" : "4th International Conference on Verification, Model Checking and Abstract Interpretation (VMCAI)",
         "venue" : "LNCS, Volume No. 2575, 268-282, 2003",
         "date" : "",
-        "year" : "2003"
+        "year" : "2003",
+        "preprint" : "",
+         "online" : ""
+
       },
       {
         "paper" : "Beyond Message Sequence Graphs",
@@ -460,19 +568,22 @@ function pubs (name) {
             "name" :"P. Madhusudan"
           },
           {
-            "name" : "Meenakshi DSouza"
+            "name" : "Meenakshi D'Souza"
           }
         ],
         "name" : "21st Foundations of Software Technology and Theoretical Computer Science (FSTTCS) Conference",
         "venue" : "LNCS, Volume No. 2245, 256-267",
         "date" : "",
-        "year" : "2001"
+        "year" : "2001",
+        "preprint" : "",
+         "online" : ""
+
       },
       {
         "paper" : "Reasoning about Message Passing in Finite State Environments",
         "authors" : [
           {
-            "name" : "Meenakshi DSouza"
+            "name" : "Meenakshi D'Souza"
           },
           {
             "name" :"Ramaswamy Ramanujam"
@@ -481,7 +592,10 @@ function pubs (name) {
         "name" : "27th International Colloquium on Automata, Lauguages and Programming (ICALP)",
         "venue" : "LNCS, Volume No.1853, 487-498",
         "date" : "",
-        "year" : "2000"
+        "year" : "2000",
+        "preprint" : "",
+         "online" : ""
+
       },
       {
         "paper" : "Safety Validation of an Embedded Real-time System at Hardware-Software Integration Test Environment",
@@ -490,13 +604,16 @@ function pubs (name) {
             "name" :"Gracy Philip"
           },
           {
-            "name" : "Meenakshi DSouza"
+            "name" : "Meenakshi D'Souza"
           }
         ],
         "name" : "9th Intl. Conf. on Advanced Computing and Communication Technologies",
         "venue" : "Springer Advances in Intelligent System and Computing Series",
         "date" : "",
-        "year" : "2015"
+        "year" : "2015",
+        "preprint" : "",
+         "online" : ""
+
       },
       {
         "paper" : "Incorporating Adaptivity using Learning in Avionics Self Adaptive Software: A Case Study",
@@ -505,7 +622,7 @@ function pubs (name) {
             "name" :"Rajanikanth N. Kashi"
           },
           {
-            "name" : "Meenakshi DSouza"
+            "name" : "Meenakshi D'Souza"
           },
           {
             "name" :"S Kumar Baghel"
@@ -518,7 +635,10 @@ function pubs (name) {
         "name" : "5th International Conference on Computing, Communications and Informatics (ICACCI 2016)",
         "venue" : "Jaipur, INDIA",
         "date" : "",
-        "year" : "2016"
+        "year" : "2016",
+        "preprint" : "",
+         "online" : ""
+
       },
       {
         "paper" : "A systematic and effective method of mechanizing Allocation in system modeling of Aircraft Navigation Products using SysML",
@@ -533,7 +653,10 @@ function pubs (name) {
         "name" : "National Conference on Emerging Technologies in Computer Science 2010 (NCETCS-2010)",
         "venue" : "Bangalore, INDIA",
         "date" : "",
-        "year" : "2010"
+        "year" : "2010",
+        "preprint" : "",
+         "online" : ""
+
       },
       {
         "paper" : "Improving the Kinetics and Effectiveness of Systems Engineering - Perspectives on Integrated use of SysML, AADL, and UML for Aircraft Navigation Product Lines",
@@ -551,7 +674,10 @@ function pubs (name) {
         "name" : "4th Asia-Pacific Conference on Systems Engineering (APCOSE 2010)",
         "venue" : "National Taiwan Ocean University, Keelung, TAIWAN",
         "date" : "",
-        "year" : "2010"
+        "year" : "2010",
+        "preprint" : "",
+         "online" : ""
+
       },
       {
         "paper" : "The Modeling and Analysis of Aircraft In-Trail Procedures Using SysML",
@@ -569,7 +695,10 @@ function pubs (name) {
         "name" : "5th Asia-Pacific Conference on Systems Engineering (APCOSE 2011)",
         "venue" : "SOUTH KOREA",
         "date" : "October",
-        "year" : "2011"
+        "year" : "2011",
+        "preprint" : "",
+         "online" : ""
+
       },
       {
         "paper" : "Perspectives on Lean Systems Engineering in Avionics Product Development,",
@@ -587,7 +716,10 @@ function pubs (name) {
         "name" : "5th Asia-Pacific Conference on Systems Engineering (APCOSE 2011)",
         "venue" : "SOUTH KOREA",
         "date" : "October",
-        "year" : "2011"
+        "year" : "2011",
+        "preprint" : "",
+         "online" : ""
+
       },
       {
         "paper" : "Design of a Power Aware Methodology in IoT based on Hidden Markov Model",
@@ -596,13 +728,16 @@ function pubs (name) {
             "name" :"Palani Kumar Subramanian"
           },
           {
-            "name" : "Meenakshi DSouza"
+            "name" : "Meenakshi D'Souza"
           }
         ],
         "name" : "Proceedings of COMSNETS-17",
         "venue" : "INDIA",
         "date" : "",
-        "year" : "2017"
+        "year" : "2017",
+        "preprint" : "",
+         "online" : ""
+
       },
       {
         "paper" : "Static Vulnerability Analysis for Secure Mobile Platforms",
@@ -611,13 +746,16 @@ function pubs (name) {
             "name" :"Dhinakar Kalyanasundaram"
           },
           {
-            "name" : "Meenakshi DSouza"
+            "name" : "Meenakshi D'Souza"
           }
         ],
         "name" : "Innovations in Software Engineering Conference (ISEC) 2017",
         "venue" : "Jaipur, INDIA",
         "date" : "",
-        "year" : "2017"
+        "year" : "2017",
+        "preprint" : "",
+         "online" : ""
+
       },
       {
         "paper" : "Knowledge Based Decision Framework For Architecting Complex Systems",
@@ -626,13 +764,16 @@ function pubs (name) {
             "name" :"Ramakrishnan Raman"
           },
           {
-            "name" : "Meenakshi DSouza"
+            "name" : "Meenakshi D'Souza"
           }
         ],
         "name" : "32nd ACM Symposium on Applied Computing – ACM SAC 2017",
         "venue" : "Marrakech, Morocco",
         "date" : "April 03-06",
-        "year" : "2017"
+        "year" : "2017",
+        "preprint" : "",
+         "online" : ""
+
       }
     ],
   "workshop" : [
@@ -649,7 +790,10 @@ function pubs (name) {
         "name" : "MODSYM 2016",
         "venue" : "Goa, INDIA",
         "date" : "February",
-        "year" : "2016"
+        "year" : "2016",
+        "preprint" : "../preprints/act-2016.pdf",
+         "online" : "http://ceur-ws.org/Vol-1561/paper3.pdf"
+
       },
       {
         "paper" : "Graduate Course in Software Testing",
@@ -658,13 +802,16 @@ function pubs (name) {
             "name" :"Sujit Kumar Chakrabarti"
           },
           {
-            "name" : "Meenakshi DSouza"
+            "name" : "Meenakshi D'Souza"
           }
         ],
-        "name" : "MODSYM 2016",
-        "venue" : "Goa, INDIA",
+        "name" : "SEED 2015",
+        "venue" : "Bangalore, INDIA",
         "date" : "February",
-        "year" : "2016"
+        "year" : "2015",
+        "preprint" : "",
+         "online" : ""
+
       }
     ],
   "journal" : [
@@ -687,14 +834,50 @@ function pubs (name) {
         "name" : "Defence Science Journal",
         "issue" : "",
         "date" : "July",
-        "year" : "2015"
+        "year" : "2015",
+        "preprint" : "",
+         "online" : ""
+
+      }
+    ],
+  "technical_report" : [
+      {
+        "paper" : "A Framework for Modeling and Verifying IoT Communication Protocols",
+        "authors" : [
+          {
+            "name" : "Maithily Diwan"
+          },
+          {
+            "name" :"Meenakshi D'Souza"
+          }
+        ],
+        "date" : "April",
+        "year" : "2017",
+        "preprint" : "../preprints/TR_IoTProtocolModel.pdf",
+         "online" : ""
+
+      },
+      {
+        "paper" : "Constract based Development and Refinement in Simulink",
+        "authors" : [
+          {
+            "name" : "Sujit Kumar Muduli"
+          },
+          {
+            "name" :"Meenakshi D'Souza"
+          }
+        ],
+        "date" : "June",
+        "year" : "2017",
+        "preprint" : "../preprints/Thesis-Report-MT2015113.pdf",
+         "online" : ""
+
       }
     ]
-
   }; 
   
   var element = document.getElementById("pubs");
-  var output_text = journal(allpubs.journal, name) + conference(allpubs.conference, name) + workshop(allpubs.workshop, name);
+  var output_text = journal(allpubs.journal, name) + conference(allpubs.conference, name) + workshop(allpubs.workshop, name) + techrep(allpubs.technical_report, name);
 
   element.innerHTML = output_text;
 }

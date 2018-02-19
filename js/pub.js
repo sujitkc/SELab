@@ -774,6 +774,188 @@ function pubs (name) {
         "preprint" : "",
          "online" : ""
 
+      },
+      {
+        "paper" : "Automatic Generation of Safety Validation Test cases from System Architecture Fault Trees",
+        "authors" : [
+          {
+            "name" :"Gracy Philip"
+          },
+          {
+            "name" : "Meenakshi D'Souza"
+          },
+	  {
+            "name" : "Varsha P. Suresh"
+          }
+        ],
+        "name" : "ACM, India Software Engineering Conference (ISEC)",
+        "venue" : "Hyderabad, India",
+        "date" : "9th - 11th February",
+        "year" : "2018",
+        "preprint" : "",
+         "online" : ""
+
+      },
+      {
+        "paper" : "Efficient Anomaly Detection Method for Power Saving in massive IoT architectures",
+        "authors" : [
+          {
+            "name" :"Palani Kumar"
+          },
+          {
+            "name" : "Meenakshi D'Souza"
+          },
+	  {
+            "name" : "Debabrata Das"
+          }
+        ],
+        "name" : "ICDCIT, LNCS 10772, Springer",
+        "venue" : "",
+        "date" : "",
+        "year" : "2018",
+        "preprint" : "",
+         "online" : ""
+
+      },
+      {
+        "paper" : "Incorporating Formal Methods and Measures Obtained through Analysiss, Simulation Testing for Dependable Self-Adaptive Software in Avionics Systems",
+        "authors" : [
+          {
+            "name" :"Rajanikanth Kashi"
+          },
+          {
+            "name" : "Meenakshi D'Souza"
+          },
+	  {
+            "name" : "Koyalkar Raman Kishore"
+          }
+        ],
+        "name" : "10th ACM Compute 2017",
+        "venue" : "Bhopal",
+        "date" : "",
+        "year" : "2017",
+        "preprint" : "",
+         "online" : ""
+
+      },
+      {
+        "paper" : "A static analyzer for industrial robotic applications",
+        "authors" : [
+          {
+            "name" :"Avijit Mandal"
+          },
+          {
+            "name" : "Raoul Jetley"
+          },
+          {
+            "name" : "Meenakshi D'Souza"
+          },
+	  {
+            "name" : "Sreeja S Nair"
+          }
+        ],
+        "name" : "28th IEEE ISSRE",
+        "venue" : "Toulouse, France",
+        "date" : "",
+        "year" : "2017",
+        "preprint" : "",
+         "online" : ""
+
+      },
+      {
+        "paper" : "A framework for modelling and verifying IoT communication protocols",
+        "authors" : [
+          {
+            "name" :"Maithily Diwan"
+          },
+          {
+            "name" : "Meenakshi D'Souza"
+          }
+        ],
+        "name" : "SETTA 2017, Springer LNCS 10606, pages 266-280",
+        "venue" : "China",
+        "date" : "",
+        "year" : "2017",
+        "preprint" : "",
+         "online" : ""
+
+      },
+      {
+        "paper" : "Method level power estimation and optimization in next generation smart phones",
+        "authors" : [
+          {
+            "name" :"Hilam Patel"
+          },
+          {
+            "name" : "Meenakshi D'Souza"
+          },
+	  {
+            "name" : "Nagesh Tikare"
+          }
+        ],
+        "name" : "IEEE ICACCI 2017, 1010-1016",
+        "venue" : "",
+        "date" : "",
+        "year" : "2017",
+        "preprint" : "",
+         "online" : ""
+
+      },
+      {
+        "paper" : "Model-based safety analysis: Automatic generation of safety validation test cases",
+        "authors" : [
+          {
+            "name" :"Gracy Philip"
+          },
+          {
+            "name" : "Meenakshi D'Souza"
+          },
+	  {
+            "name" : "V. P. Abidha"
+          }
+        ],
+        "name" : "in 36th IEEE/AIAA Digital Avionics Systems Conference (DASC)",
+        "venue" : "Florida",
+        "date" : "September",
+        "year" : "2017",
+        "preprint" : "",
+         "online" : ""
+
+      },
+      {
+        "paper" : "Knowledge based decision model for architecting and evolving complex system-of-systems",
+        "authors" : [
+          {
+            "name" :"Ramakrishnan Raman"
+          },
+          {
+            "name" : "Meenakshi D'Souza"
+          }
+        ],
+        "name" : "INCOSE International Symposium, 27(1)",
+        "venue" : "Wiley",
+        "date" : "July",
+        "year" : "2017",
+        "preprint" : "",
+         "online" : ""
+
+      },
+      {
+        "paper" : "Knowledge value stream framework for architecting complex products",
+        "authors" : [
+          {
+            "name" :"Ramakrishnan Raman"
+          },
+          {
+            "name" : "Meenakshi D'Souza"
+          }
+        ],
+        "name" : "IEEE Technology and Engineering Management Conference (TEMSCON)",
+        "venue" : "",
+        "date" : "",
+        "year" : "2017",
+        "preprint" : "",
+         "online" : ""
       }
     ],
   "workshop" : [

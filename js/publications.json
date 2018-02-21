@@ -680,45 +680,6 @@
         "year" : "2017",
         "preprint" : "",
          "online" : ""
-
-      }
-    ],
-  "workshop" : [
-      {
-        "paper" : "ACT (Abstract to Concrete Tests) - A tool for generating Concrete test cases from Formal Specification of Web Applications",
-        "authors" : [
-          {
-            "name" : "Khusbu Bubna"
-          },
-          {
-            "name" :"Sujit Kumar Chakrabarti"
-          }
-        ],
-        "name" : "MODSYM 2016",
-        "venue" : "Goa, INDIA",
-        "date" : "February",
-        "year" : "2016",
-        "preprint" : "../preprints/act-2016.pdf",
-         "online" : "http://ceur-ws.org/Vol-1561/paper3.pdf"
-
-      },
-      {
-        "paper" : "Graduate Course in Software Testing",
-        "authors" : [
-          {
-            "name" :"Sujit Kumar Chakrabarti"
-          },
-          {
-            "name" : "Meenakshi D'Souza"
-          }
-        ],
-        "name" : "SEED 2015",
-        "venue" : "Bangalore, INDIA",
-        "date" : "February",
-        "year" : "2015",
-        "preprint" : "",
-         "online" : ""
-
       },
       {
         "paper" : "Automatic Generation of Safety Validation Test cases from System Architecture Fault Trees",
@@ -901,6 +862,62 @@
         "preprint" : "",
          "online" : ""
 
+      },
+      {
+        "paper" : "Model-based Safety Validation for Embedded Real-time Systems",
+        "authors" : [
+          {
+            "name" :"Gracy Philip"
+          },
+          {
+            "name" : "Meenakshi D'Souza"
+          }
+        ],
+        "name" : "Formal Methods for Safety and Security Case Studies for Aerospace Applications, Nanda, Manju, Jeppu, Yogananda (Eds.), Springer",
+        "venue" : "",
+        "date" : "May",
+        "year" : "2017",
+        "preprint" : "",
+         "online" : ""
+
+      }
+    ],
+  "workshop" : [
+      {
+        "paper" : "ACT (Abstract to Concrete Tests) - A tool for generating Concrete test cases from Formal Specification of Web Applications",
+        "authors" : [
+          {
+            "name" : "Khusbu Bubna"
+          },
+          {
+            "name" :"Sujit Kumar Chakrabarti"
+          }
+        ],
+        "name" : "MODSYM 2016",
+        "venue" : "Goa, INDIA",
+        "date" : "February",
+        "year" : "2016",
+        "preprint" : "../preprints/act-2016.pdf",
+         "online" : "http://ceur-ws.org/Vol-1561/paper3.pdf"
+
+      },
+      {
+        "paper" : "Graduate Course in Software Testing",
+        "authors" : [
+          {
+            "name" :"Sujit Kumar Chakrabarti"
+          },
+          {
+            "name" : "Meenakshi D'Souza"
+          }
+        ],
+        "name" : "SEED 2015",
+        "venue" : "Bangalore, INDIA",
+        "date" : "February",
+        "year" : "2015",
+        "preprint" : "",
+         "online" : ""
+
       }
     ],
   "journal" : [
@@ -926,7 +943,6 @@
         "year" : "2015",
         "preprint" : "",
          "online" : ""
-
       }
     ],
   "technical_report" : [

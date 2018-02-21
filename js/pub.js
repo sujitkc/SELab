@@ -956,6 +956,24 @@ function pubs (name) {
         "year" : "2017",
         "preprint" : "",
          "online" : ""
+      },
+      {
+        "paper" : "Model-based Safety Validation for Embedded Real-time Systems",
+        "authors" : [
+          {
+            "name" :"Gracy Philip"
+          },
+          {
+            "name" : "Meenakshi D'Souza"
+          }
+        ],
+        "name" : "Formal Methods for Safety and Security Case Studies for Aerospace Applications, Nanda, Manju, Jeppu, Yogananda (Eds.), Springer",
+        "venue" : "",
+        "date" : "May",
+        "year" : "2017",
+        "preprint" : "",
+         "online" : ""
+
       }
     ],
   "workshop" : [
@@ -993,7 +1011,6 @@ function pubs (name) {
         "year" : "2015",
         "preprint" : "",
          "online" : ""
-
       }
     ],
   "journal" : [

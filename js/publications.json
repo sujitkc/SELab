@@ -724,19 +724,19 @@
 
       },
       {
-        "paper" : "Incorporating Formal Methods and Measures Obtained through Analysiss, Simulation Testing for Dependable Self-Adaptive Software in Avionics Systems",
+        "paper" : "Incorporating Formal Methods and Measures Obtained through Analysis, Simulation Testing for Dependable Self-Adaptive Software in Avionics Systems",
         "authors" : [
           {
-            "name" :"Rajanikanth Kashi"
+            "name" :"Rajanikanth N. Kashi"
           },
           {
             "name" : "Meenakshi D'Souza"
           },
-	  {
+          {
             "name" : "Koyalkar Raman Kishore"
           }
         ],
-        "name" : "10th ACM Compute 2017 ",
+        "name" : "10th Annual ACM India Compute Conference",
         "venue" : "Bhopal",
         "date" : "",
         "year" : "2017",

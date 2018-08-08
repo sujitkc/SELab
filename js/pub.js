@@ -48,7 +48,7 @@ function journal(journals, name) {
       var preprint = value[0];
       var online   = value[1];
       return "<br><li>" + stringOfAuthors(x.authors, name) + "<i>. " + x.paper +
-        "</i>, " + x.name + ", " + x.issue + ", " + x.year + preprint + online + "</li>";
+        "</i>, " + x.name + ", " + x.issue + " " + x.year + preprint + online + "</li>";
     }
     , name);
 }
@@ -995,6 +995,48 @@ function pubs (name) {
         "preprint" : "",
          "online" : ""
 
+      },
+      {
+        "paper" : "Learning framework for maturing architecture design decisions for evolving complex SoS",
+        "authors" : [
+          {
+            "name" :"Ramakrishnan Raman"
+          },
+          {
+            "name" : "Meenakshi D'Souza"
+          }
+        ],
+        "name" : "in Proc. IEEE 13th System of Systems Engineering Conference",
+        "venue" : "Paris, France",
+        "date" : "June",
+        "year" : "2018",
+        "preprint" : "",
+         "online" : ""
+
+      },
+      {
+        "paper" : "Worst case execution time estimation for control code of automation systems",
+        "authors" : [
+          {
+            "name" :"Surabhi Jha"
+          },
+          {
+            "name" : "Meenakshi D'Souza"
+          },
+          {
+            "name" : "Raoul Jetley"
+          },
+          {
+            "name" : "Sreeja Nair"
+          }
+        ],
+        "name" : "in Proc. IEEE 4th International Conference on Advances in Computing and Communication Engineering",
+        "venue" : "Paris, France",
+        "date" : "June",
+        "year" : "2018",
+        "preprint" : "",
+         "online" : ""
+
       }
     ],
   "workshop" : [
@@ -1051,10 +1093,10 @@ function pubs (name) {
             "name" :"P S Subramanyam"
           }
         ],
-        "name" : "Defence Science Journal",
-        "issue" : "",
+        "name" : "Defence Science Journal",        
         "date" : "July",
-        "year" : "2015",
+        "year" : "2005",
+	"issue" : "",
         "preprint" : "",
          "online" : ""
 

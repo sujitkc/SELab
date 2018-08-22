@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>IIIT-B SELab Page</title>
+    <script src="./ js/bootstrap.js"> </script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/handlebars-v3.0.3.js"> </script>
+    <script src="../js/pub.js"></script>
+    <script src="../js/nav.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/gallery.js"> </script>
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/gallery.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/selab.css">   
+  </head>
+<body onload='nav_bar ("../")'>
+
+    <div class="container">
+      <div class="page-header">
+        <h1>Software Engineering Lab, IIIT-B </h1>
+      </div>    
+      <div id="navbar"></div>
+				<ol class="breadcrumb">
+				<li><a href="../index.html">Home </a></li>
+				<li><a href="projects.html">Projects </a></li>
+			</ol>	  
+		<h2>Extraction of Architectural Knowledge from Legacy Code</h2>
+			<div style="display: flex; justify-content: center;">
+		<img src="reveng.png" alt="statechart" width="600"> 
+	</div>
+
+		<p>
+		Maintenance phase is often the longest running phase of software 
+		development lift cycle. In maintenance phase, a software project is
+		typically handled by engineers who weren't there from the beginning.
+		The code and other artifacts are 'legacy' for these engineers. The
+		original contributors to the project have moved on, and with them is
+		gone a lot of unwritten knowledge. Legacy code, which has been working 
+		well is both hard to maintain and to throw away. Design and architectural
+		documentation is scanty. So, the maintenance engineer has to figure out
+		what the original contributor had in mind. The usual techniques used to
+		do this is code review, testing and a lot of guesswork.
+		</p>
+		<p>
+		In this project, we are developing a set of algorithms, mostly
+		based on program analysis, to extract the high level architectural
+		facts about legacy code. Our algorithms analyse the code and 
+		identify features and patterns which correspond to certain known
+		design and architectural tricks, e.g. design pattern, architectural
+		patterns and tactics.
+		</p>
+		 
+  </body>
+</html>

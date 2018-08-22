@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>IIIT-B SELab Page</title>
+    <script src="./ js/bootstrap.js"> </script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/handlebars-v3.0.3.js"> </script>
+    <script src="../js/pub.js"></script>
+    <script src="../js/nav.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/gallery.js"> </script>
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/gallery.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/selab.css">   
+  </head>
+<body onload='nav_bar ("../")'>
+
+    <div class="container">
+      <div class="page-header">
+        <h1>Software Engineering Lab, IIIT-B </h1>
+      </div>    
+      <div id="navbar"></div>
+				<ol class="breadcrumb">
+				<li><a href="../index.html">Home </a></li>
+				<li><a href="projects.html">Projects </a></li>
+			</ol>	  
+		<h2>Symbolic Testing of Embedded Software</h2>
+	<div style="display: flex; justify-content: center;">
+		<img src="symtest.png" alt="statechart" height="200"> 
+	</div>
+
+	<p align='justify'>
+	In test case generation methods based on symbolic testing and/or 
+	model checking, the primary emphasis is on covering code/model 
+	elements and not on optimising test sequence length. However, 
+	in certain domains, e.g. embedded systems, GUI, networking software,
+	testing process may involve interaction with other physical
+	subsystems, possibly remotely situated. Thus, test sequence length 
+	may have important implications on the cost of testing. In this 
+	project, we design SymTest, a novel framework for test sequence 
+	generation for testing embedded systems. SymTest selects <i>good</i>
+	 control flow paths so as to generate shorter test sequences. In 
+	 case of unsatisfiability, SymTest explores the neighbouring paths 
+	 using backtracking and heuristics. SymTest is distinctive w.r.t. 
+	 other related methods in its attempt to generate shorter test 
+	 sequences while searching for feasible paths. The other novelty is 
+	 that SymTest allows plugging in heuristics in a flexible way, a 
+	 feature because of which we call SymTest a framework and not an 
+	 algorithm. Part of SymTest's power is in its extensibility to 
+	 seamlessly accommodate more heuristics, thus enhancing its ability 
+	 to generate shorter test sequences with economy of effort. Our 
+	 experiments with SymTest show that SymTest achieves significantly 
+	 shorter test sequences, with comparatively higher test coverage, 
+	 as compared with other methods.
+	</p>
+	
+	
+	 
+  </body>
+</html>

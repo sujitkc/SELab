@@ -27,228 +27,27 @@
 				<li><a href="../index.html">Home </a></li>
 				<li><a href="projects.html">Projects </a></li>
 			</ol>	  
-		<h2>Verification and validation of architectures for embedded software</h2>
 
-		<p>
-		 We work with AADL (Architecture Analysis and Description Language), an
-		industry standard language for specifying architectures for embedded
-		software and systems. AADL follows the component-connector paradigm
-		and has components to model platform, hardware and application
-		software components. Event/data ports connect components and
-		properties and flows can be used to describe architecture related
-		properties of components, sub-systems and system.
-		</p>
-		<p>
-		We have developed a framework for safety validation of safety critical
-		systems using AADL system architecture models. Our framework includes
-		algorithms for automatic generation of test cases (property-based and
-		coverage criteria based) from AADL models and also generation of test
-		cases from fault models described in AADL. The framework has been
-		validated on an AADL benchmark system Isolette and on two large
-		avionics systems.
-		</p>
-		<p>
-		We are also working on developing an Event-B semantics for AADL
-		architecture models. Such a semantics can be used to prove several
-		non-functional requirements about architecture models specified using
-		AADL paving way for formally verifying architecture models of embedded
-		software.
-		</p>
-		<h2>Verification and validation of IoT systems </h2>
-		<p>
-		IoT (Internet of Things) connects different computing devices,
-		sensors, actuators, people and virtually, any object. IoT systems are
-		prevalent in several safety critical industries like health care,
-		automotive, manufacturing systems, power grid etc. Our work in
-		verification and validation of IoT systems has been along two
-		directions.
-		</p>
-
-		<p>
-		Towards formally verifying IoT systems, we have developed formal
-		models in the theorem prover Event-B for several IoT protocols, MQTT,
-		MQTT-SN, CoAP and XMPP. These application layer protocols provide
-		properties that constitute the back-bone of correctness in many IoT
-		systems. Using our formal models of these protocols developed in
-		Event-B, we provide proofs of these protocols will satisfying
-		properties like QoS (Quality of Service), message ordering, persistent
-		sessions, request-response matching and timeout, confirmable message
-		ID matching and timeout, exponential backoff etc. Our Event-B models
-		have been specified first by building a common abstract model that
-		encompasses common features and then using refinement, model
-		decomposition and atomicity decomposition to specify detailed
-		features. Such a modelling exercise, we believe, can be used to model
-		full-fledged IoT systems that can be formally verified.
-		</p>
-
-		<p>
-		On the validation side, we have developed a discrete Markov decision
-		process based framework that can be used to make IoT systems power
-		aware and self-optimize their power. Prototypes of such a framework
-		are available in the Cooja simulator and can be used in realistic IoT
-		systems. We are currently working on applying this idea to
-		applications that use WiFi Direct.
-		</p>
-		<h2>Verifiable avionics self-adaptive software</h2>
-		<p>
-		Intelligent and adaptive avionics systems for ground and air-side
-		operations are being designed to improve overall performance and
-		operational efficiency by the aerospace industry. While systems have
-		to be adaptive, they also have to be safe, deterministic and failure
-		free. There is a need for developing methodologies and frameworks that
-		enable design of intelligent avionics systems that can be certified
-		and/or formally proven to be safe. We propose a BDI (Belief Desire
-		Intention) based multi-agent system model for intelligent avionics
-		systems that possess adaptive features for intelligent decision making
-		and also is amenable for being formally verified. Our BDI models have
-		been formally specified in the formal language Z, they use learning
-		algorithms to be adaptive and have components that can take over to
-		ensure safety in case there is a risk of failure. Our Z models can be
-		abstracted and model checked against CTL specifications by NuSMV model
-		checker. We also propose a few measures to measure adaptibility of
-		these systems. Our framework has been tested using two large case
-		studies--- one involving flight planning and another one with a small
-		unmanned aerial system.
-		</p>
-		<h2>Program analysis, test case generation and motion planning for robotics software </h2>
-		<p>
-		Industrial robots that are deployed in the domains of manufacturing,
-		food processing, packaging etc., typically perform tasks like welding,
-		pick and place, painting, assembly, material handling etc. Such robots
-		are programmed to carry out these tasks using proprietory programming
-		languages. We work with one such language, Rapid, an ABB language for
-		programming industrial robots. Rapid has complex data types to specify
-		co-ordinate systems for the robots and the regions of their operation,
-		motion primitives to specify end effector movement and programming
-		language control statements including branching, looping, procedure
-		calls, interrupts etc. to program the robots.
-		</p>
-		<p>
-		We have developed a comprehensive program analysis framework to detect
-		low level errors in Rapid programs. Our framework can handle complex
-		data types, robot motion primitives, timer resets and
-		interrupts. Properties that can be automatically checked are out of
-		bounds array access, infinite loops, division by zero, detecting
-		unused variables and code, robot boundary violations etc.
-		</p>
-		<p>
-		We are also working on test case generation algorithms for Rapid that
-		can do white-box test case generation including branch and loop
-		coverage. Test cases for regression testing basd on decision trees are
-		also being worked on.
-		</p>
-		<p>
-		In collaboration with IIT-Kanpur, we are working motion planning
-		algorithms, that given a set of high level tasks, working arena and
-		obstacles can generate a sequence of collision-free robot
-		configurations achieving the specified goal.
-		</p>	
-		<h2>Verifying data races and timing requirements in RTOS</h2>
-		<p>
-		Several safety critical software work on a platform hosted by a
-		Real-Time Operating System (RTOS). We work with an ARINC 653 complaint
-		RTOS, applying model checking and abstract interpretation based
-		techniques to verify presence of data races and also certain timing
-		requirements on the RTOS. 
-		</p>
-		<h2>Architecture and design decisions in complex systems and system-of-systems  </h2>
-		<p>
-		We consider design and architecture of complex systems and
-		system-of-systems as a set of decisions. Our work focusses on
-		knowledge involved in architecting such systems and how the underlying
-		knowledge evolves with uncertainties, learning cycles and their
-		consequences as the architected system is developed and deployed. We
-		have developed a framework that involves decision and knowledge models
-		and have integrated them into a learning model that predicts the
-		probabilities of the different learning cycle consequences for various
-		system decisions. A suggestion to practically implement the framework
-		is also proposed.
-		</p2>
-		<h2>Formal verification of Simulink models</h2>
-		<p>
-		Simulink is an industry-standard for design of embedded control
-		software. We are working on problems involving formal verifying
-		Simulink models along three directions:
-		<ol type="a">
-		<li>
-			Deductive verification of Simulink models: Controllers modelled
-			using Simulink are verified to meet their requirements (specifically
-			steady state requirements) using deductive verification. This approach
-			considers an approximate semantics of the continuous plant behavior,
-			models the controller algorithm and verifies the combined
-			controller+plant model for meeting the requirements.
-		</li>
-		<li>
-			Controller engineers develop Simulink models of the controlled
-			system and plant in an iterative fashion starting with an abstract
-			model and applying several rounds of refinement to arrive at the final
-			controller. The model is validated at each step by extensive
-			simulations. We have developed an assume-guarantee framework that
-			supports iterative development of controllers in Simulink. Initially,
-			in the abstract model, several desired properties of the controller
-			are not designed. As and when the designer adds parts of the
-			controller model, Simulink's internal verifier, SLDV is used to
-			prove the requirements that are assumed as guarantees of the model at
-			that stage. Our work has been tested on two real-life case studies
-			involving SLDV.
-		</li>
-		<li> 
-			Design engineers used Simulink's operational semantics to run
-			simulations that validate the controller to meet various
-			specifications. The operational semantics provides numerically
-			approximate solutions to the continuous dynamics of the plant through
-			a library of discrete and continuous solvers. We are capturing the
-			semantics of these solvers using the Isabelle theorem prover. We
-			believe that the controller requirements with the numerical
-			approximation can be proved to be correct using Isabelle theorem
-			prover.
-		</li>
+		<h2>Project Running under Prof. Meenakshi</h2>
+		<ol>
+		<li><a href="project-md-1.html">Verification and validation of architectures for embedded software</a></li>
+		<li><a href="project-md-2.html">Verification and validation of IoT systems</a> </li>
+		<li><a href="project-md-3.html">Verifiable avionics self-adaptive software</a></li>
+		<li><a href="project-md-4.html">Program analysis, test case generation and motion planning for robotics software</a> </li>
+		<li><a href="project-md-5.html">Verifying data races and timing requirements in RTOS</a></li>
+		<li><a href="project-md-6.html">Architecture and design decisions in complex systems and system-of-systems</a>  </li>
+		<li><a href="project-md-7.html">Formal verification of Simulink models</a></li>
+		<li><a href="project-md-8.html">Other projects</a></li>
 		</ol>
-		</p>
-		<h2>Other projects in testing and verification of embedded control software</h2>
-		<p>
-		We have worked on/currently working on several other projects
-		involving testing and verification of different kinds of embedded
-		control software. The following is a list of the project with a brief
-		description of the same:
-		<ol type="a">
-		<li>
-			 Verifying GPU instructions in Coq: This project formalizes a
-			small but complete set of GPU instructions in Coq theorem prover. We
-			are working on proving that any program written using these
-			instructions will be correct, in terms of its semantics captured in
-			Coq. Our work involves coming up with Coq semantics for vertex shaders
-			and fragment shaders and proving some properties of these shader
-			programs.	
-		</li>
-		<li>
-		 	WCET estimation of control code: We have come up with a simple
-			algorithm to estimate the worst case execution time for control code
-			written as per the IEC 61131-3 standard. Our approach uses abstract
-			interpretation based techniques with interval domain and congruent
-			domain abstraction for the IEC 61131-3 programs and considers a few
-			relevant controller platform parameters for WCET estimation.
-		</li>
-		<li> 
-			Static program analysis for secure element code: We have used the
-			CLANG analyzer to estimate vulnerability patterns in the C code
-			written for secure element chip used in mobile phones. Our
-			vulnerability patterns detection tool can be used to minimize the
-			manual load during audits for passing CC and other certifications
-			necessary for such code.
-		</li>
-		<li>
-			Method level power estimation of mobile applications: Large mobile
-			applications consume a lot of power, which can be saved by cleverly
-			using wakelocks. Intelligent use of wakelocks, at the level of methods
-			in an app code can result in power saving. We have come up with an
-			aspect-oriented programming approach to estimate method level power
-			consumption, which in turn, can be used to design wake-locks
-			accurately. Our approach has been tested in two large in-house
-			projects involving Samsung mobile apps.
-		</li>
+		
+		<h2>Project Running under Prof. Sujit</h2>
+		<ol>
+		<li><a href="reqeng-sujit.html">Formal Specification of Web apps using Statecharts</a></li>
+		<li><a href="symtest-sujit.html">Symbolic Testing of Embedded Software</a> </li>
+		<li><a href="reveng-sujit.html">Detection of Architectural Knowledge from Legacy Code</a></li>
+		<li><a href="autoeval-sujit.html">Automated Evaluation of Programming Assignments</a> </li>
+		<li><a href="social-sujit.html">Software Engineering for Social Impact</a> </li>
+
 		</ol>
-		</p>
-		 
   </body>
 </html>

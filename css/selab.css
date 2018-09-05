@@ -22,6 +22,9 @@ a:visited {background-color: violet;}
 a:hover {text-decoration:underline;}
 a:active {text-decoration:underline;}
 
+p{
+text-align:justify;
+}
 
 #nav {
 margin:0;

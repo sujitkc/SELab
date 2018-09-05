@@ -59,8 +59,11 @@ function conference(conferences, name) {
       var value = preprint_online(x);
       var preprint = value[0];
       var online   = value[1];
+      if(x.venue!="")
       return "<br><li>" + stringOfAuthors(x.authors, name) + "<i>. " + x.paper +
         "</i>, " + x.name + ", " + x.venue + ", " + x.year + preprint + online + "</li>";
+      else return "<br><li>" + stringOfAuthors(x.authors, name) + "<i>. " + x.paper +
+        "</i>, " + x.name + ", " + x.year + preprint + online + "</li>";
     }
     , name);
 }
@@ -701,7 +704,7 @@ function pubs (name) {
 
       },
       {
-        "paper" : "Perspectives on Lean Systems Engineering in Avionics Product Development,",
+        "paper" : "Perspectives on Lean Systems Engineering in Avionics Product Development",
         "authors" : [
           {
             "name" :"Rajanikanth N. Kashi"
@@ -813,27 +816,6 @@ function pubs (name) {
         "venue" : "",
         "date" : "",
         "year" : "2018",
-        "preprint" : "",
-         "online" : ""
-
-      },
-      {
-        "paper" : "Incorporating Formal Methods and Measures Obtained through Analysiss, Simulation Testing for Dependable Self-Adaptive Software in Avionics Systems",
-        "authors" : [
-          {
-            "name" :"Rajanikanth Kashi"
-          },
-          {
-            "name" : "Meenakshi D'Souza"
-          },
-	  {
-            "name" : "Koyalkar Raman Kishore"
-          }
-        ],
-        "name" : "10th ACM Compute 2017",
-        "venue" : "Bhopal",
-        "date" : "",
-        "year" : "2017",
         "preprint" : "",
          "online" : ""
 
@@ -1132,6 +1114,22 @@ function pubs (name) {
         "date" : "June",
         "year" : "2017",
         "preprint" : "../preprints/Thesis-Report-MT2015113.pdf",
+         "online" : ""
+
+      },
+      {
+        "paper" : "Constract based Development and Refinement in Simulink",
+        "authors" : [
+          {
+            "name" : "Rajanikanth N. Kashi"
+          },
+          {
+            "name" :"Meenakshi D'Souza"
+          }
+        ],
+        "date" : "",
+        "year" : "",
+        "preprint" : "../preprints/Vermillion-TR.pdf",
          "online" : ""
 
       }

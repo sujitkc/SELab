@@ -724,27 +724,6 @@
 
       },
       {
-        "paper" : "Incorporating Formal Methods and Measures Obtained through Analysis, Simulation Testing for Dependable Self-Adaptive Software in Avionics Systems",
-        "authors" : [
-          {
-            "name" :"Rajanikanth N. Kashi"
-          },
-          {
-            "name" : "Meenakshi D'Souza"
-          },
-          {
-            "name" : "Koyalkar Raman Kishore"
-          }
-        ],
-        "name" : "10th Annual ACM India Compute Conference",
-        "venue" : "Bhopal",
-        "date" : "",
-        "year" : "2017",
-        "preprint" : "",
-         "online" : ""
-
-      },
-      {
         "paper" : "A static analyzer for industrial robotic applications",
         "authors" : [
           {
@@ -1022,6 +1001,22 @@
         "date" : "April",
         "year" : "2017",
         "preprint" : "../preprints/TR_IoTProtocolModel.pdf",
+         "online" : ""
+
+      },
+      {
+        "paper" : "Constract based Development and Refinement in Simulink",
+        "authors" : [
+          {
+            "name" : "Rajanikanth N. Kashi"
+          },
+          {
+            "name" :"Meenakshi D'Souza"
+          }
+        ],
+        "date" : "",
+        "year" : "",
+        "preprint" : "../preprints/Vermillion-TR.pdf",
          "online" : ""
 
       }

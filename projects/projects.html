@@ -19,7 +19,7 @@
     <script type="text/javascript"> 
 	$(function(){
       var ul = document.querySelector('#shuffle');
-	for (var i = ul.children.length; i >= 0; i--) {
+	for (var i = ul.children.length-1; i >= 0; i--) {
 	    ul.appendChild(ul.children[Math.random() * i | 0]);
 	}
 	});
@@ -45,14 +45,13 @@
 		<li><a href="project-md-4.html">Program analysis, test case generation and motion planning for robotics software</a> </li>
 		<li><a href="project-md-5.html">Verifying data races and timing requirements in RTOS</a></li>
 		<li><a href="project-md-6.html">Architecture and design decisions in complex systems and system-of-systems</a>  </li>
-		<li><a href="project-md-7.html">Formal verification of Simulink models</a></li>
-		<li><a href="project-md-8.html">Other projects</a></li>		
+		<li><a href="project-md-7.html">Formal verification of Simulink models</a></li>			
 		<li><a href="reqeng-sujit.html">Formal Specification of Web apps using Statecharts</a></li>
 		<li><a href="symtest-sujit.html">Symbolic Testing of Embedded Software</a> </li>
 		<li><a href="reveng-sujit.html">Detection of Architectural Knowledge from Legacy Code</a></li>
 		<li><a href="autoeval-sujit.html">Automated Evaluation of Programming Assignments</a> </li>
 		<li><a href="social-sujit.html">Software Engineering for Social Impact</a> </li>
-
+		<li><a href="project-md-8.html">Other projects</a></li>	
 		</ol>
   </body>
 </html>

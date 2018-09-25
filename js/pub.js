@@ -1118,7 +1118,7 @@ function pubs (name) {
 
       },
       {
-        "paper" : "Constract based Development and Refinement in Simulink",
+        "paper" : "VERMILLION: Verifiable MultIagent Framework for DependabLe and AdaptabLe AvIONics",
         "authors" : [
           {
             "name" : "Rajanikanth N. Kashi"

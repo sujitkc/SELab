@@ -1019,6 +1019,54 @@ function pubs (name) {
         "preprint" : "",
          "online" : ""
 
+      },
+      {
+        "paper" : "A generic static analysis framework for domain specific languages",
+        "authors" : [
+          {
+            "name" :"Avijit Mandal"
+          },
+          {
+            "name" : "Meenakshi D'Souza"
+          },
+          {
+            "name" : "Devina Mohan"
+          },
+          {
+            "name" : "Raoul Jetley"
+          },
+          {
+            "name" : "Sreeja Nair"
+          }
+        ],
+        "name" : "in 2018 IEEE 23rd International Conference on Emerging Technologies and Factory Automation",
+        "venue" : "Italy",
+        "date" : "September",
+        "year" : "2018",
+        "preprint" : "",
+         "online" : ""
+
+      },
+      {
+        "paper" : "Formal Verification of Datarace in Safety Critical ARINC653 compliant RTOS",
+        "authors" : [
+          {
+            "name" :"Abhishek Singh"
+          },
+          {
+            "name" : "Meenakshi D'Souza"
+          },
+          {
+            "name" : "Arshad Ebrahim"
+          }
+        ],
+        "name" : "in Proc. 7th IEEE ICACCI",
+        "venue" : "",
+        "date" : "",
+        "year" : "2018",
+        "preprint" : "",
+         "online" : ""
+
       }
     ],
   "workshop" : [

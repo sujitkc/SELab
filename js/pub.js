@@ -74,8 +74,11 @@ function workshop(workshops, name) {
       var value = preprint_online(x);
       var preprint = value[0];
       var online   = value[1];
-      return "<br><li>" + stringOfAuthors(x.authors, name) + "<i>. " + x.paper +
+      if(x.venue!="")
+    	  	return "<br><li>" + stringOfAuthors(x.authors, name) + "<i>. " + x.paper +
         "</i>, " + x.name + ", " + x.venue + ", " + x.year +  preprint + online + "</li>";
+      else return "<br><li>" + stringOfAuthors(x.authors, name) + "<i>. " + x.paper +
+      "</i>, " + x.name + ", " + x.year + preprint + online + "</li>";
     }
     , name);
 }
@@ -1067,7 +1070,55 @@ function pubs (name) {
         "preprint" : "",
          "online" : ""
 
-      }
+      },
+      {
+          "paper" : "Avionics Self-adaptive Software: Towards Formal Verification and Validation",
+          "authors" : [
+            {
+              "name" :"Meenakshi D'Souza"
+            },
+            {
+              "name" : "Rajanikanth N. Kashi"
+            }
+          ],
+          "name" : "ICDCIT ",
+          "venue" : "",
+          "date" : "",
+          "year" : "2019",
+          "preprint" : "",
+           "online" : ""
+
+        },
+        {
+            "paper" : "FrAppLe: A Framework for Apprenticeship Learning",
+            "authors" : [
+              {
+                "name" :"Vijaya Sharvani"
+              },
+              {
+                "name" : "Kumar Abhinav"
+              },
+              {
+                 "name" : " Alpana Dubey"
+                },
+              {
+                  "name" : "Sakshi Jain"
+              },
+              {
+                  "name" : "Veenu Arora"
+              },
+              {
+                  "name" : "Meenakshi D'Souza"
+              }
+            ],
+            "name" : "ISEC ",
+            "venue" : "",
+            "date" : "",
+            "year" : "2019",
+            "preprint" : "",
+             "online" : ""
+
+          }
     ],
   "workshop" : [
       {
@@ -1104,7 +1155,28 @@ function pubs (name) {
         "year" : "2015",
         "preprint" : "",
          "online" : ""
-      }
+      },
+      {
+          "paper" : "Formalizing GPU Instruction Set Architecture in Coq",
+          "authors" : [
+            {
+              "name" : "Nitin Bhatia"
+              
+            },
+            {
+              "name" : "Meenakshi D'Souza"
+            },
+            {
+            	"name" :"Sujit Kumar Chakrabarti"
+              }
+          ],
+          "name" : "ISEC",
+          "venue" : "",
+          "date" : "",
+          "year" : "2019",
+          "preprint" : "",
+           "online" : ""
+        }
     ],
   "journal" : [
       {

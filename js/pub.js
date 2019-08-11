@@ -1118,6 +1118,66 @@ function pubs (name) {
             "preprint" : "",
              "online" : ""
 
+          },
+        {
+            "paper" : "Efficient Power Saving Method for WiFi Direct Devices in IoT based on Hidden Markov Model",
+            "authors" : [
+              {
+                "name" :"Sulochan Naik"
+              },
+              {
+                  "name" : "Meenakshi D'Souza"
+              }
+            ],
+            "name" : "11th International Conference on Communication Systems & Networks",
+            "venue" : "Bengaluru, India ",
+            "date" : "January 7-11",
+            "year" : "2019",
+            "preprint" : "",
+             "online" : ""
+
+          },
+        {
+            "paper" : "Formalizing GPU Instruction Set Architecture in Coq",
+            "authors" : [
+              {
+                "name" :"Nitin Bhatia"
+              },
+              {
+                  "name" : "Meenakshi D'Souza"
+              },
+              {
+                  "name" : "Sujit Kumar Chakrabarti"
+              }
+            ],
+            "name" : "Proceedings of the 12th Innovations on Software Engineering Conference",
+            "venue" : "Pune, India",
+            "date" : "February 14-16",
+            "year" : "2019",
+            "preprint" : "",
+             "online" : ""
+
+          },
+        {
+            "paper" : "Automated Test Case Generation for Programmable Logic Controller Code",
+            "authors" : [
+              {
+                "name" :"Varsha P. Suresh"
+              },
+              {
+                  "name" : "Sujit Kumar Chakrabarti"
+              },
+              {
+                  "name" : "Raoul Jetley"
+              }
+            ],
+            "name" : "Proceedings of the 12th Innovations on Software Engineering Conference",
+            "venue" : "Pune, India",
+            "date" : "February 14-16",
+            "year" : "2019",
+            "preprint" : "",
+             "online" : ""
+
           }
     ],
   "workshop" : [

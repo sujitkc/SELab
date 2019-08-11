@@ -5,9 +5,12 @@ var a = display_string.split("!"),
 
     for(var i = n - 1; i > 0; i--) {
         var j = Math.floor(Math.random() * (i + 1));
-        var tmp = a[i];
-        a[i] = a[j];
-        a[j] = tmp;
+	if(!(a[i].includes("Other projects")))
+        {
+		var tmp = a[i];
+		a[i] = a[j];
+		a[j] = tmp;
+	}
     }
     return a.join("");
 }
@@ -65,10 +68,6 @@ var allProject = {
         "owners" : "Meenakshi D'Souza",
 	"pagelink" : "../projects/project-md-1.html"
       },{
-        "title" : "Verification and validation of IoT systems",
-        "owners" : "Meenakshi D'Souza",
-	"pagelink" : "../projects/project-md-2.html"
-      },{
         "title" : "Verifiable avionics self-adaptive software",
         "owners" : "Meenakshi D'Souza",
 	"pagelink" : "../projects/project-md-3.html"
@@ -88,6 +87,9 @@ var allProject = {
         "title" : "Formal verification of Simulink models",
         "owners" : "Meenakshi D'Souza",
 	"pagelink" : "../projects/project-md-7.html"
+      },{ "title" : "Sponsored projects",
+        "owners" : "Meenakshi D'Souza",
+	"pagelink" : "../projects/project-md-9.html"
       },{ "title" : "Other projects",
         "owners" : "Meenakshi D'Souza",
 	"pagelink" : "../projects/project-md-8.html"

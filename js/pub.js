@@ -1178,7 +1178,94 @@ function pubs (name) {
             "preprint" : "",
              "online" : ""
 
-          }
+          },
+      {
+          "paper" : "Static analysis for detecting high-level races in RTOS kernels",
+          "authors" : [
+            {
+              "name" : "Abhishek Singh"
+              
+            },
+            {
+              "name" : "Rekha Pai"
+            },
+            {
+              "name" : " Deepak D'Souza"
+            },
+            {
+              "name" : "Meenakshi D'Souza"
+            }
+          ],
+          "name" : "Proceedings of Formal Methods - The Next 30 Years - Third World Congress, Springer LNCS 11800, 337-353",
+          "venue" : "",
+          "date" : "",
+          "year" : "2019",
+          "preprint" : "",
+           "online" : ""
+        },
+      {
+          "paper" : "Image processing application development on software configurable processor Array",
+          "authors" : [
+            {
+              "name" : "Ganesha"
+              
+            },
+            {
+              "name" : "Steevan Rodrigues"
+            },
+            {
+            	"name" :"Dr. Niranjan Chiplunkar"
+              },
+            {
+            	"name" :"Dr. Niranjan U.C"
+              }
+          ],
+          "name" : "International Conference on Emerging Trends in Engineering (ICETE)",
+          "venue" : "",
+          "date" : "",
+          "year" : "",
+          "preprint" : "",
+           "online" : ""
+        },
+      {
+          "paper" : "Implementation of compute intensive algorithms on software configurable processor, International Conference on Computer Architecture",
+          "authors" : [
+            {
+              "name" : "Ganesha"
+              
+            },
+            {
+              "name" : "Steevan Rodrigues"
+            },
+            {
+            	"name" :"Dr. Niranjan U.C"
+              }
+          ],
+          "name" : "International Conference on Computer Architecture, Networking & Applications(IC-CANA)",
+          "venue" : "",
+          "date" : "",
+          "year" : "",
+          "preprint" : "",
+           "online" : ""
+        },
+      {
+          "paper" : "Intuitive content rendering by intelligently organizing browser tabs for enhanced user experience and better screen space utilization. Smart Tabs - A new invention for intelligently organizing the browser tabs IEEE",
+          "authors" : [
+            {
+              "name" : "Ganesha"
+              
+            },
+            {
+              "name" : "Hemalatha M"
+            }
+          ],
+          "name" : "Advance Computing Conference (IACC)",
+          "venue" : "",
+          "date" : "",
+          "year" : "2015",
+          "preprint" : "",
+           "online" : ""
+        }
     ],
   "workshop" : [
       {

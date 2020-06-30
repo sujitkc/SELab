@@ -1265,7 +1265,44 @@ function pubs (name) {
           "year" : "2015",
           "preprint" : "",
            "online" : ""
-        }
+        },{
+        "paper" : "StaBL: Statecharts with Local Variables",
+        "authors" : [
+          {
+            "name" :"Sujit Kumar Chakrabarti"
+          },
+          {
+            "name" : "Karthika Venkatesan"
+          }
+        ],
+        "name" : "ISEC",
+        "venue" : "Jabalpur, INDIA",
+        "date" : "February",
+        "year" : "2020",
+        "preprint" : "",
+         "online" : ""
+
+      },{
+        "paper" : "Automated Testing of Refreshable Braille Display",
+        "authors" : [
+		{
+            "name" : "Shivam Kumar Singh"
+          },
+          {
+            "name" :"Sujit Kumar Chakrabarti"
+          },
+          {
+            "name" : "Dinesh Babu Jayagopi"
+          }
+        ],
+        "name" : "14th IFIP TC9 Human Choice and Computers Conference",
+        "venue" : "Tokyo",
+        "date" : "September",
+        "year" : "2020",
+        "preprint" : "",
+         "online" : ""
+
+      }
     ],
   "workshop" : [
       {

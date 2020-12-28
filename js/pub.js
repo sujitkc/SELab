@@ -1302,6 +1302,101 @@ function pubs (name) {
         "preprint" : "",
          "online" : ""
 
+      },
+      {
+        "paper" : "Discovering Multiple Design Approaches in Programming Assignment Submissions",
+        "authors" : [
+          {
+            "name" :"Nikhila KN"
+          },
+          {
+            "name" : "Sujit Kumar Chakrabarti"
+          },
+          { "name" : "Manish Gupta"
+          }
+        ],
+        "name" : "The 36th ACM/SIGAPP Symposium on Applied Computing (SAC ’21)",
+        "venue" : "Virtual Event, Republic of Korea",
+        "date" : "March 22–26",
+        "year" : "2021",
+        "preprint" : "",
+         "online" : ""
+
+      },
+      {
+        "paper" : "Physics Simulation based Approach to Node Clustering",
+        "authors" : [
+          {
+            "name" :"Kapil Kalra"
+          },
+          {
+            "name" : "Nikhila KN"
+          },
+          { "name" : "Sujit Kumar Chakrabarti"
+          }
+        ],
+        "name" : "3rd International Conference on Engineering Mathematics and Computing (ICEMC 2020)",
+        "venue" : "HIT Haldia",
+        "date" : "February 5-7",
+        "year" : "2020",
+        "preprint" : "",
+         "online" : ""
+
+      },
+      {
+        "paper" : "Automated Evaluation of Programming Assignment --An Experience Report",
+        "authors" : [
+          
+          { 
+          "name" : "Sujit Kumar Chakrabarti"
+          }
+        ],
+        "name" : "The Future of Learning Conference 2020",
+        "venue" : "IIM BANGALORE",
+        "date" : "January 3-4",
+        "year" : "2020",
+        "preprint" : "",
+         "online" : ""
+
+      },      
+      {
+        "paper" : "Detecting Heartbeat Architectural Tactic in Source Code Using Program Analysis",
+        "authors" : [
+          {
+          "name" : "Ananta Kumar Das"
+          },
+          { 
+          "name" : "Sujit Kumar Chakrabarti"
+          }
+        ],
+        "name" : "ICOOSEDP 2020: International Conference on Object-Oriented Software Engineering and Design Patterns",
+        "venue" : "Vienna, Austria",
+        "date" : "December 24-25",
+        "year" : "2020",
+        "preprint" : "",
+         "online" : ""
+
+      },      
+      {
+        "paper" : "Detecting Code Smells using Deep Learning",
+        "authors" : [
+          {
+          "name" : "Ananta Kumar Das"
+          },
+          { 
+          "name" : "S. Yadav"
+          },
+          {
+          "name" : "S. Dhal"
+          }
+        ],
+        "name" : "TENCON 2019 - 2019 IEEE Region 10 Conference (TENCON)",
+        "venue" : "Kochi, India",
+        "date" : "October 17-20",
+        "year" : "2019",
+        "preprint" : "",
+         "online" : ""
+
       }
     ],
   "workshop" : [

@@ -1005,6 +1005,26 @@
         "preprint" : "",
          "online" : ""
 
+      },
+      {
+        "paper" : "Discovering Multiple Design Approaches in Programming Assignment Submissions",
+        "authors" : [
+          {
+            "name" :"Nikhila KN"
+          },
+          {
+            "name" : "Sujit Kumar Chakrabarti"
+          },
+          { "name" : "Manish Gupta"
+          }
+        ],
+        "name" : "The 36th ACM/SIGAPP Symposium on Applied Computing (SAC ’21)",
+        "venue" : "Virtual Event, Republic of Korea",
+        "date" : "March 22–26",
+        "year" : "2021",
+        "preprint" : "",
+         "online" : ""
+
       }
     ],
   "workshop" : [

@@ -1,0 +1,457 @@
+people = {
+  {
+    "Email" : "sujitkc@iiiitb.ac.in",
+    "First Name" : "Sujit Kumar",
+    "Middle Name" : "",
+    "Last Name" : "Chakrabarti",
+    "Member Type" : "memberfaculty"
+  },
+  {
+    "Email" : "meenakshi",
+    "First Name" : "Meenakshi",
+    "Middle Name" : "",
+    "Last Name" : "D’Souza",
+    "Member Type" : "memberfaculty"
+  },
+  {
+    "Email" : "karthika.venkatesan@iiitb.ac.in",
+    "First Name" : "Karthika",
+    "Middle Name" : "",
+    "Last Name" : "Venkatesan",
+    "Member Type" : "memberstudent"
+  },
+  {
+    "Email" : "varsha.suresh@iiitb.ac.in",
+    "First Name" : "Varsha",
+    "Middle Name" : "P.",
+    "Last Name" : "Suresh",
+    "Member Type" : "memberstudent"
+  },
+  {
+    "Email" : "nikhila.kn@iiitb.ac.in",
+    "First Name" : "Nikhila",
+    "Middle Name" : "K.",
+    "Last Name" : "Narayan",
+    "Member Type" : "memberstudent"
+  },
+  {
+    "Email" : "ganesha@iiitb.ac.in",
+    "First Name" : "Ganesha",
+    "Middle Name" : "",
+    "Last Name" : "",
+    "Member Type" : "memberstudent"
+  },
+  {
+    "Email" : "nitin.bhatia@iiitb.ac.in",
+    "First Name" : "Nitin",
+    "Middle Name" : "",
+    "Last Name" : "Bhatia",
+    "Member Type" : "memberstudent"
+  },
+  {
+    "Email" : "manish.gupta@iiitb.ac.in",
+    "First Name" : "Manish",
+    "Middle Name" : "",
+    "Last Name" : "Gupta",
+    "Member Type" : "externalfaculty"
+  },
+  {
+    "Email" : "",
+    "First Name" : "Nitin",
+    "Middle Name" : "Arun",
+    "Last Name" : "Kulkarni",
+    "Member Type" : "externalfaculty"
+  },
+  {
+    "Email" : "",
+    "First Name" : "Maithily",
+    "Middle Name" : "",
+    "Last Name" : "Diwan",
+    "Member Type" : "memberstudent"
+  },
+  {
+    "Email" : "",
+    "First Name" : "Dhinakar",
+    "Middle Name" : "",
+    "Last Name" : "Kalyanasundaram",
+    "Member Type" : "external"
+  },
+  {
+    "Email" : "",
+    "First Name" : "Rajanikanth",
+    "Middle Name" : "N",
+    "Last Name" : "Kashi",
+    "Member Type" : "memberstudent"
+  },
+  {
+    "Email" : "",
+    "First Name" : "Raoul",
+    "Middle Name" : "",
+    "Last Name" : "Jetley",
+    "Member Type" : "external"
+  },
+  {
+    "Email" : "",
+    "First Name" : "Abhishek",
+    "Middle Name" : "",
+    "Last Name" : "Singh",
+    "Member Type" : "memberstudent"
+  },
+  {
+    "Email" : "",
+    "First Name" : "Dinesh",
+    "Middle Name" : "Babu",
+    "Last Name" : "Jayagopi",
+    "Member Type" : "externalfaculty"
+  },
+  {
+    "Email" : "",
+    "First Name" : "Ganesh",
+    "Middle Name" : "Babu",
+    "Last Name" : "Kandhan",
+    "Member Type" : "external"
+  },
+  {
+    "Email" : "",
+    "First Name" : "Y.",
+    "Middle Name" : "N.",
+    "Last Name" : "Srikant",
+    "Member Type" : "external"
+  },
+  {
+    "Email" : "",
+    "First Name" : "Gracy",
+    "Middle Name" : "",
+    "Last Name" : "Philip",
+    "Member Type" : "memberstudent"
+  },
+  {
+    "Email" : "",
+    "First Name" : "Madhusudan",
+    "Middle Name" : "",
+    "Last Name" : "P.",
+    "Member Type" : "external"
+  },
+  {
+    "Email" : "",
+    "First Name" : "Kuntal",
+    "Middle Name" : "Das",
+    "Last Name" : "Barman",
+    "Member Type" : "external"
+  },
+  {
+    "Email" : "",
+    "First Name" : "Vanathi",
+    "Middle Name" : "",
+    "Last Name" : "Ravindran",
+    "Member Type" : "external"
+  },
+  {
+    "Email" : "",
+    "First Name" : "Ramakrishnan",
+    "Middle Name" : "",
+    "Last Name" : "Raman",
+    "Member Type" : "memberstudent"
+  },
+  {
+    "Email" : "",
+    "First Name" : "Ramaswamy",
+    "Middle Name" : "",
+    "Last Name" : "Ramanujam",
+    "Member Type" : "external"
+  },
+  {
+    "Email" : "",
+    "First Name" : "Karan",
+    "Middle Name" : "",
+    "Last Name" : "Sehgal",
+    "Member Type" : "external"
+  },
+  {
+    "Email" : "",
+    "First Name" : "R",
+    "Middle Name" : "S",
+    "Last Name" : "Rao",
+    "Member Type" : "external"
+  },
+  {
+    "Email" : "",
+    "First Name" : "Sreeja",
+    "Middle Name" : "S",
+    "Last Name" : "Nair",
+    "Member Type" : "external"
+  },
+  {
+    "Email" : "",
+    "First Name" : "Charles",
+    "Middle Name" : "",
+    "Last Name" : "Law",
+    "Member Type" : "external"
+  },
+  {
+    "Email" : "",
+    "First Name" : "Hilam",
+    "Middle Name" : "",
+    "Last Name" : "Patel",
+    "Member Type" : "memberstudent"
+  },
+  {
+    "Email" : "",
+    "First Name" : "Surabhi",
+    "Middle Name" : "",
+    "Last Name" : "Jha",
+    "Member Type" : "memberstudent"
+  },
+  {
+    "Email" : "",
+    "First Name" : "Namit",
+    "Middle Name" : "",
+    "Last Name" : "Chaturvedi",
+    "Member Type" : "external"
+  },
+  {
+    "Email" : "",
+    "First Name" : "Sukanta",
+    "Middle Name" : "",
+    "Last Name" : "Bhatt",
+    "Member Type" : "external"
+  },
+  {
+    "Email" : "",
+    "First Name" : "Nagesh",
+    "Middle Name" : "",
+    "Last Name" : "Tikare",
+    "Member Type" : "external"
+  },
+  {
+    "Email" : "",
+    "First Name" : "Palani",
+    "Middle Name" : "Kumar",
+    "Last Name" : "Subramanian",
+    "Member Type" : "memberstudent"
+  },
+  {
+    "Email" : "",
+    "First Name" : "N",
+    "Middle Name" : "N",
+    "Last Name" : "S",
+    "Member Type" : "external"
+  },
+  {
+    "Email" : "",
+    "First Name" : "Khusbu",
+    "Middle Name" : "",
+    "Last Name" : "Bubna",
+    "Member Type" : "memberstudent"
+  },
+  {
+    "Email" : "",
+    "First Name" : "Atish",
+    "Middle Name" : "Datta",
+    "Last Name" : "Chowdhury",
+    "Member Type" : "external"
+  },
+  {
+    "Email" : "",
+    "First Name" : "Teodor",
+    "Middle Name" : "",
+    "Last Name" : "Knapik",
+    "Member Type" : "external"
+  },
+  {
+    "Email" : "",
+    "First Name" : "Fernandes",
+    "Middle Name" : "",
+    "Last Name" : "Cercuncesao",
+    "Member Type" : "external"
+  },
+  {
+    "Email" : "",
+    "First Name" : "Arshad",
+    "Middle Name" : "",
+    "Last Name" : "Ebrahim",
+    "Member Type" : "external"
+  },
+  {
+    "Email" : "",
+    "First Name" : "Reswin",
+    "Middle Name" : "",
+    "Last Name" : "Rodriquez",
+    "Member Type" : "external"
+  },
+  {
+    "Email" : "",
+    "First Name" : "Y",
+    "Middle Name" : "",
+    "Last Name" : "Narahari",
+    "Member Type" : "external"
+  },
+  {
+    "Email" : "",
+    "First Name" : "Abhishek",
+    "Middle Name" : "",
+    "Last Name" : "Bhatnagar",
+    "Member Type" : "external"
+  },
+  {
+    "Email" : "",
+    "First Name" : "Debabrata",
+    "Middle Name" : "",
+    "Last Name" : "Das",
+    "Member Type" : "externalfaculty"
+  },
+  {
+    "Email" : "",
+    "First Name" : "Avijit",
+    "Middle Name" : "",
+    "Last Name" : "Mandal",
+    "Member Type" : "memberstudent"
+  },
+  {
+    "Email" : "",
+    "First Name" : "Muralikrishna",
+    "Middle Name" : "",
+    "Last Name" : "Sampath",
+    "Member Type" : "external"
+  },
+  {
+    "Email" : "",
+    "First Name" : "Rajanikanth",
+    "Middle Name" : "N.",
+    "Last Name" : "Kashi",
+    "Member Type" : "memberstudent"
+  },
+  {
+    "Email" : "",
+    "First Name" : "Sudeepa",
+    "Middle Name" : "",
+    "Last Name" : "Roy",
+    "Member Type" : "external"
+  },
+  {
+    "Email" : "",
+    "First Name" : "Prashant",
+    "Middle Name" : "",
+    "Last Name" : "Kumar",
+    "Member Type" : "external"
+  },
+  {
+    "Email" : "",
+    "First Name" : "Perumal",
+    "Middle Name" : "",
+    "Last Name" : "Kumar",
+    "Member Type" : "external"
+  },
+  {
+    "Email" : "",
+    "First Name" : "Srihari",
+    "Middle Name" : "",
+    "Last Name" : "Sukumaran",
+    "Member Type" : "external"
+  },
+  {
+    "Email" : "",
+    "First Name" : "Gary",
+    "Middle Name" : "",
+    "Last Name" : "Spence",
+    "Member Type" : "external"
+  },
+  {
+    "Email" : "",
+    "First Name" : "Greg",
+    "Middle Name" : "",
+    "Last Name" : "Lacefield",
+    "Member Type" : "external"
+  },
+  {
+    "Email" : "",
+    "First Name" : "Mohandas",
+    "Middle Name" : "",
+    "Last Name" : "Amarnathan",
+    "Member Type" : "external"
+  },
+  {
+    "Email" : "",
+    "First Name" : "Koyalkar",
+    "Middle Name" : "Raman",
+    "Last Name" : "Kishore",
+    "Member Type" : "external"
+  },
+  {
+    "Email" : "",
+    "First Name" : "S",
+    "Middle Name" : "Kumar",
+    "Last Name" : "Baghel",
+    "Member Type" : "external"
+  },
+  {
+    "Email" : "",
+    "First Name" : "Devina",
+    "Middle Name" : "Mohan",
+    "Last Name" : "",
+    "Member Type" : "external"
+  },
+  {
+    "Email" : "",
+    "First Name" : "Prabhu",
+    "Middle Name" : "Kota",
+    "Last Name" : "",
+    "Member Type" : "external"
+  },
+  {
+    "Email" : "",
+    "First Name" : "Shivam",
+    "Middle Name" : "Kumar",
+    "Last Name" : "Singh",
+    "Member Type" : "externalstudent"
+  },
+  {
+    "Email" : "",
+    "First Name" : "Ramesh",
+    "Middle Name" : "",
+    "Last Name" : "S.",
+    "Member Type" : "external"
+  },
+  {
+    "Email" : "",
+    "First Name" : "Arul",
+    "Middle Name" : "",
+    "Last Name" : "Ganesh",
+    "Member Type" : "external"
+  },
+  {
+    "Email" : "",
+    "First Name" : "Nainatara",
+    "Middle Name" : "",
+    "Last Name" : "Kumble",
+    "Member Type" : "external"
+  },
+  {
+    "Email" : "",
+    "First Name" : "Srinivasa",
+    "Middle Name" : "Gopal",
+    "Last Name" : "",
+    "Member Type" : "external"
+  },
+  {
+    "Email" : "",
+    "First Name" : "Manoranjan",
+    "Middle Name" : "",
+    "Last Name" : "Satpathy",
+    "Member Type" : "external"
+  },
+  {
+    "Email" : "",
+    "First Name" : "Sreeja",
+    "Middle Name" : "",
+    "Last Name" : "Nair",
+    "Member Type" : "external"
+  },
+  {
+    "Email" : "",
+    "First Name" : "Abidha",
+    "Middle Name" : "V.",
+    "Last Name" : "P.",
+    "Member Type" : "memberstudent"
+  }
+}

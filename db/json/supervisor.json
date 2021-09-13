@@ -1,0 +1,38 @@
+supervisor = {
+  {
+    "ID" : "1",
+    "Student" : "karthika.venkatesan@iiitb.ac.in",
+    "Faculty" : "sujitkc@iiitb.ac.in",
+    "Role" : "Supervisor"
+  },
+  {
+    "ID" : "2",
+    "Student" : "varsha.suresh@iiitb.ac.in",
+    "Faculty" : "sujitkc@iiitb.ac.in",
+    "Role" : "Supervisor"
+  },
+  {
+    "ID" : "3",
+    "Student" : "nikhila.kn@iiitb.ac.in",
+    "Faculty" : "sujitkc@iiitb.ac.in",
+    "Role" : "Supervisor"
+  },
+  {
+    "ID" : "4",
+    "Student" : "ganesha@iiitb.ac.in",
+    "Faculty" : "sujitkc@iiitb.ac.in",
+    "Role" : "Supervisor"
+  },
+  {
+    "ID" : "5",
+    "Student" : "nitin.bhatia@iiitb.ac.in",
+    "Faculty" : "meenakshi@iiitb.ac.in",
+    "Role" : "Supervisor"
+  },
+  {
+    "ID" : "6",
+    "Student" : "nitin.bhatia@iiitb.ac.in",
+    "Faculty" : "sujitkc@iiitb.ac.in",
+    "Role" : "Co-supervisor"
+  }
+}

@@ -1,0 +1,10 @@
+faculty = {
+  {
+    "Email" : "sujitkc@iiiitb.ac.in",
+    "Employee ID" : "1252"
+  },
+  {
+    "Email" : "meenakshi@iiitb.ac.in",
+    "Employee ID" : "xxxx"
+  }
+}

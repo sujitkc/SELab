@@ -1,0 +1,578 @@
+authors = {
+  {
+    "1" : "1",
+    "Khusbu Bubna" : "Sujit Kumar Chakrabarti"
+  },
+  {
+    "1" : "2",
+    "Khusbu Bubna" : "Sujit Kumar Chakrabarti"
+  },
+  {
+    "1" : "2",
+    "Khusbu Bubna" : "Meenakshi D'Souza"
+  },
+  {
+    "1" : "3",
+    "Khusbu Bubna" : "Sujit Kumar Chakrabarti"
+  },
+  {
+    "1" : "4",
+    "Khusbu Bubna" : "Sujit Kumar Chakrabarti"
+  },
+  {
+    "1" : "4",
+    "Khusbu Bubna" : "Ramesh S."
+  },
+  {
+    "1" : "5",
+    "Khusbu Bubna" : "Sujit Kumar Chakrabarti"
+  },
+  {
+    "1" : "5",
+    "Khusbu Bubna" : "Prashant Kumar"
+  },
+  {
+    "1" : "6",
+    "Khusbu Bubna" : "Sujit Kumar Chakrabarti"
+  },
+  {
+    "1" : "6",
+    "Khusbu Bubna" : "Srihari Sukumaran"
+  },
+  {
+    "1" : "7",
+    "Khusbu Bubna" : "Sukanta Bhatt"
+  },
+  {
+    "1" : "7",
+    "Khusbu Bubna" : "Sujit Kumar Chakrabarti"
+  },
+  {
+    "1" : "8",
+    "Khusbu Bubna" : "Sujit Kumar Chakrabarti"
+  },
+  {
+    "1" : "8",
+    "Khusbu Bubna" : "Prashant Kumar"
+  },
+  {
+    "1" : "9",
+    "Khusbu Bubna" : "Sujit Kumar Chakrabarti"
+  },
+  {
+    "1" : "9",
+    "Khusbu Bubna" : "Y. N. Srikant"
+  },
+  {
+    "1" : "10",
+    "Khusbu Bubna" : "Sujit Kumar Chakrabarti"
+  },
+  {
+    "1" : "10",
+    "Khusbu Bubna" : "Y. N. Srikant"
+  },
+  {
+    "1" : "11",
+    "Khusbu Bubna" : "Sujit Kumar Chakrabarti"
+  },
+  {
+    "1" : "11",
+    "Khusbu Bubna" : "Reswin Rodriquez"
+  },
+  {
+    "1" : "12",
+    "Khusbu Bubna" : "Rajanikanth N. Kashi"
+  },
+  {
+    "1" : "12",
+    "Khusbu Bubna" : "Meenakshi D'Souza"
+  },
+  {
+    "1" : "12",
+    "Khusbu Bubna" : "S Kumar Baghel"
+  },
+  {
+    "1" : "12",
+    "Khusbu Bubna" : "Nitin Arun Kulkarni"
+  },
+  {
+    "1" : "13",
+    "Khusbu Bubna" : "Rajanikanth N. Kashi"
+  },
+  {
+    "1" : "13",
+    "Khusbu Bubna" : "Y Narahari"
+  },
+  {
+    "1" : "13",
+    "Khusbu Bubna" : "N N S S R K Prasad"
+  },
+  {
+    "1" : "13",
+    "Khusbu Bubna" : "R S Rao"
+  },
+  {
+    "1" : "14",
+    "Khusbu Bubna" : "Rajanikanth N. Kashi"
+  },
+  {
+    "1" : "14",
+    "Khusbu Bubna" : "Y Narahari"
+  },
+  {
+    "1" : "14",
+    "Khusbu Bubna" : "N N S S R K Prasad"
+  },
+  {
+    "1" : "14",
+    "Khusbu Bubna" : "R S Rao"
+  },
+  {
+    "1" : "15",
+    "Khusbu Bubna" : "Rajanikanth N. Kashi"
+  },
+  {
+    "1" : "15",
+    "Khusbu Bubna" : "Y Narahari"
+  },
+  {
+    "1" : "15",
+    "Khusbu Bubna" : "N N S S R K Prasad"
+  },
+  {
+    "1" : "15",
+    "Khusbu Bubna" : "R S Rao"
+  },
+  {
+    "1" : "16",
+    "Khusbu Bubna" : "Rajanikanth N. Kashi"
+  },
+  {
+    "1" : "16",
+    "Khusbu Bubna" : "Charles Law"
+  },
+  {
+    "1" : "16",
+    "Khusbu Bubna" : "Gary Spence"
+  },
+  {
+    "1" : "16",
+    "Khusbu Bubna" : "Greg Lacefield"
+  },
+  {
+    "1" : "16",
+    "Khusbu Bubna" : "Nainatara Kumble"
+  },
+  {
+    "1" : "17",
+    "Khusbu Bubna" : "Rajanikanth N. Kashi"
+  },
+  {
+    "1" : "17",
+    "Khusbu Bubna" : "Mohandas Amarnathan"
+  },
+  {
+    "1" : "18",
+    "Khusbu Bubna" : "Meenakshi D'Souza"
+  },
+  {
+    "1" : "18",
+    "Khusbu Bubna" : "Manoranjan Satpathy"
+  },
+  {
+    "1" : "18",
+    "Khusbu Bubna" : "Ramesh S."
+  },
+  {
+    "1" : "19",
+    "Khusbu Bubna" : "Meenakshi D'Souza"
+  },
+  {
+    "1" : "19",
+    "Khusbu Bubna" : "Teodor Knapik"
+  },
+  {
+    "1" : "20",
+    "Khusbu Bubna" : "Meenakshi D'Souza"
+  },
+  {
+    "1" : "20",
+    "Khusbu Bubna" : "Srinivasa Gopal"
+  },
+  {
+    "1" : "21",
+    "Khusbu Bubna" : "Meenakshi D'Souza"
+  },
+  {
+    "1" : "21",
+    "Khusbu Bubna" : "Abhishek Bhatnagar"
+  },
+  {
+    "1" : "21",
+    "Khusbu Bubna" : "Namit Chaturvedi"
+  },
+  {
+    "1" : "21",
+    "Khusbu Bubna" : "Atish Datta Chowdhury"
+  },
+  {
+    "1" : "21",
+    "Khusbu Bubna" : "Arul Ganesh"
+  },
+  {
+    "1" : "22",
+    "Khusbu Bubna" : "Meenakshi D'Souza"
+  },
+  {
+    "1" : "22",
+    "Khusbu Bubna" : "Kuntal Das Barman"
+  },
+  {
+    "1" : "22",
+    "Khusbu Bubna" : "Ganesh Babu Kandhan"
+  },
+  {
+    "1" : "22",
+    "Khusbu Bubna" : "Karan Sehgal"
+  },
+  {
+    "1" : "23",
+    "Khusbu Bubna" : "Meenakshi D'Souza"
+  },
+  {
+    "1" : "23",
+    "Khusbu Bubna" : "Abhishek Bhatnagar"
+  },
+  {
+    "1" : "23",
+    "Khusbu Bubna" : "Sudeepa Roy"
+  },
+  {
+    "1" : "24",
+    "Khusbu Bubna" : "Meenakshi D'Souza"
+  },
+  {
+    "1" : "24",
+    "Khusbu Bubna" : "Namit Chaturvedi"
+  },
+  {
+    "1" : "24",
+    "Khusbu Bubna" : "Atish Datta Chowdhury"
+  },
+  {
+    "1" : "24",
+    "Khusbu Bubna" : "Arul Ganesh"
+  },
+  {
+    "1" : "25",
+    "Khusbu Bubna" : "Meenakshi D'Souza"
+  },
+  {
+    "1" : "25",
+    "Khusbu Bubna" : "Ramaswamy Ramanujam"
+  },
+  {
+    "1" : "26",
+    "Khusbu Bubna" : "P. Madhusudan"
+  },
+  {
+    "1" : "26",
+    "Khusbu Bubna" : "Meenakshi D'Souza"
+  },
+  {
+    "1" : "27",
+    "Khusbu Bubna" : "Meenakshi D'Souza"
+  },
+  {
+    "1" : "27",
+    "Khusbu Bubna" : "Ramaswamy Ramanujam"
+  },
+  {
+    "1" : "28",
+    "Khusbu Bubna" : "Gracy Philip"
+  },
+  {
+    "1" : "28",
+    "Khusbu Bubna" : "Meenakshi D'Souza"
+  },
+  {
+    "1" : "29",
+    "Khusbu Bubna" : "Rajanikanth N. Kashi"
+  },
+  {
+    "1" : "29",
+    "Khusbu Bubna" : "Meenakshi D'Souza"
+  },
+  {
+    "1" : "29",
+    "Khusbu Bubna" : "S Kumar Baghel"
+  },
+  {
+    "1" : "29",
+    "Khusbu Bubna" : "Nitin Arun Kulkarni"
+  },
+  {
+    "1" : "30",
+    "Khusbu Bubna" : "Rajanikanth N. Kashi"
+  },
+  {
+    "1" : "30",
+    "Khusbu Bubna" : "Perumal Kumar"
+  },
+  {
+    "1" : "31",
+    "Khusbu Bubna" : "Rajanikanth N. Kashi"
+  },
+  {
+    "1" : "31",
+    "Khusbu Bubna" : "Perumal Kumar"
+  },
+  {
+    "1" : "31",
+    "Khusbu Bubna" : "Vanathi Ravindran"
+  },
+  {
+    "1" : "32",
+    "Khusbu Bubna" : "Rajanikanth N. Kashi"
+  },
+  {
+    "1" : "32",
+    "Khusbu Bubna" : "Fernandes Cercuncesao"
+  },
+  {
+    "1" : "32",
+    "Khusbu Bubna" : "Prabhu Kota"
+  },
+  {
+    "1" : "33",
+    "Khusbu Bubna" : "Rajanikanth N. Kashi"
+  },
+  {
+    "1" : "33",
+    "Khusbu Bubna" : "Nainatara Kumble"
+  },
+  {
+    "1" : "33",
+    "Khusbu Bubna" : "Muralikrishna Sampath"
+  },
+  {
+    "1" : "34",
+    "Khusbu Bubna" : "Palani Kumar Subramanian"
+  },
+  {
+    "1" : "34",
+    "Khusbu Bubna" : "Meenakshi D'Souza"
+  },
+  {
+    "1" : "35",
+    "Khusbu Bubna" : "Dhinakar Kalyanasundaram"
+  },
+  {
+    "1" : "35",
+    "Khusbu Bubna" : "Meenakshi D'Souza"
+  },
+  {
+    "1" : "36",
+    "Khusbu Bubna" : "Ramakrishnan Raman"
+  },
+  {
+    "1" : "36",
+    "Khusbu Bubna" : "Meenakshi D'Souza"
+  },
+  {
+    "1" : "37",
+    "Khusbu Bubna" : "Gracy Philip"
+  },
+  {
+    "1" : "37",
+    "Khusbu Bubna" : "Meenakshi D'Souza"
+  },
+  {
+    "1" : "37",
+    "Khusbu Bubna" : "Varsha P. Suresh"
+  },
+  {
+    "1" : "38",
+    "Khusbu Bubna" : "Palani Kumar"
+  },
+  {
+    "1" : "38",
+    "Khusbu Bubna" : "Meenakshi D'Souza"
+  },
+  {
+    "1" : "38",
+    "Khusbu Bubna" : "Debabrata Das"
+  },
+  {
+    "1" : "39",
+    "Khusbu Bubna" : "Avijit Mandal"
+  },
+  {
+    "1" : "39",
+    "Khusbu Bubna" : "Raoul Jetley"
+  },
+  {
+    "1" : "39",
+    "Khusbu Bubna" : "Meenakshi D'Souza"
+  },
+  {
+    "1" : "39",
+    "Khusbu Bubna" : "Sreeja S Nair"
+  },
+  {
+    "1" : "40",
+    "Khusbu Bubna" : "Maithily Diwan"
+  },
+  {
+    "1" : "40",
+    "Khusbu Bubna" : "Meenakshi D'Souza"
+  },
+  {
+    "1" : "41",
+    "Khusbu Bubna" : "Hilam Patel"
+  },
+  {
+    "1" : "41",
+    "Khusbu Bubna" : "Meenakshi D'Souza"
+  },
+  {
+    "1" : "41",
+    "Khusbu Bubna" : "Nagesh Tikare"
+  },
+  {
+    "1" : "42",
+    "Khusbu Bubna" : "Gracy Philip"
+  },
+  {
+    "1" : "42",
+    "Khusbu Bubna" : "Meenakshi D'Souza"
+  },
+  {
+    "1" : "42",
+    "Khusbu Bubna" : "V. P. Abidha"
+  },
+  {
+    "1" : "43",
+    "Khusbu Bubna" : "Ramakrishnan Raman"
+  },
+  {
+    "1" : "43",
+    "Khusbu Bubna" : "Meenakshi D'Souza"
+  },
+  {
+    "1" : "44",
+    "Khusbu Bubna" : "Ramakrishnan Raman"
+  },
+  {
+    "1" : "44",
+    "Khusbu Bubna" : "Meenakshi D'Souza"
+  },
+  {
+    "1" : "45",
+    "Khusbu Bubna" : "Gracy Philip"
+  },
+  {
+    "1" : "45",
+    "Khusbu Bubna" : "Meenakshi D'Souza"
+  },
+  {
+    "1" : "46",
+    "Khusbu Bubna" : "Rajanikanth N Kashi"
+  },
+  {
+    "1" : "46",
+    "Khusbu Bubna" : "Meenakshi D'Souza"
+  },
+  {
+    "1" : "46",
+    "Khusbu Bubna" : "Koyalkar Raman Kishore"
+  },
+  {
+    "1" : "47",
+    "Khusbu Bubna" : "Ramakrishnan Raman"
+  },
+  {
+    "1" : "47",
+    "Khusbu Bubna" : "Meenakshi D'Souza"
+  },
+  {
+    "1" : "48",
+    "Khusbu Bubna" : "Surabhi Jha"
+  },
+  {
+    "1" : "48",
+    "Khusbu Bubna" : "Meenakshi D'Souza"
+  },
+  {
+    "1" : "48",
+    "Khusbu Bubna" : "Raoul Jetley"
+  },
+  {
+    "1" : "48",
+    "Khusbu Bubna" : "Sreeja Nair"
+  },
+  {
+    "1" : "49",
+    "Khusbu Bubna" : "Avijit Mandal"
+  },
+  {
+    "1" : "49",
+    "Khusbu Bubna" : "Meenakshi D'Souza"
+  },
+  {
+    "1" : "49",
+    "Khusbu Bubna" : "Devina Mohan"
+  },
+  {
+    "1" : "49",
+    "Khusbu Bubna" : "Raoul Jetley"
+  },
+  {
+    "1" : "49",
+    "Khusbu Bubna" : "Sreeja Nair"
+  },
+  {
+    "1" : "50",
+    "Khusbu Bubna" : "Abhishek Singh"
+  },
+  {
+    "1" : "50",
+    "Khusbu Bubna" : "Meenakshi D'Souza"
+  },
+  {
+    "1" : "50",
+    "Khusbu Bubna" : "Arshad Ebrahim"
+  },
+  {
+    "1" : "51",
+    "Khusbu Bubna" : "Sujit Kumar Chakrabarti"
+  },
+  {
+    "1" : "51",
+    "Khusbu Bubna" : "Karthika Venkatesan"
+  },
+  {
+    "1" : "52",
+    "Khusbu Bubna" : "Shivam Kumar Singh"
+  },
+  {
+    "1" : "52",
+    "Khusbu Bubna" : "Sujit Kumar Chakrabarti"
+  },
+  {
+    "1" : "52",
+    "Khusbu Bubna" : "Dinesh Babu Jayagopi"
+  },
+  {
+    "1" : "53",
+    "Khusbu Bubna" : "Nikhila KN"
+  },
+  {
+    "1" : "53",
+    "Khusbu Bubna" : "Sujit Kumar Chakrabarti"
+  },
+  {
+    "1" : "53",
+    "Khusbu Bubna" : "Manish Gupta"
+  }
+}

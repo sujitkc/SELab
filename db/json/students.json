@@ -1,0 +1,47 @@
+students = {
+  {
+    "Email" : "karthika.venkatesan@iiitb.ac.in",
+    "Roll Number" : "",
+    "Joining Year" : "2014",
+    "Term" : "August",
+    "Graduating Year" : "",
+    "Programme" : "Ph.D.",
+    "Registration Type" : "Part time"
+  },
+  {
+    "Email" : "varsha.suresh@iiitb.ac.in",
+    "Roll Number" : "",
+    "Joining Year" : "2017",
+    "Term" : "January",
+    "Graduating Year" : "",
+    "Programme" : "Ph.D.",
+    "Registration Type" : "Full time"
+  },
+  {
+    "Email" : "nikhila.kn@iiitb.ac.in",
+    "Roll Number" : "",
+    "Joining Year" : "2017",
+    "Term" : "August",
+    "Graduating Year" : "",
+    "Programme" : "Ph.D.",
+    "Registration Type" : "Full time"
+  },
+  {
+    "Email" : "ganesha@iiitb.ac.in",
+    "Roll Number" : "",
+    "Joining Year" : "2019",
+    "Term" : "August",
+    "Graduating Year" : "",
+    "Programme" : "Ph.D.",
+    "Registration Type" : "Part time"
+  },
+  {
+    "Email" : "nitin.bhatia@iiitb.ac.in",
+    "Roll Number" : "",
+    "Joining Year" : "",
+    "Term" : "",
+    "Graduating Year" : "2019",
+    "Programme" : "MS",
+    "Registration Type" : "Part time"
+  }
+}

@@ -1,4 +1,4 @@
-people = {
+people = [
   {
     "Email" : "sujitkc@iiiitb.ac.in",
     "First Name" : "Sujit Kumar",
@@ -56,210 +56,210 @@ people = {
     "Member Type" : "externalfaculty"
   },
   {
-    "Email" : "",
+    "Email" : "nitin.bhatia@iiitb.org",
     "First Name" : "Nitin",
     "Middle Name" : "Arun",
     "Last Name" : "Kulkarni",
     "Member Type" : "externalfaculty"
   },
   {
-    "Email" : "",
+    "Email" : "maithily.diwan@iiitb.org",
     "First Name" : "Maithily",
     "Middle Name" : "",
     "Last Name" : "Diwan",
     "Member Type" : "memberstudent"
   },
   {
-    "Email" : "",
+    "Email" : "1",
     "First Name" : "Dhinakar",
     "Middle Name" : "",
     "Last Name" : "Kalyanasundaram",
     "Member Type" : "external"
   },
   {
-    "Email" : "",
+    "Email" : "rajanikanth.kashi@iiitb.org",
     "First Name" : "Rajanikanth",
     "Middle Name" : "N",
     "Last Name" : "Kashi",
     "Member Type" : "memberstudent"
   },
   {
-    "Email" : "",
+    "Email" : "raoul.jetley@in.abb.com",
     "First Name" : "Raoul",
     "Middle Name" : "",
     "Last Name" : "Jetley",
     "Member Type" : "external"
   },
   {
-    "Email" : "",
+    "Email" : "abhi.singh.hal@gmail.com",
     "First Name" : "Abhishek",
     "Middle Name" : "",
     "Last Name" : "Singh",
     "Member Type" : "memberstudent"
   },
   {
-    "Email" : "",
+    "Email" : "jdinesh@iiitb.ac.in",
     "First Name" : "Dinesh",
     "Middle Name" : "Babu",
     "Last Name" : "Jayagopi",
     "Member Type" : "externalfaculty"
   },
   {
-    "Email" : "",
+    "Email" : "2",
     "First Name" : "Ganesh",
     "Middle Name" : "Babu",
     "Last Name" : "Kandhan",
     "Member Type" : "external"
   },
   {
-    "Email" : "",
+    "Email" : "srikant@csa.iisc.ernet.in",
     "First Name" : "Y.",
     "Middle Name" : "N.",
     "Last Name" : "Srikant",
     "Member Type" : "external"
   },
   {
-    "Email" : "",
+    "Email" : "gracy.joseph@iiitb.org",
     "First Name" : "Gracy",
     "Middle Name" : "",
     "Last Name" : "Philip",
     "Member Type" : "memberstudent"
   },
   {
-    "Email" : "",
+    "Email" : "3",
     "First Name" : "Madhusudan",
     "Middle Name" : "",
     "Last Name" : "P.",
     "Member Type" : "external"
   },
   {
-    "Email" : "",
+    "Email" : "4",
     "First Name" : "Kuntal",
     "Middle Name" : "Das",
     "Last Name" : "Barman",
     "Member Type" : "external"
   },
   {
-    "Email" : "",
+    "Email" : "5",
     "First Name" : "Vanathi",
     "Middle Name" : "",
     "Last Name" : "Ravindran",
     "Member Type" : "external"
   },
   {
-    "Email" : "",
+    "Email" : "ramakrishnan.raman@iiitb.org",
     "First Name" : "Ramakrishnan",
     "Middle Name" : "",
     "Last Name" : "Raman",
     "Member Type" : "memberstudent"
   },
   {
-    "Email" : "",
+    "Email" : "6",
     "First Name" : "Ramaswamy",
     "Middle Name" : "",
     "Last Name" : "Ramanujam",
     "Member Type" : "external"
   },
   {
-    "Email" : "",
+    "Email" : "7",
     "First Name" : "Karan",
     "Middle Name" : "",
     "Last Name" : "Sehgal",
     "Member Type" : "external"
   },
   {
-    "Email" : "",
+    "Email" : "8",
     "First Name" : "R",
     "Middle Name" : "S",
     "Last Name" : "Rao",
     "Member Type" : "external"
   },
   {
-    "Email" : "",
+    "Email" : "sreeja.nair@in.abb.com",
     "First Name" : "Sreeja",
     "Middle Name" : "S",
     "Last Name" : "Nair",
     "Member Type" : "external"
   },
   {
-    "Email" : "",
+    "Email" : "9",
     "First Name" : "Charles",
     "Middle Name" : "",
     "Last Name" : "Law",
     "Member Type" : "external"
   },
   {
-    "Email" : "",
+    "Email" : "10",
     "First Name" : "Hilam",
     "Middle Name" : "",
     "Last Name" : "Patel",
     "Member Type" : "memberstudent"
   },
   {
-    "Email" : "",
+    "Email" : "surabhi.jha@iiitb.org",
     "First Name" : "Surabhi",
     "Middle Name" : "",
     "Last Name" : "Jha",
     "Member Type" : "memberstudent"
   },
   {
-    "Email" : "",
+    "Email" : "11",
     "First Name" : "Namit",
     "Middle Name" : "",
     "Last Name" : "Chaturvedi",
     "Member Type" : "external"
   },
   {
-    "Email" : "",
+    "Email" : "sukanta.bhatt@philips.com",
     "First Name" : "Sukanta",
     "Middle Name" : "",
     "Last Name" : "Bhatt",
     "Member Type" : "external"
   },
   {
-    "Email" : "",
+    "Email" : "12",
     "First Name" : "Nagesh",
     "Middle Name" : "",
     "Last Name" : "Tikare",
     "Member Type" : "external"
   },
   {
-    "Email" : "",
+    "Email" : "13",
     "First Name" : "Palani",
     "Middle Name" : "Kumar",
     "Last Name" : "Subramanian",
     "Member Type" : "memberstudent"
   },
   {
-    "Email" : "",
+    "Email" : "14",
     "First Name" : "N",
     "Middle Name" : "N",
     "Last Name" : "S",
     "Member Type" : "external"
   },
   {
-    "Email" : "",
+    "Email" : "khusbu.bubna@iiitb.org",
     "First Name" : "Khusbu",
     "Middle Name" : "",
     "Last Name" : "Bubna",
     "Member Type" : "memberstudent"
   },
   {
-    "Email" : "",
+    "Email" : "15",
     "First Name" : "Atish",
     "Middle Name" : "Datta",
     "Last Name" : "Chowdhury",
     "Member Type" : "external"
   },
   {
-    "Email" : "",
+    "Email" : "16",
     "First Name" : "Teodor",
     "Middle Name" : "",
     "Last Name" : "Knapik",
     "Member Type" : "external"
   },
   {
-    "Email" : "",
+    "Email" : "17",
     "First Name" : "Fernandes",
     "Middle Name" : "",
     "Last Name" : "Cercuncesao",
@@ -273,185 +273,171 @@ people = {
     "Member Type" : "external"
   },
   {
-    "Email" : "",
+    "Email" : "18",
     "First Name" : "Reswin",
     "Middle Name" : "",
     "Last Name" : "Rodriquez",
     "Member Type" : "external"
   },
   {
-    "Email" : "",
+    "Email" : "narahari@iisc.ac.in",
     "First Name" : "Y",
     "Middle Name" : "",
     "Last Name" : "Narahari",
     "Member Type" : "external"
   },
   {
-    "Email" : "",
+    "Email" : "19",
     "First Name" : "Abhishek",
     "Middle Name" : "",
     "Last Name" : "Bhatnagar",
     "Member Type" : "external"
   },
   {
-    "Email" : "",
+    "Email" : "ddas@iiitb.ac.in",
     "First Name" : "Debabrata",
     "Middle Name" : "",
     "Last Name" : "Das",
     "Member Type" : "externalfaculty"
   },
   {
-    "Email" : "",
+    "Email" : "avijit.mandal@iiitb.org",
     "First Name" : "Avijit",
     "Middle Name" : "",
     "Last Name" : "Mandal",
     "Member Type" : "memberstudent"
   },
   {
-    "Email" : "",
+    "Email" : "20",
     "First Name" : "Muralikrishna",
     "Middle Name" : "",
     "Last Name" : "Sampath",
     "Member Type" : "external"
   },
   {
-    "Email" : "",
-    "First Name" : "Rajanikanth",
-    "Middle Name" : "N.",
-    "Last Name" : "Kashi",
-    "Member Type" : "memberstudent"
-  },
-  {
-    "Email" : "",
+    "Email" : "21",
     "First Name" : "Sudeepa",
     "Middle Name" : "",
     "Last Name" : "Roy",
     "Member Type" : "external"
   },
   {
-    "Email" : "",
+    "Email" : "22",
     "First Name" : "Prashant",
     "Middle Name" : "",
     "Last Name" : "Kumar",
     "Member Type" : "external"
   },
   {
-    "Email" : "",
+    "Email" : "23",
     "First Name" : "Perumal",
     "Middle Name" : "",
     "Last Name" : "Kumar",
     "Member Type" : "external"
   },
   {
-    "Email" : "",
+    "Email" : "24",
     "First Name" : "Srihari",
     "Middle Name" : "",
     "Last Name" : "Sukumaran",
     "Member Type" : "external"
   },
   {
-    "Email" : "",
+    "Email" : "25",
     "First Name" : "Gary",
     "Middle Name" : "",
     "Last Name" : "Spence",
     "Member Type" : "external"
   },
   {
-    "Email" : "",
+    "Email" : "26",
     "First Name" : "Greg",
     "Middle Name" : "",
     "Last Name" : "Lacefield",
     "Member Type" : "external"
   },
   {
-    "Email" : "",
+    "Email" : "27",
     "First Name" : "Mohandas",
     "Middle Name" : "",
     "Last Name" : "Amarnathan",
     "Member Type" : "external"
   },
   {
-    "Email" : "",
+    "Email" : "28",
     "First Name" : "Koyalkar",
     "Middle Name" : "Raman",
     "Last Name" : "Kishore",
     "Member Type" : "external"
   },
   {
-    "Email" : "",
+    "Email" : "29",
     "First Name" : "S",
     "Middle Name" : "Kumar",
     "Last Name" : "Baghel",
     "Member Type" : "external"
   },
   {
-    "Email" : "",
+    "Email" : "devina.mohan@in.abb.com",
     "First Name" : "Devina",
     "Middle Name" : "Mohan",
     "Last Name" : "",
     "Member Type" : "external"
   },
   {
-    "Email" : "",
+    "Email" : "30",
     "First Name" : "Prabhu",
     "Middle Name" : "Kota",
     "Last Name" : "",
     "Member Type" : "external"
   },
   {
-    "Email" : "",
+    "Email" : "shivamkumar.singh@iiitb.org",
     "First Name" : "Shivam",
     "Middle Name" : "Kumar",
     "Last Name" : "Singh",
     "Member Type" : "externalstudent"
   },
   {
-    "Email" : "",
+    "Email" : "rameshari1958@gmail.com",
     "First Name" : "Ramesh",
     "Middle Name" : "",
     "Last Name" : "S.",
     "Member Type" : "external"
   },
   {
-    "Email" : "",
+    "Email" : "31",
     "First Name" : "Arul",
     "Middle Name" : "",
     "Last Name" : "Ganesh",
     "Member Type" : "external"
   },
   {
-    "Email" : "",
+    "Email" : "32",
     "First Name" : "Nainatara",
     "Middle Name" : "",
     "Last Name" : "Kumble",
     "Member Type" : "external"
   },
   {
-    "Email" : "",
+    "Email" : "33",
     "First Name" : "Srinivasa",
     "Middle Name" : "Gopal",
     "Last Name" : "",
     "Member Type" : "external"
   },
   {
-    "Email" : "",
+    "Email" : "manoranjan@iitbbs.ac.in",
     "First Name" : "Manoranjan",
     "Middle Name" : "",
     "Last Name" : "Satpathy",
     "Member Type" : "external"
   },
   {
-    "Email" : "",
-    "First Name" : "Sreeja",
-    "Middle Name" : "",
-    "Last Name" : "Nair",
-    "Member Type" : "external"
-  },
-  {
-    "Email" : "",
+    "Email" : "abidha.vp@iiitb.ac.in",
     "First Name" : "Abidha",
     "Middle Name" : "V.",
     "Last Name" : "P.",
     "Member Type" : "memberstudent"
   }
-}
+]

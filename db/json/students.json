@@ -1,4 +1,4 @@
-students = {
+students = [
   {
     "Email" : "karthika.venkatesan@iiitb.ac.in",
     "Roll Number" : "",
@@ -44,4 +44,4 @@ students = {
     "Programme" : "MS",
     "Registration Type" : "Part time"
   }
-}
+]

@@ -1,4 +1,4 @@
-authors = {
+authors = [
   {
     "1" : "1",
     "Khusbu Bubna" : "Sujit Kumar Chakrabarti"
@@ -575,4 +575,4 @@ authors = {
     "1" : "53",
     "Khusbu Bubna" : "Manish Gupta"
   }
-}
+]

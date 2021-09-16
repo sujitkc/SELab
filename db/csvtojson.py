@@ -13,7 +13,7 @@ def write_json(data, table):
   ws = "  "
   keys = data[0]
   with open("json/" + table + ".json", "w") as fout:
-    fout.write(table + " = {")
+    fout.write(table + " = [")
     for rownum in range(1, len(data)):
       row = data[rownum]
       fout.write ("\n" + ws + "{\n")
@@ -26,7 +26,7 @@ def write_json(data, table):
         fout.write(ws + "},")
       else:
         fout.write(ws + "}")
-    fout.write("\n}")
+    fout.write("\n]")
 
 def write_all_tables():
   alltables = {

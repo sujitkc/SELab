@@ -1,4 +1,4 @@
-conference-workshop-publications = {
+conference-workshop-publications = [
   {
     "Publication Number" : "1",
     "Title" : "ACT (Abstract to Concrete Tests) - A tool for generating Concrete test cases from Formal Specification of Web Applications",
@@ -582,4 +582,4 @@ conference-workshop-publications = {
     "Year" : "March 22–26",
     "Online" : "2021"
   }
-}
+]

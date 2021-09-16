@@ -1,4 +1,4 @@
-supervisor = {
+supervisor = [
   {
     "ID" : "1",
     "Student" : "karthika.venkatesan@iiitb.ac.in",
@@ -35,4 +35,4 @@ supervisor = {
     "Faculty" : "sujitkc@iiitb.ac.in",
     "Role" : "Co-supervisor"
   }
-}
+]

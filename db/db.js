@@ -61,7 +61,7 @@ class Student extends Person {
       name,
       rollNumber,
       supervisor,
-      otherSupervisors,
+      coSupervisors,
       joiningTerm,
       joiningYear,
       graduatingYear,
@@ -70,7 +70,7 @@ class Student extends Person {
     super(id, name, membertype.MEMBERSTUDENT);
     this.rollNumber       = rollNumber;
     this.supervisor       = supervisor;
-    this.otherSupervisors = otherSupervisors;
+    this.coSupervisors    = coSupervisors;
     this.joiningTerm      = joiningTerm;
     this.joiningYear      = joiningYear;
     this.graduatingYear   = graduatingYear;
@@ -78,12 +78,12 @@ class Student extends Person {
     this.registrationType = registrationType;
   }
 
-  addSupervisor(s) {
-    this.otherSupervisors.push(s);
+  addCosupervisor(s) {
+    this.coSupervisors.push(s);
   }
 }
 
-class DB {
+class Lab {
 
   static instance = null;
   constructor() {
@@ -111,6 +111,7 @@ class DB {
   }
 
   addStudents() {
+    faculty = this.getMemberFaculty();
     for(let st of students) {
       var name = null;
       for(let p of people) {
@@ -156,19 +157,66 @@ class DB {
         registrationType = registration.PT;
       }
       let gyear = parseInt(st["Graduating Year"]);
-      var f = new Student(st.Email, name, st["Roll Number"], null, [], jterm, jyear, gyear, prog, registrationType); 
-      this.people.push(f);
+      var student = new Student(
+                      st.Email,
+                      name,
+                      st["Roll Number"],
+                      null,
+                      [],
+                      jterm,
+                      jyear,
+                      gyear,
+                      prog,
+                      registrationType);
+      let sups = supervisor.filter(
+        function(x) { 
+          return x["Student"] == student.id && x["Role"] == "Supervisor";
+        }
+      );
+      let sup = sups[0]; // sup expected to have one and only one element.
+      student.supervisor = this.getPersonByEmailID(sup["Faculty"]);
+      let cosups = supervisor.filter(
+        function(x) {
+          return x["Student"] == student.id && x["Role"] == "Co-supervisor";
+        }
+      );
+      for(let cosup of cosups) {
+        let cosupervisor = this.getPersonByEmailID(cosup["Faculty"]);
+        student.addCosupervisor(cosupervisor);
+      }
+      this.people.push(student);
     }
   }
-  static getInstance() {
-    if(DB.instance == null) {
-      DB.instance = new DB();
+
+  getPersonByEmailID(emailID) {
+    for(let p of this.people) {
+      if(emailID == p.id) {
+        return p;
+      }
     }
-    return DB.instance;
+    return null;
+  }
+
+  getMemberFaculty() {
+    return this.people.filter(
+      function(x) { return x.type == membertype.MEMBERFACULTY; }
+    ); 
+  }
+
+  getMemberStudents() {
+    return this.people.filter(
+      function(x) { return x.type == membertype.MEMBERSTUDENT; }
+    ); 
+  }
+  static getInstance() {
+    if(Lab.instance == null) {
+      Lab.instance = new Lab();
+    }
+    return Lab.instance;
   }
 
   toString() {
-    var s = "DB"
+    var s = "Lab"
     return s;
   }
 }

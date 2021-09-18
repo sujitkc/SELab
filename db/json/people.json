@@ -1,13 +1,13 @@
 people = [
   {
-    "Email" : "sujitkc@iiiitb.ac.in",
+    "Email" : "sujitkc@iiitb.ac.in",
     "First Name" : "Sujit Kumar",
     "Middle Name" : "",
     "Last Name" : "Chakrabarti",
     "Member Type" : "memberfaculty"
   },
   {
-    "Email" : "meenakshi",
+    "Email" : "meenakshi@iiitb.ac.in",
     "First Name" : "Meenakshi",
     "Middle Name" : "",
     "Last Name" : "D’Souza",

@@ -1,0 +1,70 @@
+supervisor(
+
+  ID
+  Student
+  Faculty
+  Role
+)
+
+authors(
+
+  ID
+  Author
+)
+
+students(
+
+  Email
+  Roll Number
+  Joining Year
+  Term
+  Graduating Year
+  Programme
+  Registration Type
+)
+
+people(
+
+  Email
+  First Name
+  Middle Name
+  Last Name
+  Member Type
+)
+
+workshop-publications(
+
+  Publication Number
+  Title
+  Type
+  Forum
+  Venue
+  Day
+  Month
+  Year
+  Online
+  
+)
+
+faculty(
+
+  Email
+  employeeID
+)
+
+conference-publications(
+
+  Publication Number
+  Title
+  Forum
+  Venue
+  Day
+  Month
+  Year
+  Online
+  
+  
+  
+  
+)
+

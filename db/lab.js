@@ -220,3 +220,40 @@ class Lab {
     return s;
   }
 }
+
+class Publication {
+  constructor(title, authors, venue) {
+    this.title = title;
+    this.authors = authors;
+    this.venue = venue;
+  }
+}
+
+class PublicationPlatform {
+  constructor(name) {
+    this.name = name;
+  }
+}
+
+class Conference extends PublicationPlatformi {
+  constructor(name, date, venue) {
+    super(name);
+    this.date = date;
+    this.venue = venue;
+  }
+}
+
+class Workshop extends PublicationPlatform {
+  constructor(name, date, conference) {
+    super(name);
+    this.date = date;
+    this.conference = conference;
+  }
+}
+
+class Venue {
+  constructor(city, country) {
+    this.city = city;
+    this.country = country;
+  }
+}

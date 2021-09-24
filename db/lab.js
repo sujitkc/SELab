@@ -47,11 +47,16 @@ class Faculty extends Person {
   constructor(id, name, empnum) {
     super(id, name, membertype.MEMBERFACULTY);
     this.employeeNumber = empnum;
-    this.students = [];
   }
 
-  addStudent(s) {
-    this.students.push(s);
+  getStudents() {
+    faculty = this;
+    let theLab = Lab.getInstance();
+    return theLab.getMemberStudents().filter(
+      function(x) {
+        return (x.supervisor == faculty) || (x.coSupervisors.includes(faculty));
+      }
+    );
   }
 }
 
@@ -235,7 +240,7 @@ class PublicationPlatform {
   }
 }
 
-class Conference extends PublicationPlatformi {
+class Conference extends PublicationPlatform {
   constructor(name, date, venue) {
     super(name);
     this.date = date;
@@ -251,9 +256,32 @@ class Workshop extends PublicationPlatform {
   }
 }
 
+class Journal extends PublicationPlatform {
+  constructor(name) {
+    super(name);
+  }
+}
+
+class TechnicalReportPlatform extends PublicationPlatform {
+  constructor(name) {
+    super(name);
+  }
+}
 class Venue {
   constructor(city, country) {
     this.city = city;
     this.country = country;
+  }
+}
+
+class Publication {
+  constructor(title, authors, platform) {
+    this.title = title;
+    this.authors = authors;
+    this.platform = platform;
+  }
+
+  addAuthor(author) {
+    this.authods.push(author);
   }
 }

@@ -30,11 +30,12 @@ def write_json(data, table):
 
 def write_all_tables():
   alltables = {
-    "people",
-    "faculty",
-    "conference-workshop-publications",
-    "students",
     "authors",
+    "conference_publications",
+    "conferences",
+    "faculty",
+    "people",
+    "students",
     "supervisor"
   }
   for table in alltables:

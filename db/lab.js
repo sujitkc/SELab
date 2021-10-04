@@ -41,6 +41,15 @@ class Person {
     this.name = name;
     this.type = type;
   }
+
+  getPublications() {
+    let theLab = Lab.getInstance();
+    return theLab.publications.filter(
+      function(x) {
+        x.authors.includes(this);
+      }
+    );
+  }
 }
 
 class Faculty extends Person {
@@ -57,6 +66,10 @@ class Faculty extends Person {
         return (x.supervisor == faculty) || (x.coSupervisors.includes(faculty));
       }
     );
+  }
+
+  getPublications() {
+    return [this.id, this.name, "publication"];
   }
 }
 
@@ -93,8 +106,19 @@ class Lab {
   static instance = null;
   constructor() {
     this.people = [];
+    this.conferences = [];
+    this.publications = [];
+
     this.addFacultyMembers();
     this.addStudents();
+    this.addConferences();
+    this.addWorkshops();
+    this.addJournals();
+    this.addTechReportPlatforms();
+    this.addConferencePublications();
+    this.addWorkshopPublications();
+    this.addJournalPublications();
+    this.addTechReports();
   }
 
   addFacultyMembers() {
@@ -193,6 +217,48 @@ class Lab {
     }
   }
 
+  addConferences() {
+    for(let conf of conferences) {
+      let c = new Conference(
+        conf["Name"],
+        conf["Month"],
+        conf["Year"],
+        conf["Venue"],
+        conf["Country"],
+        conf["Online"]
+      );
+      this.conferences.push(c);
+    }
+  }
+
+  addWorkshops() {
+
+  }
+
+  addJournals() {
+
+  }
+
+  addTechReportPlatforms() {
+
+  }
+
+  addConferencePublications() {
+
+  }
+
+  addWorkshopPublications() {
+
+  }
+
+  addJournalPublications() {
+
+  }
+
+  addTechReports() {
+
+  }
+
   getPersonByEmailID(emailID) {
     for(let p of this.people) {
       if(emailID == p.id) {
@@ -227,10 +293,25 @@ class Lab {
 }
 
 class Publication {
-  constructor(title, authors, venue) {
+  constructor(title, authors, platform) {
     this.title = title;
     this.authors = authors;
-    this.venue = venue;
+    this.platform = platform;
+  }
+
+  addAuthor(author) {
+    this.authods.push(author);
+  }
+
+  toHTML() {
+    authorNames = this.authors.map(
+        function(author) { return author.name; }
+      );
+    strAuthors = this.authorNames.reduce(
+        function(x, y) { return x + y },
+        ""
+      );
+    return this.title + " " + strAuthors + " " + this.platform.toHTML();
   }
 }
 
@@ -241,10 +322,22 @@ class PublicationPlatform {
 }
 
 class Conference extends PublicationPlatform {
-  constructor(name, date, venue) {
+  constructor(name, month, year, venue, country, online) {
     super(name);
-    this.date = date;
-    this.venue = venue;
+    this.month   = month;
+    this.year    = year;
+    this.venue   = venue;
+    this.country = country;
+    this.online  = online;
+  }
+
+  toString() {
+    return this.name + " " + this.month + " " + this.year + " " + this.venue
+      + " " + this.country;
+  }
+
+  toHTML() {
+    return this.name;
   }
 }
 
@@ -254,11 +347,19 @@ class Workshop extends PublicationPlatform {
     this.date = date;
     this.conference = conference;
   }
+
+  toHTML() {
+    return this.name;
+  }
 }
 
 class Journal extends PublicationPlatform {
   constructor(name) {
     super(name);
+  }
+
+  toHTML() {
+    return this.name;
   }
 }
 
@@ -266,22 +367,23 @@ class TechnicalReportPlatform extends PublicationPlatform {
   constructor(name) {
     super(name);
   }
+
+  toHTML() {
+    return this.name;
+  }
 }
+
 class Venue {
   constructor(city, country) {
     this.city = city;
     this.country = country;
   }
-}
 
-class Publication {
-  constructor(title, authors, platform) {
-    this.title = title;
-    this.authors = authors;
-    this.platform = platform;
+  toString() {
+    return this.city + ", " + this.country;
   }
 
-  addAuthor(author) {
-    this.authods.push(author);
+  toHTML() {
+    return this.toString();
   }
 }

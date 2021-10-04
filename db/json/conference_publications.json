@@ -1,0 +1,14 @@
+conference_publications = [
+  {
+    "Publication Number" : "c1",
+    "Title" : "Towards Automatic Training Design",
+    "Platform" : "c1",
+    "Online" : ""
+  },
+  {
+    "Publication Number" : "c2",
+    "Title" : "SymTest : A Framework for Symbolic Testing of Embedded Software",
+    "Platform" : "c2",
+    "Online" : "http://dl.acm.org/citation.cfm?id=2856642"
+  }
+]

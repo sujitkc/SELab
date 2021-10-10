@@ -34,5 +34,77 @@ supervisor = [
     "Student" : "nitin.bhatia@iiitb.ac.in",
     "Faculty" : "sujitkc@iiitb.ac.in",
     "Role" : "Co-supervisor"
+  },
+  {
+    "ID" : "7",
+    "Student" : "khusbu.bubna@iiitb.org",
+    "Faculty" : "sujitkc@iiitb.ac.in",
+    "Role" : "Supervisor"
+  },
+  {
+    "ID" : "8",
+    "Student" : "maithily.diwan@iiitb.org",
+    "Faculty" : "meenakshi@iiitb.ac.in",
+    "Role" : "Supervisor"
+  },
+  {
+    "ID" : "9",
+    "Student" : "ramakrishnan.raman@iiitb.org",
+    "Faculty" : "meenakshi@iiitb.ac.in",
+    "Role" : "Supervisor"
+  },
+  {
+    "ID" : "10",
+    "Student" : "rajanikanth.kashi@iiitb.org",
+    "Faculty" : "meenakshi@iiitb.ac.in",
+    "Role" : "Supervisor"
+  },
+  {
+    "ID" : "11",
+    "Student" : "gracy.joseph@iiitb.org",
+    "Faculty" : "meenakshi@iiitb.ac.in",
+    "Role" : "Supervisor"
+  },
+  {
+    "ID" : "12",
+    "Student" : "avijit.mandal@iiitb.org",
+    "Faculty" : "meenakshi@iiitb.ac.in",
+    "Role" : "Supervisor"
+  },
+  {
+    "ID" : "13",
+    "Student" : "abhi.singh.hal@gmail.com",
+    "Faculty" : "meenakshi@iiitb.ac.in",
+    "Role" : "Supervisor"
+  },
+  {
+    "ID" : "14",
+    "Student" : "sulochan.naik@iiitb.ac.in",
+    "Faculty" : "meenakshi@iiitb.ac.in",
+    "Role" : "Supervisor"
+  },
+  {
+    "ID" : "15",
+    "Student" : "ananta.kumar@iiitb.ac.in",
+    "Faculty" : "sujitkc@iiitb.ac.in",
+    "Role" : "Supervisor"
+  },
+  {
+    "ID" : "16",
+    "Student" : "aritra.bhowmick@iiitb.ac.in",
+    "Faculty" : "meenakshi@iiitb.ac.in",
+    "Role" : "Supervisor"
+  },
+  {
+    "ID" : "17",
+    "Student" : "nagalakshmi@iiitb.ac.in",
+    "Faculty" : "meenakshi@iiitb.ac.in",
+    "Role" : "Supervisor"
+  },
+  {
+    "ID" : "18",
+    "Student" : "surabhi.jha@iiitb.org",
+    "Faculty" : "meenakshi@iiitb.ac.in",
+    "Role" : "Supervisor"
   }
 ]

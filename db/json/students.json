@@ -43,5 +43,113 @@ students = [
     "Graduating Year" : "2019",
     "Programme" : "MS",
     "Registration Type" : "Part time"
+  },
+  {
+    "Email" : "khusbu.bubna@iiitb.org",
+    "Roll Number" : "",
+    "Joining Year" : "2014",
+    "Term" : "",
+    "Graduating Year" : "",
+    "Programme" : "MS",
+    "Registration Type" : "Full time"
+  },
+  {
+    "Email" : "maithily.diwan@iiitb.org",
+    "Roll Number" : "",
+    "Joining Year" : "",
+    "Term" : "",
+    "Graduating Year" : "",
+    "Programme" : "MS",
+    "Registration Type" : "Full time"
+  },
+  {
+    "Email" : "ramakrishnan.raman@iiitb.org",
+    "Roll Number" : "",
+    "Joining Year" : "",
+    "Term" : "",
+    "Graduating Year" : "",
+    "Programme" : "Ph.D.",
+    "Registration Type" : "Part time"
+  },
+  {
+    "Email" : "rajanikanth.kashi@iiitb.org",
+    "Roll Number" : "",
+    "Joining Year" : "",
+    "Term" : "",
+    "Graduating Year" : "",
+    "Programme" : "Ph.D.",
+    "Registration Type" : "Part time"
+  },
+  {
+    "Email" : "gracy.joseph@iiitb.org",
+    "Roll Number" : "",
+    "Joining Year" : "2013",
+    "Term" : "",
+    "Graduating Year" : "",
+    "Programme" : "Ph.D.",
+    "Registration Type" : "Part time"
+  },
+  {
+    "Email" : "avijit.mandal@iiitb.org",
+    "Roll Number" : "",
+    "Joining Year" : "",
+    "Term" : "",
+    "Graduating Year" : "",
+    "Programme" : "Ph.D.",
+    "Registration Type" : "Part time"
+  },
+  {
+    "Email" : "abhi.singh.hal@gmail.com",
+    "Roll Number" : "",
+    "Joining Year" : "",
+    "Term" : "",
+    "Graduating Year" : "",
+    "Programme" : "Ph.D.",
+    "Registration Type" : "Part time"
+  },
+  {
+    "Email" : "sulochan.naik@iiitb.ac.in",
+    "Roll Number" : "",
+    "Joining Year" : "",
+    "Term" : "",
+    "Graduating Year" : "",
+    "Programme" : "Ph.D.",
+    "Registration Type" : "Part time"
+  },
+  {
+    "Email" : "ananta.kumar@iiitb.ac.in",
+    "Roll Number" : "",
+    "Joining Year" : "",
+    "Term" : "",
+    "Graduating Year" : "",
+    "Programme" : "MS",
+    "Registration Type" : "Part time"
+  },
+  {
+    "Email" : "aritra.bhowmick@iiitb.ac.in",
+    "Roll Number" : "",
+    "Joining Year" : "",
+    "Term" : "",
+    "Graduating Year" : "",
+    "Programme" : "MS",
+    "Registration Type" : "Full time"
+  },
+  {
+    "Email" : "nagalakshmi@iiitb.ac.in",
+    "Roll Number" : "",
+    "Joining Year" : "",
+    "Term" : "",
+    "Graduating Year" : "",
+    "Programme" : "Ph.D.",
+    "Registration Type" : "Full time"
+  },
+  {
+    "Email" : "surabhi.jha@iiitb.org",
+    "Roll Number" : "",
+    "Joining Year" : "",
+    "Term" : "",
+    "Graduating Year" : "",
+    "Programme" : "MS",
+    "Registration Type" : "Full time"
   }
 ]

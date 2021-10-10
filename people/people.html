@@ -6,18 +6,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>IIIT-B SELab Page</title>
-    <script src="./ js/bootstrap.js"> </script>
+    <script src="../js/bootstrap.js"> </script>
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/handlebars-v3.0.3.js"> </script>
     <script src="../js/pub.js"></script>
     <script src="../js/nav.js"></script>
     <script src="../js/jquery.min.js"></script>
     <script src="../js/gallery.js"> </script>
+
+    <script src="../db/json/authors.json"></script>
+    <script src="../db/json/conference_publications.json"></script>
+    <script src="../db/json/conferences.json"></script>
+    <script src="../db/json/faculty.json"></script>
+    <script src="../db/json/students.json"></script>
+    <script src="../db/json/supervisor.json"></script>
+    <script src="../db/json/people.json"></script>
+    <script src="../db/lab.js"> </script>
+    <script src="../db/api.js"> </script>
+    <script>
+      function displayFaculty() {
+        let element = document.getElementById("faculty");
+        let theLab = Lab.getInstance();
+        var faculty = theLab.getMemberFaculty();
+        element.innerHTML = peopleListtoHTML(faculty);
+      }
+
+      function displayPhDStudents() {
+        let element = document.getElementById("phdstudents");
+        let theLab = Lab.getInstance();
+        var phdstudents = theLab.getMemberStudents().filter(
+          function(x) { return x.programme == programme.PHD; }
+        );
+        element.innerHTML = peopleListtoHTML(phdstudents);
+      }
+
+    </script>
     <link href="../css/bootstrap.css" rel="stylesheet">
     <link href="../css/gallery.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../css/selab.css">    
   </head>
-<body onload='nav_bar ("../")'>
+<body onload='nav_bar ("../"); displayFaculty(); displayPhDStudents();'>
 
     <div class="container">
 		<div class="page-header">
@@ -30,6 +58,7 @@
 			<li><a href="people.html">People </a></li>
 		</ol>
 			<h3>Faculty </h3>
+                        <a id="faculty"></a>
 				<table style="width:100%">
 				<tr>
 					<td style="width:29%"><a href="sujit.html">Sujit Kumar Chakrabarti</a> </td>
@@ -39,6 +68,7 @@
 			
 				</table>
 	        <h3>PhD Students  </h3>
+                        <a id="phdstudents"></a>
 				<table  style="width:100%">
 				<tr>
 					<td><a  href="gracy.html">Gracy Joseph</a> </td>

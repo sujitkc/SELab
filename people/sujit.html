@@ -25,14 +25,7 @@
     <script src="../db/json/people.json"></script>
     <script src="../db/lab.js"> </script>
     <script src="../db/api.js"> </script>
-    <script>
-      function displayStudents(id) {
-        let element = document.getElementById("mystudents");
-        let theLab = Lab.getInstance();
-        let mystudents = theLab.getPersonByEmailID(id).getStudents();
-        element.innerHTML = peopleListtoHTML(mystudents);
-      }
-    </script>
+
     <link href="sujit_files/bootstrap.css" rel="stylesheet">
     <link href="sujit_files/gallery.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="sujit_files/selab.css">   

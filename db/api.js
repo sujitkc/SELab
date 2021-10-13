@@ -33,3 +33,11 @@ function peopleListtoHTML(list) {
   return reduceStrings(htmls);
 }
 
+// Display the list of all students working with the given 
+// faculty member.
+function displayStudents(id) {
+  let element = document.getElementById("mystudents");
+  let theLab = Lab.getInstance();
+  let mystudents = theLab.getPersonByEmailID(id).getStudents();
+  element.innerHTML = peopleListtoHTML(mystudents);
+}

@@ -66,7 +66,6 @@ class Faculty extends Person {
   getStudents() {
     let fac = this;
     let theLab = Lab.getInstance();
-    console.log("faculty = " + fac.id);
     return theLab.getMemberStudents().filter(
       function(x) {
         return (x.supervisor == fac) || (x.coSupervisors.includes(fac));

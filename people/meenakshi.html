@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+
+
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>IIIT-B SELab Page</title>
+    <script src="meenakshi_files/bootstrap.js"></script>
+    <script src="meenakshi_files/handlebars-v3.js"> </script>
+    <script src="meenakshi_files/pub.js"></script>
+    <script src="meenakshi_files/pro.js"></script>
+    <script src="meenakshi_files/nav.js"></script>
+    <script src="meenakshi_files/jquery.js"></script>
+
+    <script src="../db/json/authors.json"></script>
+    <script src="../db/json/conference_publications.json"></script>
+    <script src="../db/json/conferences.json"></script>
+    <script src="../db/json/faculty.json"></script>
+    <script src="../db/json/students.json"></script>
+    <script src="../db/json/supervisor.json"></script>
+    <script src="../db/json/people.json"></script>
+    <script src="../db/lab.js"> </script>
+    <script src="../db/api.js"> </script>
+    <script>
+      function displayStudents(id) {
+        let element = document.getElementById("mystudents");
+        let theLab = Lab.getInstance();
+        let mystudents = theLab.getPersonByEmailID(id).getStudents();
+        element.innerHTML = peopleListtoHTML(mystudents);
+      }
+    </script>
+    <link href="meenakshi_files/bootstrap.css" rel="stylesheet">
+    <link href="meenakshi_files/gallery.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="meenakshi_files/selab.css">    
+  </head>
+  <body onload="nav_bar ('../'); pubs ('Meenakshi D\'Souza') ; projects('Meenakshi D\'Souza'); displayStudents('meenakshi@iiitb.ac.in')">
+
+    <div class="container">
+      <div class="page-header">
+        <h1>Software Engineering Lab, IIIT-B </h1>
+      </div>    
+      <div id="navbar"><ul id="nav"> <li id="nav-home"><a href="https://www.iiitb.ac.in/SELab/index.html">Home</a></li><li id="nav-people"><a href="https://www.iiitb.ac.in/SELab/people/people.html">People</a></li> <li id="nav-projects"><a href="https://www.iiitb.ac.in/SELab/projects/projects.html">Projects</a></li> <li id="nav-news"><a href="https://www.iiitb.ac.in/SELab/news/news.html">News</a></li> <li id="nav-events"><a href="https://www.iiitb.ac.in/SELab/events/events.html">Events</a></li> <li id="nav-publications"><a href="https://www.iiitb.ac.in/SELab/publications/publications.html">Publications</a></li> <li id="nav-se"><a href="https://www.iiitb.ac.in/SELab/selabiiitb/selabiiitb.html">SE - IIIT-B</a></li> <li id="nav-iiitb"><a href="https://www.iiitb.ac.in/SELab/iiitbofficial/iiitbofficial.html">IIIT-B</a></li> <li id="nav-credits"><a href="https://www.iiitb.ac.in/SELab/credits/credits.html">Credits</a></li></ul><br></div>
+			<ol class="breadcrumb">
+			<li><a href="https://www.iiitb.ac.in/SELab/index.html">Home </a></li>
+			<li><a href="https://www.iiitb.ac.in/SELab/people/people.html">People </a></li>
+			<li><a href="https://www.iiitb.ac.in/SELab/people/meenakshi.html"> Meenakshi D'Souza</a></li>
+		</ol>	
+	<h2>Meenakshi D'Souza</h2>
+	<img src="meenakshi_files/meenakshi.jpg" align="right">
+	<h2>Research</h2>
+
+	  <p>All mathematical aspects of software engineering, with specific interest on testing, 
+formal verification and software specification. I also have research interests in 
+concurrency theory, logic, automata theory and formal methods for avionics. History
+ of computing, diversity in computing and intellectual property rights are other 
+ areas of interest.</p> 
+	
+	<h2>Teaching</h2>
+<ol>
+	<li>Graph Theory</li>
+	<li>Theory of Computation</li>
+	<li>Logic in Computer Science</li>
+	<li>Discrete Mathematics</li>
+	<li>Software Engineering</li>
+	<li>Software Testing : Also offered online through NPTEL (<a href="https://www.iiitb.ac.in/SELab/news/nptel-st.html" target="_blank">More..</a>)</li>
+	<li>Formal Verification </li>
+	<li>Design and Analysis of Algorithms </li>
+</ol>
+
+	<h2>Projects</h2>
+	<ol>
+	<p id="projects"><li><a href="https://www.iiitb.ac.in/SELab/projects/project-md-7.html">Formal verification of Simulink models</a></li><li><a href="https://www.iiitb.ac.in/SELab/projects/project-md-9.html">Sponsored projects</a></li><li><a href="https://www.iiitb.ac.in/SELab/projects/project-md-6.html">Architecture and design decisions in complex systems and system-of-systems</a></li><li><a href="https://www.iiitb.ac.in/SELab/projects/project-md-1.html">Verification and validation of architectures for embedded software</a></li><li><a href="https://www.iiitb.ac.in/SELab/projects/project-md-5.html">Verifying data races and timing requirements in RTOS</a></li><li><a href="https://www.iiitb.ac.in/SELab/projects/project-md-3.html">Verifiable avionics self-adaptive software</a></li><li><a href="https://www.iiitb.ac.in/SELab/projects/project-md-4.html">Program analysis, test case generation and motion planning for robotics software</a></li><li><a href="https://www.iiitb.ac.in/SELab/projects/project-md-8.html">Other projects</a></li></p>
+	</ol>
+
+	<h2>Students</h2>  
+      <a id="mystudents"></a> 
+
+	<h2>Publications</h2>
+	<p id="pubs">
+ <!--   
+    <h3>Journal</h3><ol></ol><h3>Conference</h3><ol><br><li><b>Meenakshi D'Souza</b>, Rajanikanth N. Kashi<i>. Avionics Self-adaptive Software: Towards Formal Verification and Validation</i>, ICDCIT , 2019</li><br><li>Vijaya Sharvani, Kumar Abhinav,  Alpana Dubey, Sakshi Jain, Veenu Arora, <b>Meenakshi D'Souza</b><i>. FrAppLe: A Framework for Apprenticeship Learning</i>, ISEC , 2019</li><br><li>Sulochan Naik, <b>Meenakshi D'Souza</b><i>. Efficient Power Saving Method for WiFi Direct Devices in IoT based on Hidden Markov Model</i>, 11th International Conference on Communication Systems &amp; Networks, Bengaluru, India , 2019</li><br><li>Nitin Bhatia, <b>Meenakshi D'Souza</b>, Sujit Kumar Chakrabarti<i>. Formalizing GPU Instruction Set Architecture in Coq</i>, Proceedings of the 12th Innovations on Software Engineering Conference, Pune, India, 2019</li><br><li>Abhishek Singh, Rekha Pai,  Deepak D'Souza, <b>Meenakshi D'Souza</b><i>. Static analysis for detecting high-level races in RTOS kernels</i>, Proceedings of Formal Methods - The Next 30 Years - Third World Congress, Springer LNCS 11800, 337-353, 2019</li><br><li>Gracy Philip, <b>Meenakshi D'Souza</b>, Varsha P. Suresh<i>. Automatic Generation of Safety Validation Test cases from System Architecture Fault Trees</i>, ACM, India Software Engineering Conference (ISEC), Hyderabad, India, 2018</li><br><li>Palani Kumar, <b>Meenakshi D'Souza</b>, Debabrata Das<i>. Efficient Anomaly Detection Method for Power Saving in massive IoT architectures</i>, ICDCIT, LNCS 10772, Springer, 2018</li><br><li>Ramakrishnan Raman, <b>Meenakshi D'Souza</b><i>. Learning framework for maturing architecture design decisions for evolving complex SoS</i>, in Proc. IEEE 13th System of Systems Engineering Conference, Paris, France, 2018</li><br><li>Surabhi Jha, <b>Meenakshi D'Souza</b>, Raoul Jetley, Sreeja Nair<i>. Worst case execution time estimation for control code of automation systems</i>, in Proc. IEEE 4th International Conference on Advances in Computing and Communication Engineering, Paris, France, 2018</li><br><li>Avijit Mandal, <b>Meenakshi D'Souza</b>, Devina Mohan, Raoul Jetley, Sreeja Nair<i>. A generic static analysis framework for domain specific languages</i>, in 2018 IEEE 23rd International Conference on Emerging Technologies and Factory Automation, Italy, 2018</li><br><li>Abhishek Singh, <b>Meenakshi D'Souza</b>, Arshad Ebrahim<i>. Formal Verification of Datarace in Safety Critical ARINC653 compliant RTOS</i>, in Proc. 7th IEEE ICACCI, 2018</li><br><li>Palani Kumar Subramanian, <b>Meenakshi D'Souza</b><i>. Design of a Power Aware Methodology in IoT based on Hidden Markov Model</i>, Proceedings of COMSNETS-17, INDIA, 2017</li><br><li>Dhinakar Kalyanasundaram, <b>Meenakshi D'Souza</b><i>. Static Vulnerability Analysis for Secure Mobile Platforms</i>, Innovations in Software Engineering Conference (ISEC) 2017, Jaipur, INDIA, 2017</li><br><li>Ramakrishnan Raman, <b>Meenakshi D'Souza</b><i>. Knowledge Based Decision Framework For Architecting Complex Systems</i>, 32nd ACM Symposium on Applied Computing – ACM SAC 2017, Marrakech, Morocco, 2017</li><br><li>Avijit Mandal, Raoul Jetley, <b>Meenakshi D'Souza</b>, Sreeja S Nair<i>. A static analyzer for industrial robotic applications</i>, 28th IEEE ISSRE, Toulouse, France, 2017</li><br><li>Maithily Diwan, <b>Meenakshi D'Souza</b><i>. A framework for modelling and verifying IoT communication protocols</i>, SETTA 2017, Springer LNCS 10606, pages 266-280, China, 2017</li><br><li>Hilam Patel, <b>Meenakshi D'Souza</b>, Nagesh Tikare<i>. Method level power estimation and optimization in next generation smart phones</i>, IEEE ICACCI 2017, 1010-1016, 2017</li><br><li>Gracy Philip, <b>Meenakshi D'Souza</b>, V. P. Abidha<i>. Model-based safety analysis: Automatic generation of safety validation test cases</i>, in 36th IEEE/AIAA Digital Avionics Systems Conference (DASC), Florida, 2017</li><br><li>Ramakrishnan Raman, <b>Meenakshi D'Souza</b><i>. Knowledge based decision model for architecting and evolving complex system-of-systems</i>, INCOSE International Symposium, 27(1), Wiley, 2017</li><br><li>Ramakrishnan Raman, <b>Meenakshi D'Souza</b><i>. Knowledge value stream framework for architecting complex products</i>, IEEE Technology and Engineering Management Conference (TEMSCON), 2017</li><br><li>Rajanikanth N. Kashi, <b>Meenakshi D'Souza</b>, Koyalkar Raman Kishore<i>.
+ Incorporating Formal Methods and Measures Obtained through Analysis, 
+Simulation Testing for Dependable Self-Adaptive Software in Avionics 
+Systems</i>, 10th Annual ACM India Compute Conference, Bhopal, 2017</li><br><li>Gracy Philip, <b>Meenakshi D'Souza</b><i>. Model-based Safety Validation for Embedded Real-time Systems</i>,
+ Formal Methods for Safety and Security Case Studies for Aerospace 
+Applications, Nanda, Manju, Jeppu, Yogananda (Eds.), Springer, 2017</li><br><li>Rajanikanth N. Kashi, <b>Meenakshi D'Souza</b>, S Kumar Baghel, Nitin Arun Kulkarni<i>. Formal verification of avionics self-adaptive software</i>, ISEC 2016, Goa, INDIA, 2016</li><br><li>Rajanikanth N. Kashi, <b>Meenakshi D'Souza</b>, S Kumar Baghel, Nitin Arun Kulkarni<i>. Incorporating Adaptivity using Learning in Avionics Self Adaptive Software: A Case Study</i>, 5th International Conference on Computing, Communications and Informatics (ICACCI 2016), Jaipur, INDIA, 2016</li><br><li>Gracy Philip, <b>Meenakshi D'Souza</b><i>. Safety Validation of an Embedded Real-time System at Hardware-Software Integration Test Environment</i>,
+ 9th Intl. Conf. on Advanced Computing and Communication Technologies, 
+Springer Advances in Intelligent System and Computing Series, 2015</li><br><li><b>Meenakshi D'Souza</b>, Manoranjan Satpathy, Ramesh S.<i>. Architectural Semantics of AADL using Event-B</i>, IEEE International Conference on Computing, Communication and Information Technology (IC3I), 2014</li><br><li><b>Meenakshi D'Souza</b>, Teodor Knapik<i>. Verification of Message Sequence Structures</i>, International Conference on Distributed Computing and Internet Technology (ICDCIT), 171-182, LNCS 7753, Springer, 2013</li><br><li><b>Meenakshi D'Souza</b>, Srinivasa Gopal<i>. Improving estimation accuracy by using Case Based Reasoning and a combined estimation approach</i>, ACM, India Software Engineering Conference (ISEC), Kanpur, India, 2012</li><br><li><b>Meenakshi D'Souza</b>, Abhishek Bhatnagar, Namit Chaturvedi, Atish Datta Chowdhury, Arul Ganesh<i>. A framework for decentralized access control</i>, ACM Conference on Computer and Communications Security (ASIACCS), 2007</li><br><li><b>Meenakshi D'Souza</b>, Kuntal Das Barman, Ganesh Babu Kandhan, Karan Sehgal<i>. Formal safety analysis of mode transitions in aircraft flight control system</i>, 26th IEEE Digital Avionics Systems Conference (DASC), 2007</li><br><li><b>Meenakshi D'Souza</b>, Abhishek Bhatnagar, Sudeepa Roy<i>. Tool for Translating Simulink Models into Input Language of a Model Checker</i>, 8th International Conference on Formal Engineering Methods (ICFEM), LNCS, Volume No. 4260, 606-620, 2006</li><br><li><b>Meenakshi D'Souza</b>, Namit Chaturvedi, Atish Datta Chowdhury, Arul Ganesh<i>. A framework for rapid-prototyping of context based ubiquitous computing applications</i>, IEEE International Conference on Sensor networks, Ubiquitous and Trustworthy Computing (SUTC), 306-311, 2006</li><br><li><b>Meenakshi D'Souza</b>, Ramaswamy Ramanujam<i>. Reasoning about Layered Message Passing Systems</i>,
+ 4th International Conference on Verification, Model Checking and 
+Abstract Interpretation (VMCAI), LNCS, Volume No. 2575, 268-282, 2003, 
+2003</li><br><li>P. Madhusudan, <b>Meenakshi D'Souza</b><i>. Beyond Message Sequence Graphs</i>,
+ 21st Foundations of Software Technology and Theoretical Computer 
+Science (FSTTCS) Conference, LNCS, Volume No. 2245, 256-267, 2001</li><br><li><b>Meenakshi D'Souza</b>, Ramaswamy Ramanujam<i>. Reasoning about Message Passing in Finite State Environments</i>, 27th International Colloquium on Automata, Lauguages and Programming (ICALP), LNCS, Volume No.1853, 487-498, 2000</li></ol><h3>Workshop</h3><ol><br><li>Nitin Bhatia, <b>Meenakshi D'Souza</b>, Sujit Kumar Chakrabarti<i>. Formalizing GPU Instruction Set Architecture in Coq</i>, ISEC, 2019</li><br><li>Sujit Kumar Chakrabarti, <b>Meenakshi D'Souza</b><i>. Graduate Course in Software Testing</i>, SEED 2015, Bangalore, INDIA, 2015</li></ol><h3>Technical Reports</h3><ol><br><li>Maithily Diwan, <b>Meenakshi D'Souza</b><i>. A Framework for Modeling and Verifying IoT Communication Protocols</i>, 2017&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.iiitb.ac.in/SELab/preprints/TR_IoTProtocolModel.pdf">Preprint</a></li><br><li>Sujit Kumar Muduli, <b>Meenakshi D'Souza</b><i>. Constract based Development and Refinement in Simulink</i>, 2017&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.iiitb.ac.in/SELab/preprints/Thesis-Report-MT2015113.pdf">Preprint</a></li><br><li>Rajanikanth N. Kashi, <b>Meenakshi D'Souza</b><i>. VERMILLION: Verifiable MultIagent Framework for DependabLe and AdaptabLe AvIONics</i>, &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.iiitb.ac.in/SELab/preprints/Vermillion-TR.pdf">Preprint</a></li></ol></p> 	
+
+-->
+</div>
+</body>
+</html>

@@ -1,4 +1,4 @@
-faculty = [
+FacultyDB = [
   {
     "Email" : "sujitkc@iiitb.ac.in",
     "employeeID" : "1252"
@@ -7,4 +7,5 @@ faculty = [
     "Email" : "meenakshi@iiitb.ac.in",
     "employeeID" : "xxxx"
   }
-]
+];
+

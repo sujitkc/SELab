@@ -26,17 +26,18 @@ def write_json(data, table):
         fout.write(ws + "},")
       else:
         fout.write(ws + "}")
-    fout.write("\n]")
+    fout.write("\n];\n\n")
 
 def write_all_tables():
   alltables = {
-    "authors",
-    "conference_publications",
-    "conferences",
-    "faculty",
-    "people",
-    "students",
-    "supervisor"
+    "AuthorsDB",
+    "ConferencePublicationsDB",
+    "ConferencesDB",
+    "FacultyDB",
+    "PeopleDB",
+    "StudentsDB",
+    "SupervisorDB",
+    "WorkshopPublicationsDB"
   }
   for table in alltables:
     data = read_csv("csv/" + table + ".csv")

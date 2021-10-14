@@ -1,4 +1,4 @@
-supervisor = [
+SupervisorDB = [
   {
     "ID" : "1",
     "Student" : "karthika.venkatesan@iiitb.ac.in",
@@ -107,4 +107,5 @@ supervisor = [
     "Faculty" : "meenakshi@iiitb.ac.in",
     "Role" : "Supervisor"
   }
-]
+];
+

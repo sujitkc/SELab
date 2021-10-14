@@ -1,4 +1,4 @@
-conference_publications = [
+ConferencePublicationsDB = [
   {
     "Publication Number" : "c1",
     "Title" : "Towards Automatic Training Design",
@@ -11,4 +11,5 @@ conference_publications = [
     "Platform" : "c2",
     "Online" : "http://dl.acm.org/citation.cfm?id=2856642"
   }
-]
+];
+

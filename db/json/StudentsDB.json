@@ -1,4 +1,4 @@
-students = [
+StudentsDB = [
   {
     "Email" : "karthika.venkatesan@iiitb.ac.in",
     "Roll Number" : "",
@@ -48,7 +48,7 @@ students = [
     "Email" : "khusbu.bubna@iiitb.org",
     "Roll Number" : "",
     "Joining Year" : "2014",
-    "Term" : "",
+    "Term" : "August",
     "Graduating Year" : "",
     "Programme" : "MS",
     "Registration Type" : "Full time"
@@ -152,4 +152,5 @@ students = [
     "Programme" : "MS",
     "Registration Type" : "Full time"
   }
-]
+];
+

@@ -1,0 +1,1633 @@
+AuthorsDB = [
+  {
+    "ID" : "c1",
+    "Author" : "sujitkc@iiitb.ac.in"
+  },
+  {
+    "ID" : "c2",
+    "Author" : "sujitkc@iiitb.ac.in"
+  },
+  {
+    "ID" : "c2",
+    "Author" : "rameshari1958@gmail.com"
+  },
+  {
+    "ID" : "w1",
+    "Author" : "sujitkc@iiitb.ac.in"
+  },
+  {
+    "ID" : "w2",
+    "Author" : "sujitkc@iiitb.ac.in"
+  },
+  {
+    "ID" : "w1",
+    "Author" : "khusbu.bubna@iiitb.org"
+  },
+  {
+    "ID" : "w2",
+    "Author" : "meenakshi@iiitb.ac.in"
+  }
+];
+
+ConferencesDB = [
+  {
+    "ID" : "c1",
+    "Name" : "MITE 2016",
+    "Venue" : "Madurai",
+    "Country" : "India",
+    "Month" : "December",
+    "Year" : "2016",
+    "Online" : "",
+    "" : "",
+    "" : "",
+    "" : "",
+    "" : ""
+  },
+  {
+    "ID" : "c2",
+    "Name" : "ISEC 2016",
+    "Venue" : "Goa",
+    "Country" : "India",
+    "Month" : "February",
+    "Year" : "2016",
+    "Online" : "",
+    "" : "",
+    "" : "",
+    "" : "",
+    "" : ""
+  },
+  {
+    "ID" : "c3",
+    "Name" : "ISEC 2010",
+    "Venue" : "Mysore",
+    "Country" : "India",
+    "Month" : "February",
+    "Year" : "2016",
+    "Online" : "",
+    "" : "",
+    "" : "",
+    "" : "",
+    "" : ""
+  },
+  {
+    "ID" : "c4",
+    "Name" : "ISEC 2009",
+    "Venue" : "Pune",
+    "Country" : "India",
+    "Month" : "February",
+    "Year" : "2016",
+    "Online" : "",
+    "" : "",
+    "" : "",
+    "" : "",
+    "" : ""
+  },
+  {
+    "ID" : "c5",
+    "Name" : "ISSRE",
+    "Venue" : "Mysore",
+    "Country" : "India",
+    "Month" : "",
+    "Year" : "2009",
+    "Online" : "",
+    "" : "",
+    "" : "",
+    "" : "",
+    "" : ""
+  },
+  {
+    "ID" : "c6",
+    "Name" : "ISEC 2008",
+    "Venue" : "Hyderabad",
+    "Country" : "India",
+    "Month" : "February",
+    "Year" : "2008",
+    "Online" : "",
+    "" : "",
+    "" : "",
+    "" : "",
+    "" : ""
+  },
+  {
+    "ID" : "c7",
+    "Name" : "ICSEA 2006",
+    "Venue" : "Tahiti",
+    "Country" : " French Polynesia",
+    "Month" : "",
+    "Year" : "2006",
+    "Online" : "",
+    "" : "",
+    "" : "",
+    "" : "",
+    "" : ""
+  },
+  {
+    "ID" : "c8",
+    "Name" : "ISEC 2010",
+    "Venue" : "Mysore",
+    "Country" : "India",
+    "Month" : "February",
+    "Year" : "2010",
+    "Online" : "",
+    "" : "",
+    "" : "",
+    "" : "",
+    "" : ""
+  },
+  {
+    "ID" : "c9",
+    "Name" : "ISEC 2016",
+    "Venue" : "Goa",
+    "Country" : "India",
+    "Month" : "February",
+    "Year" : "2016",
+    "Online" : "",
+    "" : "",
+    "" : "",
+    "" : "",
+    "" : ""
+  },
+  {
+    "ID" : "c10",
+    "Name" : "IEEE Region 10 Technical Conference on Convergent Technologies For The Asia-Pacific",
+    "Venue" : "Bangalore",
+    "Country" : " India",
+    "Month" : "October",
+    "Year" : "2003",
+    "Online" : "",
+    "" : "",
+    "" : "",
+    "" : "",
+    "" : ""
+  },
+  {
+    "ID" : "c11",
+    "Name" : "National Conference on Object Oriented Technology 2003 (NCOOT 2003)",
+    "Venue" : "Lonere",
+    "Country" : " India",
+    "Month" : "August",
+    "Year" : "2003",
+    "Online" : "",
+    "" : "",
+    "" : "",
+    "" : "",
+    "" : ""
+  },
+  {
+    "ID" : "c12",
+    "Name" : "International Radar Symposium India",
+    "Venue" : "Bangalore",
+    "Country" : " India",
+    "Month" : "December",
+    "Year" : "2003",
+    "Online" : "",
+    "" : "",
+    "" : "",
+    "" : "",
+    "" : ""
+  },
+  {
+    "ID" : "c13",
+    "Name" : "Telelogic User Group Conference",
+    "Venue" : "Miami",
+    "Country" : " USA",
+    "Month" : "October",
+    "Year" : "2004",
+    "Online" : "",
+    "" : "",
+    "" : "",
+    "" : "",
+    "" : ""
+  },
+  {
+    "ID" : "c14",
+    "Name" : "International Conference on Aerospace Science and Technology (INCAST) 2008",
+    "Venue" : "",
+    "Country" : " India",
+    "Month" : "",
+    "Year" : "2008",
+    "Online" : "",
+    "" : "",
+    "" : "",
+    "" : "",
+    "" : ""
+  },
+  {
+    "ID" : "c15",
+    "Name" : "IEEE International Conference on Computing Communication and Information Technology (IC3I)",
+    "Venue" : "",
+    "Country" : "",
+    "Month" : "",
+    "Year" : "2014",
+    "Online" : "",
+    "" : "",
+    "" : "",
+    "" : "",
+    "" : ""
+  },
+  {
+    "ID" : "c16",
+    "Name" : "International Conference on Distributed Computing and Internet Technology (ICDCIT)",
+    "Venue" : "",
+    "Country" : "",
+    "Month" : "",
+    "Year" : "2013",
+    "Online" : "",
+    "" : "",
+    "" : "",
+    "" : "",
+    "" : ""
+  },
+  {
+    "ID" : "c17",
+    "Name" : " India Software Engineering Conference (ISEC)",
+    "Venue" : "",
+    "Country" : " India",
+    "Month" : "",
+    "Year" : "2012",
+    "Online" : "",
+    "" : "",
+    "" : "",
+    "" : "",
+    "" : ""
+  },
+  {
+    "ID" : "c18",
+    "Name" : "ACM Conference on Computer and Communications Security (ASIACCS)",
+    "Venue" : "",
+    "Country" : "",
+    "Month" : "",
+    "Year" : "2007",
+    "Online" : "",
+    "" : "",
+    "" : "",
+    "" : "",
+    "" : ""
+  },
+  {
+    "ID" : "c19",
+    "Name" : "26th IEEE Digital Avionics Systems Conference (DASC)",
+    "Venue" : "",
+    "Country" : "",
+    "Month" : "",
+    "Year" : "2007",
+    "Online" : "",
+    "" : "",
+    "" : "",
+    "" : "",
+    "" : ""
+  },
+  {
+    "ID" : "c20",
+    "Name" : "8th International Conference on Formal Engineering Methods (ICFEM)",
+    "Venue" : "LNCS",
+    "Country" : "",
+    "Month" : "",
+    "Year" : "2006",
+    "Online" : "",
+    "" : "",
+    "" : "",
+    "" : "",
+    "" : ""
+  },
+  {
+    "ID" : "c21",
+    "Name" : "IEEE International Conference on Sensor networks",
+    "Venue" : " Ubiquitous and Trustworthy Computing (SUTC)",
+    "Country" : "306-311",
+    "Month" : "",
+    "Year" : "2006",
+    "Online" : "",
+    "" : "",
+    "" : "",
+    "" : "",
+    "" : ""
+  },
+  {
+    "ID" : "c22",
+    "Name" : "4th International Conference on Verification",
+    "Venue" : " Model Checking and Abstract Interpretation (VMCAI)",
+    "Country" : "",
+    "Month" : "",
+    "Year" : "2003",
+    "Online" : "",
+    "" : "",
+    "" : "",
+    "" : "",
+    "" : ""
+  },
+  {
+    "ID" : "c23",
+    "Name" : "21st Foundations of Software Technology and Theoretical Computer Science (FSTTCS) Conference",
+    "Venue" : "LNCS",
+    "Country" : "",
+    "Month" : "",
+    "Year" : "2001",
+    "Online" : "",
+    "" : "",
+    "" : "",
+    "" : "",
+    "" : ""
+  },
+  {
+    "ID" : "c24",
+    "Name" : "27th International Colloquium on Automata",
+    "Venue" : " Lauguages and Programming (ICALP)",
+    "Country" : "",
+    "Month" : "",
+    "Year" : "2000",
+    "Online" : "",
+    "" : "",
+    "" : "",
+    "" : "",
+    "" : ""
+  },
+  {
+    "ID" : "c25",
+    "Name" : "9th Intl. Conf. on Advanced Computing and Communication Technologies",
+    "Venue" : "Springer Advances in Intelligent System and Computing Series",
+    "Country" : "",
+    "Month" : "",
+    "Year" : "2015",
+    "Online" : "",
+    "" : "",
+    "" : "",
+    "" : "",
+    "" : ""
+  },
+  {
+    "ID" : "c26",
+    "Name" : "5th International Conference on Computing Communications and Informatics (ICACCI 2016)",
+    "Venue" : "Jaipur",
+    "Country" : "India",
+    "Month" : "",
+    "Year" : "2016",
+    "Online" : "",
+    "" : "",
+    "" : "",
+    "" : "",
+    "" : ""
+  },
+  {
+    "ID" : "c27",
+    "Name" : "National Conference on Emerging Technologies in Computer Science 2010 (NCETCS-2010)",
+    "Venue" : "Bangalore",
+    "Country" : " INDIA",
+    "Month" : "",
+    "Year" : "2010",
+    "Online" : "",
+    "" : "",
+    "" : "",
+    "" : "",
+    "" : ""
+  },
+  {
+    "ID" : "c28",
+    "Name" : "4th Asia-Pacific Conference on Systems Engineering (APCOSE 2010)",
+    "Venue" : "National Taiwan Ocean University",
+    "Country" : "Taiwan",
+    "Month" : "",
+    "Year" : "2010",
+    "Online" : "",
+    "" : "",
+    "" : "",
+    "" : "",
+    "" : ""
+  },
+  {
+    "ID" : "c29",
+    "Name" : "5th Asia-Pacific Conference on Systems Engineering (APCOSE 2011)",
+    "Venue" : "",
+    "Country" : "South Korea",
+    "Month" : "October",
+    "Year" : "2011",
+    "Online" : "",
+    "" : "",
+    "" : "",
+    "" : "",
+    "" : ""
+  },
+  {
+    "ID" : "c30",
+    "Name" : "5th Asia-Pacific Conference on Systems Engineering (APCOSE 2011)",
+    "Venue" : "",
+    "Country" : "South Korea",
+    "Month" : "October",
+    "Year" : "2011",
+    "Online" : "",
+    "" : "",
+    "" : "",
+    "" : "",
+    "" : ""
+  },
+  {
+    "ID" : "c31",
+    "Name" : "COMSNETS-17",
+    "Venue" : "INDIA",
+    "Country" : "",
+    "Month" : "",
+    "Year" : "2017",
+    "Online" : "",
+    "" : "",
+    "" : "",
+    "" : "",
+    "" : ""
+  },
+  {
+    "ID" : "c32",
+    "Name" : "Innovations in Software Engineering Conference (ISEC) 2017",
+    "Venue" : "Jaipur",
+    "Country" : "India",
+    "Month" : "",
+    "Year" : "2017",
+    "Online" : "",
+    "" : "",
+    "" : "",
+    "" : "",
+    "" : ""
+  },
+  {
+    "ID" : "c33",
+    "Name" : "32nd ACM Symposium on Applied Computing – ACM SAC 2017",
+    "Venue" : "Marrakech",
+    "Country" : " Morocco",
+    "Month" : "April",
+    "Year" : "2017",
+    "Online" : "",
+    "" : "",
+    "" : "",
+    "" : "",
+    "" : ""
+  },
+  {
+    "ID" : "c34",
+    "Name" : "India Software Engineering Conference (ISEC)",
+    "Venue" : "Hyderabad",
+    "Country" : " India",
+    "Month" : "February",
+    "Year" : "",
+    "Online" : "",
+    "" : "2018",
+    "" : "",
+    "" : "",
+    "" : ""
+  },
+  {
+    "ID" : "c35",
+    "Name" : "ICDCIT",
+    "Venue" : " LNCS 10772",
+    "Country" : " Springer",
+    "Month" : "",
+    "Year" : "",
+    "Online" : "",
+    "" : "2018",
+    "" : "",
+    "" : "",
+    "" : ""
+  },
+  {
+    "ID" : "c36",
+    "Name" : "28th IEEE ISSRE",
+    "Venue" : "Toulouse",
+    "Country" : " France",
+    "Month" : "",
+    "Year" : "2017",
+    "Online" : "",
+    "" : "",
+    "" : "",
+    "" : "",
+    "" : ""
+  },
+  {
+    "ID" : "c37",
+    "Name" : "SETTA 2017",
+    "Venue" : "",
+    "Country" : "China",
+    "Month" : "",
+    "Year" : "",
+    "Online" : "",
+    "" : "2017",
+    "" : "",
+    "" : "",
+    "" : ""
+  },
+  {
+    "ID" : "c38",
+    "Name" : "IEEE ICACCI 2017",
+    "Venue" : "",
+    "Country" : "",
+    "Month" : "",
+    "Year" : "2017",
+    "Online" : "",
+    "" : "",
+    "" : "",
+    "" : "",
+    "" : ""
+  },
+  {
+    "ID" : "c39",
+    "Name" : "in 36th IEEE/AIAA Digital Avionics Systems Conference (DASC)",
+    "Venue" : "Florida",
+    "Country" : "",
+    "Month" : "September",
+    "Year" : "2017",
+    "Online" : "",
+    "" : "",
+    "" : "",
+    "" : "",
+    "" : ""
+  },
+  {
+    "ID" : "c40",
+    "Name" : "INCOSE International Symposium",
+    "Venue" : "",
+    "Country" : "",
+    "Month" : "July",
+    "Year" : "2017",
+    "Online" : "",
+    "" : "",
+    "" : "",
+    "" : "",
+    "" : ""
+  },
+  {
+    "ID" : "c41",
+    "Name" : "IEEE Technology and Engineering Management Conference (TEMSCON)",
+    "Venue" : "",
+    "Country" : "",
+    "Month" : "",
+    "Year" : "2017",
+    "Online" : "",
+    "" : "",
+    "" : "",
+    "" : "",
+    "" : ""
+  },
+  {
+    "ID" : "c42",
+    "Name" : "Formal Methods for Safety and Security Case Studies for Aerospace Applications",
+    "Venue" : " Nanda",
+    "Country" : "",
+    "Month" : " Jeppu",
+    "Year" : "",
+    "Online" : "",
+    "" : "",
+    "" : "",
+    "" : "May",
+    "" : "2017"
+  },
+  {
+    "ID" : "c43",
+    "Name" : " Simulation Testing for Dependable Self-Adaptive Software in Avionics Systems",
+    "Venue" : "10th Annual ACM India Compute Conference",
+    "Country" : "",
+    "Month" : "",
+    "Year" : "2017",
+    "Online" : "",
+    "" : "",
+    "" : "",
+    "" : "",
+    "" : ""
+  },
+  {
+    "ID" : "c44",
+    "Name" : "in Proc. IEEE 13th System of Systems Engineering Conference",
+    "Venue" : "Paris",
+    "Country" : " France",
+    "Month" : "June",
+    "Year" : "2018",
+    "Online" : "",
+    "" : "",
+    "" : "",
+    "" : "",
+    "" : ""
+  },
+  {
+    "ID" : "c45",
+    "Name" : "in Proc. IEEE 4th International Conference on Advances in Computing and Communication Engineering",
+    "Venue" : "Paris",
+    "Country" : " France",
+    "Month" : "June",
+    "Year" : "2018",
+    "Online" : "",
+    "" : "",
+    "" : "",
+    "" : "",
+    "" : ""
+  },
+  {
+    "ID" : "c46",
+    "Name" : "in 2018 IEEE 23rd International Conference on Emerging Technologies and Factory Automation",
+    "Venue" : "",
+    "Country" : "Italy",
+    "Month" : "September",
+    "Year" : "2018",
+    "Online" : "",
+    "" : "",
+    "" : "",
+    "" : "",
+    "" : ""
+  },
+  {
+    "ID" : "c47",
+    "Name" : "in Proc. 7th IEEE ICACCI",
+    "Venue" : "",
+    "Country" : "",
+    "Month" : "",
+    "Year" : "2018",
+    "Online" : "",
+    "" : "",
+    "" : "",
+    "" : "",
+    "" : ""
+  },
+  {
+    "ID" : "c48",
+    "Name" : "ISEC",
+    "Venue" : "Jabalpur",
+    "Country" : "India",
+    "Month" : "February",
+    "Year" : "2020",
+    "Online" : "",
+    "" : "",
+    "" : "",
+    "" : "",
+    "" : ""
+  },
+  {
+    "ID" : "c49",
+    "Name" : "14th IFIP TC9 Human Choice and Computers Conference",
+    "Venue" : "Tokyo",
+    "Country" : "",
+    "Month" : "September",
+    "Year" : "2020",
+    "Online" : "",
+    "" : "",
+    "" : "",
+    "" : "",
+    "" : ""
+  },
+  {
+    "ID" : "c50",
+    "Name" : "The 36th ACM/SIGAPP Symposium on Applied Computing (SAC ’21)",
+    "Venue" : "Virtual Event",
+    "Country" : " Republic of Korea",
+    "Month" : "March",
+    "Year" : "2021",
+    "Online" : "",
+    "" : "",
+    "" : "",
+    "" : "",
+    "" : ""
+  }
+];
+
+PeopleDB = [
+  {
+    "Email" : "sujitkc@iiitb.ac.in",
+    "First Name" : "Sujit Kumar",
+    "Middle Name" : "",
+    "Last Name" : "Chakrabarti",
+    "Member Type" : "memberfaculty",
+    "webpage" : "people/sujit.html",
+    "linktype" : "relative"
+  },
+  {
+    "Email" : "meenakshi@iiitb.ac.in",
+    "First Name" : "Meenakshi",
+    "Middle Name" : "",
+    "Last Name" : "D’Souza",
+    "Member Type" : "memberfaculty",
+    "webpage" : "people/meenakshi.html",
+    "linktype" : "relative"
+  },
+  {
+    "Email" : "karthika.venkatesan@iiitb.ac.in",
+    "First Name" : "Karthika",
+    "Middle Name" : "",
+    "Last Name" : "Venkatesan",
+    "Member Type" : "memberstudent",
+    "webpage" : "people/karthika.html",
+    "linktype" : "relative"
+  },
+  {
+    "Email" : "varsha.suresh@iiitb.ac.in",
+    "First Name" : "Varsha",
+    "Middle Name" : "P.",
+    "Last Name" : "Suresh",
+    "Member Type" : "memberstudent",
+    "webpage" : "people/varsha.html",
+    "linktype" : "relative"
+  },
+  {
+    "Email" : "nikhila.kn@iiitb.ac.in",
+    "First Name" : "Nikhila",
+    "Middle Name" : "K.",
+    "Last Name" : "Narayan",
+    "Member Type" : "memberstudent",
+    "webpage" : "people/nikhila.html",
+    "linktype" : "relative"
+  },
+  {
+    "Email" : "ganesha@iiitb.ac.in",
+    "First Name" : "Ganesha",
+    "Middle Name" : "",
+    "Last Name" : "",
+    "Member Type" : "memberstudent",
+    "webpage" : "people/ganesha.html",
+    "linktype" : "relative"
+  },
+  {
+    "Email" : "nitin.bhatia@iiitb.ac.in",
+    "First Name" : "Nitin",
+    "Middle Name" : "",
+    "Last Name" : "Bhatia",
+    "Member Type" : "memberstudent",
+    "webpage" : "people/nitin.html",
+    "linktype" : "relative"
+  },
+  {
+    "Email" : "khusbu.bubna@iiitb.org",
+    "First Name" : "Khusbu",
+    "Middle Name" : "",
+    "Last Name" : "Bubna",
+    "Member Type" : "memberstudent",
+    "webpage" : "people/khusbu.html",
+    "linktype" : "relative"
+  },
+  {
+    "Email" : "manish.gupta@iiitb.ac.in",
+    "First Name" : "Manish",
+    "Middle Name" : "",
+    "Last Name" : "Gupta",
+    "Member Type" : "externalfaculty",
+    "webpage" : "https://www.iiitb.ac.in/faculty/manish-gupta",
+    "linktype" : "absolute"
+  },
+  {
+    "Email" : "maithily.diwan@iiitb.org",
+    "First Name" : "Maithily",
+    "Middle Name" : "",
+    "Last Name" : "Diwan",
+    "Member Type" : "memberstudent",
+    "webpage" : "people/maithily.html",
+    "linktype" : "relative"
+  },
+  {
+    "Email" : "ramakrishnan.raman@iiitb.org",
+    "First Name" : "Ramakrishnan",
+    "Middle Name" : "",
+    "Last Name" : "Raman",
+    "Member Type" : "memberstudent",
+    "webpage" : "people/ramkrishna.html",
+    "linktype" : "relative"
+  },
+  {
+    "Email" : "rajanikanth.kashi@iiitb.org",
+    "First Name" : "Rajanikanth",
+    "Middle Name" : "N",
+    "Last Name" : "Kashi",
+    "Member Type" : "memberstudent",
+    "webpage" : "people/rajanikanth.html",
+    "linktype" : "relative"
+  },
+  {
+    "Email" : "gracy.joseph@iiitb.org",
+    "First Name" : "Gracy",
+    "Middle Name" : "",
+    "Last Name" : "Philip",
+    "Member Type" : "memberstudent",
+    "webpage" : "people/gracy.html",
+    "linktype" : "relative"
+  },
+  {
+    "Email" : "avijit.mandal@iiitb.org",
+    "First Name" : "Avijit",
+    "Middle Name" : "",
+    "Last Name" : "Mandal",
+    "Member Type" : "memberstudent",
+    "webpage" : "people/avijit.html",
+    "linktype" : "relative"
+  },
+  {
+    "Email" : "abhi.singh.hal@gmail.com",
+    "First Name" : "Abhishek",
+    "Middle Name" : "",
+    "Last Name" : "Singh",
+    "Member Type" : "memberstudent",
+    "webpage" : "people/abhishek.html",
+    "linktype" : "relative"
+  },
+  {
+    "Email" : "abidha.vp@iiitb.ac.in",
+    "First Name" : "Abidha",
+    "Middle Name" : "V.",
+    "Last Name" : "P.",
+    "Member Type" : "externalstudent",
+    "webpage" : "",
+    "linktype" : ""
+  },
+  {
+    "Email" : "sulochan.naik@iiitb.ac.in",
+    "First Name" : "Sulochan",
+    "Middle Name" : "",
+    "Last Name" : "Naik",
+    "Member Type" : "memberstudent",
+    "webpage" : "people/sulochan.html",
+    "linktype" : "relative"
+  },
+  {
+    "Email" : "ameena.ashraf@iiitb.ac.in",
+    "First Name" : "Ameena",
+    "Middle Name" : "",
+    "Last Name" : "Ashraf",
+    "Member Type" : "memberstudent",
+    "webpage" : "people/ameena.html",
+    "linktype" : "relative"
+  },
+  {
+    "Email" : "ananta.kumar@iiitb.ac.in",
+    "First Name" : "Ananta",
+    "Middle Name" : "Kumar",
+    "Last Name" : "Das",
+    "Member Type" : "memberstudent",
+    "webpage" : "people/ananta.html",
+    "linktype" : "relative"
+  },
+  {
+    "Email" : "aritra.bhowmick@iiitb.ac.in",
+    "First Name" : "Aritra",
+    "Middle Name" : "",
+    "Last Name" : "Bhowmick",
+    "Member Type" : "memberstudent",
+    "webpage" : "people/aritra.html",
+    "linktype" : "relative"
+  },
+  {
+    "Email" : "nagalakshmi@iiitb.ac.in",
+    "First Name" : "Nagalakshmi",
+    "Middle Name" : "S.",
+    "Last Name" : "R.",
+    "Member Type" : "memberstudent",
+    "webpage" : "people/nagalakshmi.html",
+    "linktype" : "relative"
+  },
+  {
+    "Email" : "surabhi.jha@iiitb.org",
+    "First Name" : "Surabhi",
+    "Middle Name" : "",
+    "Last Name" : "Jha",
+    "Member Type" : "memberstudent",
+    "webpage" : "people/surabhi.html",
+    "linktype" : "relative"
+  },
+  {
+    "Email" : "jdinesh@iiitb.ac.in",
+    "First Name" : "Dinesh",
+    "Middle Name" : "Babu",
+    "Last Name" : "Jayagopi",
+    "Member Type" : "externalfaculty",
+    "webpage" : "",
+    "linktype" : ""
+  },
+  {
+    "Email" : "p3",
+    "First Name" : "Ganesh",
+    "Middle Name" : "Babu",
+    "Last Name" : "Kandhan",
+    "Member Type" : "external",
+    "webpage" : "",
+    "linktype" : ""
+  },
+  {
+    "Email" : "srikant@csa.iisc.ernet.in",
+    "First Name" : "Y.",
+    "Middle Name" : "N.",
+    "Last Name" : "Srikant",
+    "Member Type" : "external",
+    "webpage" : "",
+    "linktype" : ""
+  },
+  {
+    "Email" : "raoul.jetley@in.abb.com",
+    "First Name" : "Raoul",
+    "Middle Name" : "",
+    "Last Name" : "Jetley",
+    "Member Type" : "external",
+    "webpage" : "",
+    "linktype" : ""
+  },
+  {
+    "Email" : "p4",
+    "First Name" : "Madhusudan",
+    "Middle Name" : "",
+    "Last Name" : "P.",
+    "Member Type" : "external",
+    "webpage" : "",
+    "linktype" : ""
+  },
+  {
+    "Email" : "p5",
+    "First Name" : "Kuntal",
+    "Middle Name" : "Das",
+    "Last Name" : "Barman",
+    "Member Type" : "external",
+    "webpage" : "",
+    "linktype" : ""
+  },
+  {
+    "Email" : "p6",
+    "First Name" : "Vanathi",
+    "Middle Name" : "",
+    "Last Name" : "Ravindran",
+    "Member Type" : "external",
+    "webpage" : "",
+    "linktype" : ""
+  },
+  {
+    "Email" : "p1",
+    "First Name" : "Nitin",
+    "Middle Name" : "Arun",
+    "Last Name" : "Kulkarni",
+    "Member Type" : "externalfaculty",
+    "webpage" : "",
+    "linktype" : ""
+  },
+  {
+    "Email" : "p7",
+    "First Name" : "Ramaswamy",
+    "Middle Name" : "",
+    "Last Name" : "Ramanujam",
+    "Member Type" : "external",
+    "webpage" : "",
+    "linktype" : ""
+  },
+  {
+    "Email" : "p8",
+    "First Name" : "Karan",
+    "Middle Name" : "",
+    "Last Name" : "Sehgal",
+    "Member Type" : "external",
+    "webpage" : "",
+    "linktype" : ""
+  },
+  {
+    "Email" : "p9",
+    "First Name" : "R",
+    "Middle Name" : "S",
+    "Last Name" : "Rao",
+    "Member Type" : "external",
+    "webpage" : "",
+    "linktype" : ""
+  },
+  {
+    "Email" : "sreeja.nair@in.abb.com",
+    "First Name" : "Sreeja",
+    "Middle Name" : "S",
+    "Last Name" : "Nair",
+    "Member Type" : "external",
+    "webpage" : "",
+    "linktype" : ""
+  },
+  {
+    "Email" : "p10",
+    "First Name" : "Charles",
+    "Middle Name" : "",
+    "Last Name" : "Law",
+    "Member Type" : "external",
+    "webpage" : "",
+    "linktype" : ""
+  },
+  {
+    "Email" : "p11",
+    "First Name" : "Hilam",
+    "Middle Name" : "",
+    "Last Name" : "Patel",
+    "Member Type" : "memberstudent",
+    "webpage" : "",
+    "linktype" : ""
+  },
+  {
+    "Email" : "",
+    "First Name" : "",
+    "Middle Name" : "",
+    "Last Name" : "",
+    "Member Type" : "",
+    "webpage" : "",
+    "linktype" : ""
+  },
+  {
+    "Email" : "p12",
+    "First Name" : "Namit",
+    "Middle Name" : "",
+    "Last Name" : "Chaturvedi",
+    "Member Type" : "external",
+    "webpage" : "",
+    "linktype" : ""
+  },
+  {
+    "Email" : "sukanta.bhatt@philips.com",
+    "First Name" : "Sukanta",
+    "Middle Name" : "",
+    "Last Name" : "Bhatt",
+    "Member Type" : "external",
+    "webpage" : "",
+    "linktype" : ""
+  },
+  {
+    "Email" : "p13",
+    "First Name" : "Nagesh",
+    "Middle Name" : "",
+    "Last Name" : "Tikare",
+    "Member Type" : "external",
+    "webpage" : "",
+    "linktype" : ""
+  },
+  {
+    "Email" : "p14",
+    "First Name" : "Palani",
+    "Middle Name" : "Kumar",
+    "Last Name" : "Subramanian",
+    "Member Type" : "memberstudent",
+    "webpage" : "",
+    "linktype" : ""
+  },
+  {
+    "Email" : "p15",
+    "First Name" : "N",
+    "Middle Name" : "N",
+    "Last Name" : "S",
+    "Member Type" : "external",
+    "webpage" : "",
+    "linktype" : ""
+  },
+  {
+    "Email" : "p2",
+    "First Name" : "Dhinakar",
+    "Middle Name" : "",
+    "Last Name" : "Kalyanasundaram",
+    "Member Type" : "external",
+    "webpage" : "",
+    "linktype" : ""
+  },
+  {
+    "Email" : "p16",
+    "First Name" : "Atish",
+    "Middle Name" : "Datta",
+    "Last Name" : "Chowdhury",
+    "Member Type" : "external",
+    "webpage" : "",
+    "linktype" : ""
+  },
+  {
+    "Email" : "16",
+    "First Name" : "Teodor",
+    "Middle Name" : "",
+    "Last Name" : "Knapik",
+    "Member Type" : "external",
+    "webpage" : "",
+    "linktype" : ""
+  },
+  {
+    "Email" : "17",
+    "First Name" : "Fernandes",
+    "Middle Name" : "",
+    "Last Name" : "Cercuncesao",
+    "Member Type" : "external",
+    "webpage" : "",
+    "linktype" : ""
+  },
+  {
+    "Email" : "",
+    "First Name" : "Arshad",
+    "Middle Name" : "",
+    "Last Name" : "Ebrahim",
+    "Member Type" : "external",
+    "webpage" : "",
+    "linktype" : ""
+  },
+  {
+    "Email" : "18",
+    "First Name" : "Reswin",
+    "Middle Name" : "",
+    "Last Name" : "Rodriquez",
+    "Member Type" : "external",
+    "webpage" : "",
+    "linktype" : ""
+  },
+  {
+    "Email" : "narahari@iisc.ac.in",
+    "First Name" : "Y",
+    "Middle Name" : "",
+    "Last Name" : "Narahari",
+    "Member Type" : "external",
+    "webpage" : "",
+    "linktype" : ""
+  },
+  {
+    "Email" : "19",
+    "First Name" : "Abhishek",
+    "Middle Name" : "",
+    "Last Name" : "Bhatnagar",
+    "Member Type" : "external",
+    "webpage" : "",
+    "linktype" : ""
+  },
+  {
+    "Email" : "ddas@iiitb.ac.in",
+    "First Name" : "Debabrata",
+    "Middle Name" : "",
+    "Last Name" : "Das",
+    "Member Type" : "externalfaculty",
+    "webpage" : "",
+    "linktype" : ""
+  },
+  {
+    "Email" : "",
+    "First Name" : "",
+    "Middle Name" : "",
+    "Last Name" : "",
+    "Member Type" : "",
+    "webpage" : "",
+    "linktype" : ""
+  },
+  {
+    "Email" : "20",
+    "First Name" : "Muralikrishna",
+    "Middle Name" : "",
+    "Last Name" : "Sampath",
+    "Member Type" : "external",
+    "webpage" : "",
+    "linktype" : ""
+  },
+  {
+    "Email" : "21",
+    "First Name" : "Sudeepa",
+    "Middle Name" : "",
+    "Last Name" : "Roy",
+    "Member Type" : "external",
+    "webpage" : "",
+    "linktype" : ""
+  },
+  {
+    "Email" : "22",
+    "First Name" : "Prashant",
+    "Middle Name" : "",
+    "Last Name" : "Kumar",
+    "Member Type" : "external",
+    "webpage" : "",
+    "linktype" : ""
+  },
+  {
+    "Email" : "23",
+    "First Name" : "Perumal",
+    "Middle Name" : "",
+    "Last Name" : "Kumar",
+    "Member Type" : "external",
+    "webpage" : "",
+    "linktype" : ""
+  },
+  {
+    "Email" : "24",
+    "First Name" : "Srihari",
+    "Middle Name" : "",
+    "Last Name" : "Sukumaran",
+    "Member Type" : "external",
+    "webpage" : "",
+    "linktype" : ""
+  },
+  {
+    "Email" : "25",
+    "First Name" : "Gary",
+    "Middle Name" : "",
+    "Last Name" : "Spence",
+    "Member Type" : "external",
+    "webpage" : "",
+    "linktype" : ""
+  },
+  {
+    "Email" : "26",
+    "First Name" : "Greg",
+    "Middle Name" : "",
+    "Last Name" : "Lacefield",
+    "Member Type" : "external",
+    "webpage" : "",
+    "linktype" : ""
+  },
+  {
+    "Email" : "27",
+    "First Name" : "Mohandas",
+    "Middle Name" : "",
+    "Last Name" : "Amarnathan",
+    "Member Type" : "external",
+    "webpage" : "",
+    "linktype" : ""
+  },
+  {
+    "Email" : "28",
+    "First Name" : "Koyalkar",
+    "Middle Name" : "Raman",
+    "Last Name" : "Kishore",
+    "Member Type" : "external",
+    "webpage" : "",
+    "linktype" : ""
+  },
+  {
+    "Email" : "29",
+    "First Name" : "S",
+    "Middle Name" : "Kumar",
+    "Last Name" : "Baghel",
+    "Member Type" : "external",
+    "webpage" : "",
+    "linktype" : ""
+  },
+  {
+    "Email" : "devina.mohan@in.abb.com",
+    "First Name" : "Devina",
+    "Middle Name" : "Mohan",
+    "Last Name" : "",
+    "Member Type" : "external",
+    "webpage" : "",
+    "linktype" : ""
+  },
+  {
+    "Email" : "30",
+    "First Name" : "Prabhu",
+    "Middle Name" : "Kota",
+    "Last Name" : "",
+    "Member Type" : "external",
+    "webpage" : "",
+    "linktype" : ""
+  },
+  {
+    "Email" : "shivamkumar.singh@iiitb.org",
+    "First Name" : "Shivam",
+    "Middle Name" : "Kumar",
+    "Last Name" : "Singh",
+    "Member Type" : "externalstudent",
+    "webpage" : "",
+    "linktype" : ""
+  },
+  {
+    "Email" : "rameshari1958@gmail.com",
+    "First Name" : "Ramesh",
+    "Middle Name" : "",
+    "Last Name" : "S.",
+    "Member Type" : "external",
+    "webpage" : "",
+    "linktype" : ""
+  },
+  {
+    "Email" : "31",
+    "First Name" : "Arul",
+    "Middle Name" : "",
+    "Last Name" : "Ganesh",
+    "Member Type" : "external",
+    "webpage" : "",
+    "linktype" : ""
+  },
+  {
+    "Email" : "32",
+    "First Name" : "Nainatara",
+    "Middle Name" : "",
+    "Last Name" : "Kumble",
+    "Member Type" : "external",
+    "webpage" : "",
+    "linktype" : ""
+  },
+  {
+    "Email" : "33",
+    "First Name" : "Srinivasa",
+    "Middle Name" : "Gopal",
+    "Last Name" : "",
+    "Member Type" : "external",
+    "webpage" : "",
+    "linktype" : ""
+  },
+  {
+    "Email" : "manoranjan@iitbbs.ac.in",
+    "First Name" : "Manoranjan",
+    "Middle Name" : "",
+    "Last Name" : "Satpathy",
+    "Member Type" : "external",
+    "webpage" : "",
+    "linktype" : ""
+  }
+];
+
+SupervisorDB = [
+  {
+    "ID" : "1",
+    "Student" : "karthika.venkatesan@iiitb.ac.in",
+    "Faculty" : "sujitkc@iiitb.ac.in",
+    "Role" : "Supervisor"
+  },
+  {
+    "ID" : "2",
+    "Student" : "varsha.suresh@iiitb.ac.in",
+    "Faculty" : "sujitkc@iiitb.ac.in",
+    "Role" : "Supervisor"
+  },
+  {
+    "ID" : "3",
+    "Student" : "nikhila.kn@iiitb.ac.in",
+    "Faculty" : "sujitkc@iiitb.ac.in",
+    "Role" : "Supervisor"
+  },
+  {
+    "ID" : "4",
+    "Student" : "ganesha@iiitb.ac.in",
+    "Faculty" : "sujitkc@iiitb.ac.in",
+    "Role" : "Supervisor"
+  },
+  {
+    "ID" : "5",
+    "Student" : "nitin.bhatia@iiitb.ac.in",
+    "Faculty" : "meenakshi@iiitb.ac.in",
+    "Role" : "Supervisor"
+  },
+  {
+    "ID" : "6",
+    "Student" : "nitin.bhatia@iiitb.ac.in",
+    "Faculty" : "sujitkc@iiitb.ac.in",
+    "Role" : "Co-supervisor"
+  },
+  {
+    "ID" : "7",
+    "Student" : "khusbu.bubna@iiitb.org",
+    "Faculty" : "sujitkc@iiitb.ac.in",
+    "Role" : "Supervisor"
+  },
+  {
+    "ID" : "8",
+    "Student" : "maithily.diwan@iiitb.org",
+    "Faculty" : "meenakshi@iiitb.ac.in",
+    "Role" : "Supervisor"
+  },
+  {
+    "ID" : "9",
+    "Student" : "ramakrishnan.raman@iiitb.org",
+    "Faculty" : "meenakshi@iiitb.ac.in",
+    "Role" : "Supervisor"
+  },
+  {
+    "ID" : "10",
+    "Student" : "rajanikanth.kashi@iiitb.org",
+    "Faculty" : "meenakshi@iiitb.ac.in",
+    "Role" : "Supervisor"
+  },
+  {
+    "ID" : "11",
+    "Student" : "gracy.joseph@iiitb.org",
+    "Faculty" : "meenakshi@iiitb.ac.in",
+    "Role" : "Supervisor"
+  },
+  {
+    "ID" : "12",
+    "Student" : "avijit.mandal@iiitb.org",
+    "Faculty" : "meenakshi@iiitb.ac.in",
+    "Role" : "Supervisor"
+  },
+  {
+    "ID" : "13",
+    "Student" : "abhi.singh.hal@gmail.com",
+    "Faculty" : "meenakshi@iiitb.ac.in",
+    "Role" : "Supervisor"
+  },
+  {
+    "ID" : "14",
+    "Student" : "sulochan.naik@iiitb.ac.in",
+    "Faculty" : "meenakshi@iiitb.ac.in",
+    "Role" : "Supervisor"
+  },
+  {
+    "ID" : "15",
+    "Student" : "ananta.kumar@iiitb.ac.in",
+    "Faculty" : "sujitkc@iiitb.ac.in",
+    "Role" : "Supervisor"
+  },
+  {
+    "ID" : "16",
+    "Student" : "aritra.bhowmick@iiitb.ac.in",
+    "Faculty" : "meenakshi@iiitb.ac.in",
+    "Role" : "Supervisor"
+  },
+  {
+    "ID" : "17",
+    "Student" : "nagalakshmi@iiitb.ac.in",
+    "Faculty" : "meenakshi@iiitb.ac.in",
+    "Role" : "Supervisor"
+  },
+  {
+    "ID" : "18",
+    "Student" : "surabhi.jha@iiitb.org",
+    "Faculty" : "meenakshi@iiitb.ac.in",
+    "Role" : "Supervisor"
+  }
+];
+
+ConferencePublicationsDB = [
+  {
+    "Publication Number" : "c1",
+    "Title" : "Towards Automatic Training Design",
+    "Platform" : "c1",
+    "Online" : ""
+  },
+  {
+    "Publication Number" : "c2",
+    "Title" : "SymTest : A Framework for Symbolic Testing of Embedded Software",
+    "Platform" : "c2",
+    "Online" : "http://dl.acm.org/citation.cfm?id=2856642"
+  }
+];
+
+FacultyDB = [
+  {
+    "Email" : "sujitkc@iiitb.ac.in",
+    "employeeID" : "1252"
+  },
+  {
+    "Email" : "meenakshi@iiitb.ac.in",
+    "employeeID" : "xxxx"
+  }
+];
+
+StudentsDB = [
+  {
+    "Email" : "karthika.venkatesan@iiitb.ac.in",
+    "Roll Number" : "",
+    "Joining Year" : "2014",
+    "Term" : "August",
+    "Graduating Year" : "",
+    "Programme" : "Ph.D.",
+    "Registration Type" : "Part time"
+  },
+  {
+    "Email" : "varsha.suresh@iiitb.ac.in",
+    "Roll Number" : "",
+    "Joining Year" : "2017",
+    "Term" : "January",
+    "Graduating Year" : "",
+    "Programme" : "Ph.D.",
+    "Registration Type" : "Full time"
+  },
+  {
+    "Email" : "nikhila.kn@iiitb.ac.in",
+    "Roll Number" : "",
+    "Joining Year" : "2017",
+    "Term" : "August",
+    "Graduating Year" : "",
+    "Programme" : "Ph.D.",
+    "Registration Type" : "Full time"
+  },
+  {
+    "Email" : "ganesha@iiitb.ac.in",
+    "Roll Number" : "",
+    "Joining Year" : "2019",
+    "Term" : "August",
+    "Graduating Year" : "",
+    "Programme" : "Ph.D.",
+    "Registration Type" : "Part time"
+  },
+  {
+    "Email" : "nitin.bhatia@iiitb.ac.in",
+    "Roll Number" : "",
+    "Joining Year" : "",
+    "Term" : "",
+    "Graduating Year" : "2019",
+    "Programme" : "MS",
+    "Registration Type" : "Part time"
+  },
+  {
+    "Email" : "khusbu.bubna@iiitb.org",
+    "Roll Number" : "",
+    "Joining Year" : "2014",
+    "Term" : "August",
+    "Graduating Year" : "",
+    "Programme" : "MS",
+    "Registration Type" : "Full time"
+  },
+  {
+    "Email" : "maithily.diwan@iiitb.org",
+    "Roll Number" : "",
+    "Joining Year" : "",
+    "Term" : "",
+    "Graduating Year" : "",
+    "Programme" : "MS",
+    "Registration Type" : "Full time"
+  },
+  {
+    "Email" : "ramakrishnan.raman@iiitb.org",
+    "Roll Number" : "",
+    "Joining Year" : "",
+    "Term" : "",
+    "Graduating Year" : "",
+    "Programme" : "Ph.D.",
+    "Registration Type" : "Part time"
+  },
+  {
+    "Email" : "rajanikanth.kashi@iiitb.org",
+    "Roll Number" : "",
+    "Joining Year" : "",
+    "Term" : "",
+    "Graduating Year" : "",
+    "Programme" : "Ph.D.",
+    "Registration Type" : "Part time"
+  },
+  {
+    "Email" : "gracy.joseph@iiitb.org",
+    "Roll Number" : "",
+    "Joining Year" : "2013",
+    "Term" : "",
+    "Graduating Year" : "",
+    "Programme" : "Ph.D.",
+    "Registration Type" : "Part time"
+  },
+  {
+    "Email" : "avijit.mandal@iiitb.org",
+    "Roll Number" : "",
+    "Joining Year" : "",
+    "Term" : "",
+    "Graduating Year" : "",
+    "Programme" : "Ph.D.",
+    "Registration Type" : "Part time"
+  },
+  {
+    "Email" : "abhi.singh.hal@gmail.com",
+    "Roll Number" : "",
+    "Joining Year" : "",
+    "Term" : "",
+    "Graduating Year" : "",
+    "Programme" : "Ph.D.",
+    "Registration Type" : "Part time"
+  },
+  {
+    "Email" : "sulochan.naik@iiitb.ac.in",
+    "Roll Number" : "",
+    "Joining Year" : "",
+    "Term" : "",
+    "Graduating Year" : "",
+    "Programme" : "Ph.D.",
+    "Registration Type" : "Part time"
+  },
+  {
+    "Email" : "ananta.kumar@iiitb.ac.in",
+    "Roll Number" : "",
+    "Joining Year" : "",
+    "Term" : "",
+    "Graduating Year" : "",
+    "Programme" : "MS",
+    "Registration Type" : "Part time"
+  },
+  {
+    "Email" : "aritra.bhowmick@iiitb.ac.in",
+    "Roll Number" : "",
+    "Joining Year" : "",
+    "Term" : "",
+    "Graduating Year" : "",
+    "Programme" : "MS",
+    "Registration Type" : "Full time"
+  },
+  {
+    "Email" : "nagalakshmi@iiitb.ac.in",
+    "Roll Number" : "",
+    "Joining Year" : "",
+    "Term" : "",
+    "Graduating Year" : "",
+    "Programme" : "Ph.D.",
+    "Registration Type" : "Full time"
+  },
+  {
+    "Email" : "surabhi.jha@iiitb.org",
+    "Roll Number" : "",
+    "Joining Year" : "",
+    "Term" : "",
+    "Graduating Year" : "",
+    "Programme" : "MS",
+    "Registration Type" : "Full time"
+  }
+];
+
+WorkshopPublicationsDB = [
+  {
+    "Publication Number" : "w1",
+    "Title" : "ACT (Abstract to Concrete Tests) - A tool for generating Concrete test cases from Formal Specification of Web Applications",
+    "Forum" : "MODSYM 2016",
+    "Venue" : "Goa",
+    "Day" : " INDIA",
+    "Month" : "February",
+    "Year" : "2016",
+    "Online" : "http://ceur-ws.org/Vol-1561/paper3.pdf"
+  },
+  {
+    "Publication Number" : "w2",
+    "Title" : "Graduate Course in Software Testing",
+    "Forum" : "SEED 2015",
+    "Venue" : "Bangalore",
+    "Day" : " INDIA",
+    "Month" : "February",
+    "Year" : "2015",
+    "Online" : ""
+  }
+];
+

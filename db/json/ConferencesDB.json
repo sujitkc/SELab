@@ -1,4 +1,4 @@
-conferences = [
+ConferencesDB = [
   {
     "ID" : "c1",
     "Name" : "MITE 2016",
@@ -649,4 +649,5 @@ conferences = [
     "" : "",
     "" : ""
   }
-]
+];
+

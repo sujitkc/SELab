@@ -1,4 +1,4 @@
-authors = [
+AuthorsDB = [
   {
     "ID" : "c1",
     "Author" : "sujitkc@iiitb.ac.in"
@@ -27,4 +27,5 @@ authors = [
     "ID" : "w2",
     "Author" : "meenakshi@iiitb.ac.in"
   }
-]
+];
+

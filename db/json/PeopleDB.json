@@ -1,4 +1,4 @@
-people = [
+PeopleDB = [
   {
     "Email" : "sujitkc@iiitb.ac.in",
     "First Name" : "Sujit Kumar",
@@ -629,4 +629,5 @@ people = [
     "webpage" : "",
     "linktype" : ""
   }
-]
+];
+

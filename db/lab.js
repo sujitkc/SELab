@@ -154,9 +154,9 @@ class Lab {
   }
 
   addFacultyMembers() {
-    for(let fac of faculty) {
+    for(let fac of FacultyDB) {
       var person = null;
-      for(let p of people) {
+      for(let p of PeopleDB) {
         if(p.Email == fac.Email) {
           person = this.extractPersonDetails(p);
           break;
@@ -170,9 +170,9 @@ class Lab {
   addStudents() {
     let faculty = this.getMemberFaculty();
     var person = null; 
-    for(let st of students) {
+    for(let st of StudentsDB) {
       var name = null;
-      for(let p of people) {
+      for(let p of PeopleDB) {
         if(p.Email == st.Email) {
           person = this.extractPersonDetails(p);
         }
@@ -225,14 +225,14 @@ class Lab {
                       prog,
                       registrationType,
                       person.webpage);
-      let sups = supervisor.filter(
+      let sups = SupervisorDB.filter(
         function(x) { 
           return x["Student"] == student.id && x["Role"] == "Supervisor";
         }
       );
       let sup = sups[0]; // sup expected to have one and only one element.
       student.supervisor = this.getPersonByEmailID(sup["Faculty"]);
-      let cosups = supervisor.filter(
+      let cosups = SupervisorDB.filter(
         function(x) {
           return x["Student"] == student.id && x["Role"] == "Co-supervisor";
         }
@@ -246,7 +246,7 @@ class Lab {
   }
 
   addConferences() {
-    for(let conf of conferences) {
+    for(let conf of ConferencesDB) {
       let c = new Conference(
         conf["Name"],
         conf["Month"],

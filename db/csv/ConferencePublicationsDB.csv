@@ -1,3 +1,65 @@
 Publication Number,Title,Platform,Online
-c1,Towards Automatic Training Design,c1,
-c2,SymTest : A Framework for Symbolic Testing of Embedded Software,c2,http://dl.acm.org/citation.cfm?id=2856642
+c1,Towards Automatic Training Design,c1,https://ieeexplore.ieee.org/document/8049080
+c2,SymTest : A Framework for Symbolic Testing of Embedded Software,c2,https://dl.acm.org/doi/10.1145/2856636.2856642
+c3,Test-the-REST: An Approach to Testing RESTful Web-services,c3,https://ieeexplore.ieee.org/document/5359602/
+c4,Using Spreadsheets for Finite State Modelling,c4,https://dl.acm.org/doi/10.1145/1506216.1506223
+c5,"Web Services Testing: New Challenges, New Approaches",c5,
+c6,Software Reliability Prediction in Philips Healthcare -- An Experience Report,c6,
+c7,Test Sequence Computation for Regression Testing of Reactive Systems,c7,https://dl.acm.org/doi/10.1145/1342211.1342238
+c8,Specification Based Regression Testing using Explicit State Space Enumeration,c8,https://ieeexplore.ieee.org/document/4031805
+c9,Connectedness Testing of RESTful Web-Services,c9,https://dl.acm.org/doi/10.1145/1730874.1730902
+c10,Formal verification of avionics self-adaptive software,c10,https://dl.acm.org/doi/10.1145/2856636.2856658
+c11,A Robust and Scalable Architecture for Airborne Radar Simulation,c11,https://ieeexplore.ieee.org/document/1273308
+c12,A Robust Design of Airborne Radar Simulation Software using design patterns,c12,
+c13,Airborne Radar Data Processor Simulation Using Software In The-Loop Model,c13,
+c14,Specifying and Constructing Safety-Critical Real-time Systems using TAU,c14,
+c15,Perspectives on the use of Model Based Development Approach For Safety Critical Avionics Software Development,c15,
+c16,Architectural Semantics of AADL using Event-B,c16,https://ieeexplore.ieee.org/abstract/document/7019780
+c17,Verification of Message Sequence Structures,c17,
+c18,Improving estimation accuracy by using Case Based Reasoning and a combined estimation approach,c18,https://dl.acm.org/doi/10.1145/2134254.2134267
+c19,A framework for decentralized access control,c19,https://dl.acm.org/doi/10.1145/1229285.1229302
+c20,Formal safety analysis of mode transitions in aircraft flight control system,c20,https://ieeexplore.ieee.org/document/4391854
+c21,Tool for Translating Simulink Models into Input Language of a Model Checker,c21,https://link.springer.com/chapter/10.1007/11901433_33
+c22,A framework for rapid-prototyping of context based ubiquitous computing applications,c22,https://ieeexplore.ieee.org/document/1636192
+c23,Reasoning about Layered Message Passing Systems,c23,https://dl.acm.org/doi/abs/10.1016/j.cl.2004.02.003
+c24,Beyond Message Sequence Graphs,c24,https://link.springer.com/chapter/10.1007/3-540-45294-X_22
+c25,Reasoning about Message Passing in Finite State Environments,c25,https://dl.acm.org/doi/10.5555/646253.683928
+c26,Safety Validation of an Embedded Real-time System at Hardware-Software Integration Test Environment,c26,https://link.springer.com/chapter/10.1007/978-981-10-1023-1_5
+c27,Incorporating Adaptivity using Learning in Avionics Self Adaptive Software: A Case Study,c27,https://ieeexplore.ieee.org/document/7732051
+c28,A systematic and effective method of mechanizing Allocation in system modeling of Aircraft Navigation Products using SysML,c28,
+c29,"Improving the Kinetics and Effectiveness of Systems Engineering - Perspectives on Integrated use of SysML, AADL, and UML for Aircraft Navigation Product Lines",c29,
+c30,The Modeling and Analysis of Aircraft In-Trail Procedures Using SysML,c30,
+c31,Perspectives on Lean Systems Engineering in Avionics Product Development,c31,
+c32,Design of a Power Aware Methodology in IoT based on Hidden Markov Model,c32,https://ieeexplore.ieee.org/document/7945458
+c33,Static Vulnerability Analysis for Secure Mobile Platforms,c33,https://dl.acm.org/doi/10.1145/3021460.3021484
+c34,Knowledge Based Decision Framework For Architecting Complex Systems,c34,https://dl.acm.org/doi/10.1145/3019612.3019766
+c35,Automatic Generation of Safety Validation Test cases from System Architecture Fault Trees,c35,https://ieeexplore.ieee.org/document/8102108
+c36,Efficient Anomaly Detection Method for Power Saving in massive IoT architectures,c36,https://link.springer.com/chapter/10.1007/978-3-319-72344-0_21
+c37,A static analyzer for industrial robotic applications,c37,https://ieeexplore.ieee.org/document/8109242
+c38,A framework for modelling and verifying IoT communication protocols,c38,https://link.springer.com/chapter/10.1007/978-3-319-69483-2_16
+c39,Method level power estimation and optimization in next generation smart phones,c39,https://ieeexplore.ieee.org/document/8125974
+c40,Model-based safety analysis: Automatic generation of safety validation test cases,c40,
+c41,Knowledge based decision model for architecting and evolving complex system-of-systems,c41,
+c42,Knowledge value stream framework for architecting complex products,c42,https://ieeexplore.ieee.org/abstract/document/7998412
+c43,"Incorporating Formal Methods and Measures Obtained through Analysis, Simulation Testing for Dependable Self-Adaptive Software in Avionics Systems",c43,https://dl.acm.org/doi/10.1145/3140107.3140128
+c44,Model-based Safety Validation for Embedded Real-time Systems,c44,https://link.springer.com/chapter/10.1007/978-981-10-4121-1_6
+c45,Learning framework for maturing architecture design decisions for evolving complex SoS,c45,https://ieeexplore.ieee.org/document/8428733
+c46,Worst case execution time estimation for control code of automation systems,c46,https://ieeexplore.ieee.org/document/8441723
+c47,A generic static analysis framework for domain specific languages,c47,https://ieeexplore.ieee.org/document/8502576
+c48,Formal Verification of Datarace in Safety Critical ARINC653 compliant RTOS,c48,https://ieeexplore.ieee.org/document/8554955
+c49,Avionics Self-adaptive Software: Towards Formal Verification and Validation,c49,https://link.springer.com/chapter/10.1007/978-3-030-05366-6_1
+c50,FrAppLe: A Framework for Apprenticeship Learning,c50,https://dl.acm.org/doi/10.1145/3299771.3299796
+c51,Efficient Power Saving Method for WiFi Direct Devices in IoT based on Hidden Markov Model,c51,https://ieeexplore.ieee.org/document/8711299
+c52,Formalizing GPU Instruction Set Architecture in Coq,c52,https://dl.acm.org/doi/abs/10.1145/3299771.3299798
+c53,Automated Test Case Generation for Programmable Logic Controller Code,c53,https://dl.acm.org/doi/10.1145/3299771.3299799
+c54,Static analysis for detecting high-level races in RTOS kernels,c54,https://www.springerprofessional.de/en/static-analysis-for-detecting-high-level-races-in-rtos-kernels/17196666
+c55,Image processing application development on software configurable processor Array,c55,
+c56,"Implementation of compute intensive algorithms on software configurable processor, International Conference on Computer Architecture",c56,
+c57,Intuitive content rendering by intelligently organizing browser tabs for enhanced user experience and better screen space utilization. Smart Tabs - A new invention for intelligently organizing the browser tabs IEEE,c57,https://ieeexplore.ieee.org/document/7154861
+c58,StaBL: Statecharts with Local Variables,c58,https://dl.acm.org/doi/10.1145/3385032.3385040
+c59,Automated Testing of Refreshable Braille Display,c59,https://link.springer.com/chapter/10.1007/978-3-030-62803-1_15
+c60,Discovering Multiple Design Approaches in Programming Assignment Submissions,c60,https://dl.acm.org/doi/10.1145/3412841.3442140
+c61,Physics Simulation based Approach to Node Clustering,c61,
+c62,Automated Evaluation of Programming Assignment --An Experience Report,c62,
+c63,Detecting Heartbeat Architectural Tactic in Source Code Using Program Analysis,c63,
+c64,Detecting Code Smells using Deep Learning,c64,https://ieeexplore.ieee.org/document/8929628

@@ -38,8 +38,8 @@ PeopleDB = [
   {
     "Email" : "nikhila.kn@iiitb.ac.in",
     "First Name" : "Nikhila",
-    "Middle Name" : "K.",
-    "Last Name" : "Narayan",
+    "Middle Name" : "",
+    "Last Name" : "KN",
     "Member Type" : "memberstudent",
     "webpage" : "people/nikhila.html",
     "linktype" : "relative"

@@ -1,31 +1,399 @@
 AuthorsDB = [
   {
     "ID" : "c1",
-    "Author" : "sujitkc@iiitb.ac.in"
+    "author" : "sujitkc@iiitb.ac.in"
   },
   {
     "ID" : "c2",
-    "Author" : "sujitkc@iiitb.ac.in"
+    "author" : "sujitkc@iiitb.ac.in"
   },
   {
     "ID" : "c2",
-    "Author" : "rameshari1958@gmail.com"
+    "author" : "rameshari1958@gmail.com"
+  },
+  {
+    "ID" : "c3",
+    "author" : "sujitkc@iiitb.ac.in"
+  },
+  {
+    "ID" : "c4",
+    "author" : "sujitkc@iiitb.ac.in"
+  },
+  {
+    "ID" : "c5",
+    "author" : "sukanta.bhatt@philips.com"
+  },
+  {
+    "ID" : "c5",
+    "author" : "sujitkc@iiitb.ac.in"
+  },
+  {
+    "ID" : "c6",
+    "author" : "sujitkc@iiitb.ac.in"
+  },
+  {
+    "ID" : "c7",
+    "author" : "sujitkc@iiitb.ac.in"
+  },
+  {
+    "ID" : "c8",
+    "author" : "sujitkc@iiitb.ac.in"
+  },
+  {
+    "ID" : "c9",
+    "author" : "sujitkc@iiitb.ac.in"
+  },
+  {
+    "ID" : "c10",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c11",
+    "author" : "narahari@iisc.ac.in"
+  },
+  {
+    "ID" : "c12",
+    "author" : "narahari@iisc.ac.in"
+  },
+  {
+    "ID" : "c13",
+    "author" : "narahari@iisc.ac.in"
+  },
+  {
+    "ID" : "c16",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c16",
+    "author" : "manoranjan@iitbbs.ac.in"
+  },
+  {
+    "ID" : "c16",
+    "author" : "rameshari1958@gmail.com"
+  },
+  {
+    "ID" : "c17",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c18",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c19",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c20",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c21",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c22",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c23",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c24",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c25",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c26",
+    "author" : "gracy.joseph@iiitb.org"
+  },
+  {
+    "ID" : "c26",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c27",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c32",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c33",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c34",
+    "author" : "ramakrishnan.raman@iiitb.org"
+  },
+  {
+    "ID" : "c34",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c35",
+    "author" : "gracy.joseph@iiitb.org"
+  },
+  {
+    "ID" : "c35",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c35",
+    "author" : "varsha.suresh@iiitb.ac.in"
+  },
+  {
+    "ID" : "c36",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c36",
+    "author" : "ddas@iiitb.ac.in"
+  },
+  {
+    "ID" : "c37",
+    "author" : "avijit.mandal@iiitb.org"
+  },
+  {
+    "ID" : "c37",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c37",
+    "author" : "sreeja.nair@in.abb.com"
+  },
+  {
+    "ID" : "c38",
+    "author" : "maithily.diwan@iiitb.org"
+  },
+  {
+    "ID" : "c38",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c39",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c40",
+    "author" : "gracy.joseph@iiitb.org"
+  },
+  {
+    "ID" : "c40",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c40",
+    "author" : "abidha.vp@iiitb.ac.in"
+  },
+  {
+    "ID" : "c41",
+    "author" : "ramakrishnan.raman@iiitb.org"
+  },
+  {
+    "ID" : "c41",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c42",
+    "author" : "ramakrishnan.raman@iiitb.org"
+  },
+  {
+    "ID" : "c42",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c43",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c44",
+    "author" : "gracy.joseph@iiitb.org"
+  },
+  {
+    "ID" : "c44",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c45",
+    "author" : "ramakrishnan.raman@iiitb.org"
+  },
+  {
+    "ID" : "c45",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c46",
+    "author" : "surabhi.jha@iiitb.org"
+  },
+  {
+    "ID" : "c46",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c47",
+    "author" : "avijit.mandal@iiitb.org"
+  },
+  {
+    "ID" : "c47",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c47",
+    "author" : "devina.mohan@in.abb.com"
+  },
+  {
+    "ID" : "c48",
+    "author" : "abhi.singh.hal@gmail.com"
+  },
+  {
+    "ID" : "c48",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c49",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c50",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c51",
+    "author" : "sulochan.naik@iiitb.ac.in"
+  },
+  {
+    "ID" : "c51",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c52",
+    "author" : "nitin.bhatia@iiitb.ac.in"
+  },
+  {
+    "ID" : "c52",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c52",
+    "author" : "sujitkc@iiitb.ac.in"
+  },
+  {
+    "ID" : "c53",
+    "author" : "varsha.suresh@iiitb.ac.in"
+  },
+  {
+    "ID" : "c53",
+    "author" : "sujitkc@iiitb.ac.in"
+  },
+  {
+    "ID" : "c54",
+    "author" : "abhi.singh.hal@gmail.com"
+  },
+  {
+    "ID" : "c54",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c55",
+    "author" : "ganesha@iiitb.ac.in"
+  },
+  {
+    "ID" : "c56",
+    "author" : "ganesha@iiitb.ac.in"
+  },
+  {
+    "ID" : "c57",
+    "author" : "ganesha@iiitb.ac.in"
+  },
+  {
+    "ID" : "c58",
+    "author" : "sujitkc@iiitb.ac.in"
+  },
+  {
+    "ID" : "c58",
+    "author" : "karthika.venkatesan@iiitb.ac.in"
+  },
+  {
+    "ID" : "c59",
+    "author" : "shivamkumar.singh@iiitb.org"
+  },
+  {
+    "ID" : "c59",
+    "author" : "sujitkc@iiitb.ac.in"
+  },
+  {
+    "ID" : "c59",
+    "author" : "jdinesh@iiitb.ac.i"
+  },
+  {
+    "ID" : "c60",
+    "author" : "nikhila.kn@iiitb.ac.in"
+  },
+  {
+    "ID" : "c60",
+    "author" : "sujitkc@iiitb.ac.in"
+  },
+  {
+    "ID" : "c60",
+    "author" : "manish.gupta@iiitb.ac.in"
+  },
+  {
+    "ID" : "c61",
+    "author" : "nikhila.kn@iiitb.ac.in"
+  },
+  {
+    "ID" : "c61",
+    "author" : "sujitkc@iiitb.ac.in"
+  },
+  {
+    "ID" : "c62",
+    "author" : "sujitkc@iiitb.ac.in"
+  },
+  {
+    "ID" : "c63",
+    "author" : "ananta.kumar@iiitb.ac.in"
+  },
+  {
+    "ID" : "c63",
+    "author" : "sujitkc@iiitb.ac.in"
+  },
+  {
+    "ID" : "c64",
+    "author" : "ananta.kumar@iiitb.ac.in"
   },
   {
     "ID" : "w1",
-    "Author" : "sujitkc@iiitb.ac.in"
-  },
-  {
-    "ID" : "w2",
-    "Author" : "sujitkc@iiitb.ac.in"
+    "author" : "sujitkc@iiitb.ac.in"
   },
   {
     "ID" : "w1",
-    "Author" : "khusbu.bubna@iiitb.org"
+    "author" : "khusbu.bubna@iiitb.org"
   },
   {
     "ID" : "w2",
-    "Author" : "meenakshi@iiitb.ac.in"
+    "author" : "sujitkc@iiitb.ac.in"
+  },
+  {
+    "ID" : "w2",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "w3",
+    "author" : "nitin.bhatia@iiitb.ac.in"
+  },
+  {
+    "ID" : "w3",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "w3",
+    "author" : "sujitkc@iiitb.ac.in"
   }
 ];
 

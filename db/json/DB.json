@@ -1,687 +1,3 @@
-AuthorsDB = [
-  {
-    "ID" : "c1",
-    "Author" : "sujitkc@iiitb.ac.in"
-  },
-  {
-    "ID" : "c2",
-    "Author" : "sujitkc@iiitb.ac.in"
-  },
-  {
-    "ID" : "c2",
-    "Author" : "rameshari1958@gmail.com"
-  },
-  {
-    "ID" : "w1",
-    "Author" : "sujitkc@iiitb.ac.in"
-  },
-  {
-    "ID" : "w2",
-    "Author" : "sujitkc@iiitb.ac.in"
-  },
-  {
-    "ID" : "w1",
-    "Author" : "khusbu.bubna@iiitb.org"
-  },
-  {
-    "ID" : "w2",
-    "Author" : "meenakshi@iiitb.ac.in"
-  }
-];
-
-ConferencesDB = [
-  {
-    "ID" : "c1",
-    "Name" : "MITE 2016",
-    "Venue" : "Madurai",
-    "Country" : "India",
-    "Month" : "December",
-    "Year" : "2016",
-    "Online" : "",
-    "" : "",
-    "" : "",
-    "" : "",
-    "" : ""
-  },
-  {
-    "ID" : "c2",
-    "Name" : "ISEC 2016",
-    "Venue" : "Goa",
-    "Country" : "India",
-    "Month" : "February",
-    "Year" : "2016",
-    "Online" : "",
-    "" : "",
-    "" : "",
-    "" : "",
-    "" : ""
-  },
-  {
-    "ID" : "c3",
-    "Name" : "ISEC 2010",
-    "Venue" : "Mysore",
-    "Country" : "India",
-    "Month" : "February",
-    "Year" : "2016",
-    "Online" : "",
-    "" : "",
-    "" : "",
-    "" : "",
-    "" : ""
-  },
-  {
-    "ID" : "c4",
-    "Name" : "ISEC 2009",
-    "Venue" : "Pune",
-    "Country" : "India",
-    "Month" : "February",
-    "Year" : "2016",
-    "Online" : "",
-    "" : "",
-    "" : "",
-    "" : "",
-    "" : ""
-  },
-  {
-    "ID" : "c5",
-    "Name" : "ISSRE",
-    "Venue" : "Mysore",
-    "Country" : "India",
-    "Month" : "",
-    "Year" : "2009",
-    "Online" : "",
-    "" : "",
-    "" : "",
-    "" : "",
-    "" : ""
-  },
-  {
-    "ID" : "c6",
-    "Name" : "ISEC 2008",
-    "Venue" : "Hyderabad",
-    "Country" : "India",
-    "Month" : "February",
-    "Year" : "2008",
-    "Online" : "",
-    "" : "",
-    "" : "",
-    "" : "",
-    "" : ""
-  },
-  {
-    "ID" : "c7",
-    "Name" : "ICSEA 2006",
-    "Venue" : "Tahiti",
-    "Country" : " French Polynesia",
-    "Month" : "",
-    "Year" : "2006",
-    "Online" : "",
-    "" : "",
-    "" : "",
-    "" : "",
-    "" : ""
-  },
-  {
-    "ID" : "c8",
-    "Name" : "ISEC 2010",
-    "Venue" : "Mysore",
-    "Country" : "India",
-    "Month" : "February",
-    "Year" : "2010",
-    "Online" : "",
-    "" : "",
-    "" : "",
-    "" : "",
-    "" : ""
-  },
-  {
-    "ID" : "c9",
-    "Name" : "ISEC 2016",
-    "Venue" : "Goa",
-    "Country" : "India",
-    "Month" : "February",
-    "Year" : "2016",
-    "Online" : "",
-    "" : "",
-    "" : "",
-    "" : "",
-    "" : ""
-  },
-  {
-    "ID" : "c10",
-    "Name" : "IEEE Region 10 Technical Conference on Convergent Technologies For The Asia-Pacific",
-    "Venue" : "Bangalore",
-    "Country" : " India",
-    "Month" : "October",
-    "Year" : "2003",
-    "Online" : "",
-    "" : "",
-    "" : "",
-    "" : "",
-    "" : ""
-  },
-  {
-    "ID" : "c11",
-    "Name" : "National Conference on Object Oriented Technology 2003 (NCOOT 2003)",
-    "Venue" : "Lonere",
-    "Country" : " India",
-    "Month" : "August",
-    "Year" : "2003",
-    "Online" : "",
-    "" : "",
-    "" : "",
-    "" : "",
-    "" : ""
-  },
-  {
-    "ID" : "c12",
-    "Name" : "International Radar Symposium India",
-    "Venue" : "Bangalore",
-    "Country" : " India",
-    "Month" : "December",
-    "Year" : "2003",
-    "Online" : "",
-    "" : "",
-    "" : "",
-    "" : "",
-    "" : ""
-  },
-  {
-    "ID" : "c13",
-    "Name" : "Telelogic User Group Conference",
-    "Venue" : "Miami",
-    "Country" : " USA",
-    "Month" : "October",
-    "Year" : "2004",
-    "Online" : "",
-    "" : "",
-    "" : "",
-    "" : "",
-    "" : ""
-  },
-  {
-    "ID" : "c14",
-    "Name" : "International Conference on Aerospace Science and Technology (INCAST) 2008",
-    "Venue" : "",
-    "Country" : " India",
-    "Month" : "",
-    "Year" : "2008",
-    "Online" : "",
-    "" : "",
-    "" : "",
-    "" : "",
-    "" : ""
-  },
-  {
-    "ID" : "c15",
-    "Name" : "IEEE International Conference on Computing Communication and Information Technology (IC3I)",
-    "Venue" : "",
-    "Country" : "",
-    "Month" : "",
-    "Year" : "2014",
-    "Online" : "",
-    "" : "",
-    "" : "",
-    "" : "",
-    "" : ""
-  },
-  {
-    "ID" : "c16",
-    "Name" : "International Conference on Distributed Computing and Internet Technology (ICDCIT)",
-    "Venue" : "",
-    "Country" : "",
-    "Month" : "",
-    "Year" : "2013",
-    "Online" : "",
-    "" : "",
-    "" : "",
-    "" : "",
-    "" : ""
-  },
-  {
-    "ID" : "c17",
-    "Name" : " India Software Engineering Conference (ISEC)",
-    "Venue" : "",
-    "Country" : " India",
-    "Month" : "",
-    "Year" : "2012",
-    "Online" : "",
-    "" : "",
-    "" : "",
-    "" : "",
-    "" : ""
-  },
-  {
-    "ID" : "c18",
-    "Name" : "ACM Conference on Computer and Communications Security (ASIACCS)",
-    "Venue" : "",
-    "Country" : "",
-    "Month" : "",
-    "Year" : "2007",
-    "Online" : "",
-    "" : "",
-    "" : "",
-    "" : "",
-    "" : ""
-  },
-  {
-    "ID" : "c19",
-    "Name" : "26th IEEE Digital Avionics Systems Conference (DASC)",
-    "Venue" : "",
-    "Country" : "",
-    "Month" : "",
-    "Year" : "2007",
-    "Online" : "",
-    "" : "",
-    "" : "",
-    "" : "",
-    "" : ""
-  },
-  {
-    "ID" : "c20",
-    "Name" : "8th International Conference on Formal Engineering Methods (ICFEM)",
-    "Venue" : "LNCS",
-    "Country" : "",
-    "Month" : "",
-    "Year" : "2006",
-    "Online" : "",
-    "" : "",
-    "" : "",
-    "" : "",
-    "" : ""
-  },
-  {
-    "ID" : "c21",
-    "Name" : "IEEE International Conference on Sensor networks",
-    "Venue" : " Ubiquitous and Trustworthy Computing (SUTC)",
-    "Country" : "306-311",
-    "Month" : "",
-    "Year" : "2006",
-    "Online" : "",
-    "" : "",
-    "" : "",
-    "" : "",
-    "" : ""
-  },
-  {
-    "ID" : "c22",
-    "Name" : "4th International Conference on Verification",
-    "Venue" : " Model Checking and Abstract Interpretation (VMCAI)",
-    "Country" : "",
-    "Month" : "",
-    "Year" : "2003",
-    "Online" : "",
-    "" : "",
-    "" : "",
-    "" : "",
-    "" : ""
-  },
-  {
-    "ID" : "c23",
-    "Name" : "21st Foundations of Software Technology and Theoretical Computer Science (FSTTCS) Conference",
-    "Venue" : "LNCS",
-    "Country" : "",
-    "Month" : "",
-    "Year" : "2001",
-    "Online" : "",
-    "" : "",
-    "" : "",
-    "" : "",
-    "" : ""
-  },
-  {
-    "ID" : "c24",
-    "Name" : "27th International Colloquium on Automata",
-    "Venue" : " Lauguages and Programming (ICALP)",
-    "Country" : "",
-    "Month" : "",
-    "Year" : "2000",
-    "Online" : "",
-    "" : "",
-    "" : "",
-    "" : "",
-    "" : ""
-  },
-  {
-    "ID" : "c25",
-    "Name" : "9th Intl. Conf. on Advanced Computing and Communication Technologies",
-    "Venue" : "Springer Advances in Intelligent System and Computing Series",
-    "Country" : "",
-    "Month" : "",
-    "Year" : "2015",
-    "Online" : "",
-    "" : "",
-    "" : "",
-    "" : "",
-    "" : ""
-  },
-  {
-    "ID" : "c26",
-    "Name" : "5th International Conference on Computing Communications and Informatics (ICACCI 2016)",
-    "Venue" : "Jaipur",
-    "Country" : "India",
-    "Month" : "",
-    "Year" : "2016",
-    "Online" : "",
-    "" : "",
-    "" : "",
-    "" : "",
-    "" : ""
-  },
-  {
-    "ID" : "c27",
-    "Name" : "National Conference on Emerging Technologies in Computer Science 2010 (NCETCS-2010)",
-    "Venue" : "Bangalore",
-    "Country" : " INDIA",
-    "Month" : "",
-    "Year" : "2010",
-    "Online" : "",
-    "" : "",
-    "" : "",
-    "" : "",
-    "" : ""
-  },
-  {
-    "ID" : "c28",
-    "Name" : "4th Asia-Pacific Conference on Systems Engineering (APCOSE 2010)",
-    "Venue" : "National Taiwan Ocean University",
-    "Country" : "Taiwan",
-    "Month" : "",
-    "Year" : "2010",
-    "Online" : "",
-    "" : "",
-    "" : "",
-    "" : "",
-    "" : ""
-  },
-  {
-    "ID" : "c29",
-    "Name" : "5th Asia-Pacific Conference on Systems Engineering (APCOSE 2011)",
-    "Venue" : "",
-    "Country" : "South Korea",
-    "Month" : "October",
-    "Year" : "2011",
-    "Online" : "",
-    "" : "",
-    "" : "",
-    "" : "",
-    "" : ""
-  },
-  {
-    "ID" : "c30",
-    "Name" : "5th Asia-Pacific Conference on Systems Engineering (APCOSE 2011)",
-    "Venue" : "",
-    "Country" : "South Korea",
-    "Month" : "October",
-    "Year" : "2011",
-    "Online" : "",
-    "" : "",
-    "" : "",
-    "" : "",
-    "" : ""
-  },
-  {
-    "ID" : "c31",
-    "Name" : "COMSNETS-17",
-    "Venue" : "INDIA",
-    "Country" : "",
-    "Month" : "",
-    "Year" : "2017",
-    "Online" : "",
-    "" : "",
-    "" : "",
-    "" : "",
-    "" : ""
-  },
-  {
-    "ID" : "c32",
-    "Name" : "Innovations in Software Engineering Conference (ISEC) 2017",
-    "Venue" : "Jaipur",
-    "Country" : "India",
-    "Month" : "",
-    "Year" : "2017",
-    "Online" : "",
-    "" : "",
-    "" : "",
-    "" : "",
-    "" : ""
-  },
-  {
-    "ID" : "c33",
-    "Name" : "32nd ACM Symposium on Applied Computing – ACM SAC 2017",
-    "Venue" : "Marrakech",
-    "Country" : " Morocco",
-    "Month" : "April",
-    "Year" : "2017",
-    "Online" : "",
-    "" : "",
-    "" : "",
-    "" : "",
-    "" : ""
-  },
-  {
-    "ID" : "c34",
-    "Name" : "India Software Engineering Conference (ISEC)",
-    "Venue" : "Hyderabad",
-    "Country" : " India",
-    "Month" : "February",
-    "Year" : "",
-    "Online" : "",
-    "" : "2018",
-    "" : "",
-    "" : "",
-    "" : ""
-  },
-  {
-    "ID" : "c35",
-    "Name" : "ICDCIT",
-    "Venue" : " LNCS 10772",
-    "Country" : " Springer",
-    "Month" : "",
-    "Year" : "",
-    "Online" : "",
-    "" : "2018",
-    "" : "",
-    "" : "",
-    "" : ""
-  },
-  {
-    "ID" : "c36",
-    "Name" : "28th IEEE ISSRE",
-    "Venue" : "Toulouse",
-    "Country" : " France",
-    "Month" : "",
-    "Year" : "2017",
-    "Online" : "",
-    "" : "",
-    "" : "",
-    "" : "",
-    "" : ""
-  },
-  {
-    "ID" : "c37",
-    "Name" : "SETTA 2017",
-    "Venue" : "",
-    "Country" : "China",
-    "Month" : "",
-    "Year" : "",
-    "Online" : "",
-    "" : "2017",
-    "" : "",
-    "" : "",
-    "" : ""
-  },
-  {
-    "ID" : "c38",
-    "Name" : "IEEE ICACCI 2017",
-    "Venue" : "",
-    "Country" : "",
-    "Month" : "",
-    "Year" : "2017",
-    "Online" : "",
-    "" : "",
-    "" : "",
-    "" : "",
-    "" : ""
-  },
-  {
-    "ID" : "c39",
-    "Name" : "in 36th IEEE/AIAA Digital Avionics Systems Conference (DASC)",
-    "Venue" : "Florida",
-    "Country" : "",
-    "Month" : "September",
-    "Year" : "2017",
-    "Online" : "",
-    "" : "",
-    "" : "",
-    "" : "",
-    "" : ""
-  },
-  {
-    "ID" : "c40",
-    "Name" : "INCOSE International Symposium",
-    "Venue" : "",
-    "Country" : "",
-    "Month" : "July",
-    "Year" : "2017",
-    "Online" : "",
-    "" : "",
-    "" : "",
-    "" : "",
-    "" : ""
-  },
-  {
-    "ID" : "c41",
-    "Name" : "IEEE Technology and Engineering Management Conference (TEMSCON)",
-    "Venue" : "",
-    "Country" : "",
-    "Month" : "",
-    "Year" : "2017",
-    "Online" : "",
-    "" : "",
-    "" : "",
-    "" : "",
-    "" : ""
-  },
-  {
-    "ID" : "c42",
-    "Name" : "Formal Methods for Safety and Security Case Studies for Aerospace Applications",
-    "Venue" : " Nanda",
-    "Country" : "",
-    "Month" : " Jeppu",
-    "Year" : "",
-    "Online" : "",
-    "" : "",
-    "" : "",
-    "" : "May",
-    "" : "2017"
-  },
-  {
-    "ID" : "c43",
-    "Name" : " Simulation Testing for Dependable Self-Adaptive Software in Avionics Systems",
-    "Venue" : "10th Annual ACM India Compute Conference",
-    "Country" : "",
-    "Month" : "",
-    "Year" : "2017",
-    "Online" : "",
-    "" : "",
-    "" : "",
-    "" : "",
-    "" : ""
-  },
-  {
-    "ID" : "c44",
-    "Name" : "in Proc. IEEE 13th System of Systems Engineering Conference",
-    "Venue" : "Paris",
-    "Country" : " France",
-    "Month" : "June",
-    "Year" : "2018",
-    "Online" : "",
-    "" : "",
-    "" : "",
-    "" : "",
-    "" : ""
-  },
-  {
-    "ID" : "c45",
-    "Name" : "in Proc. IEEE 4th International Conference on Advances in Computing and Communication Engineering",
-    "Venue" : "Paris",
-    "Country" : " France",
-    "Month" : "June",
-    "Year" : "2018",
-    "Online" : "",
-    "" : "",
-    "" : "",
-    "" : "",
-    "" : ""
-  },
-  {
-    "ID" : "c46",
-    "Name" : "in 2018 IEEE 23rd International Conference on Emerging Technologies and Factory Automation",
-    "Venue" : "",
-    "Country" : "Italy",
-    "Month" : "September",
-    "Year" : "2018",
-    "Online" : "",
-    "" : "",
-    "" : "",
-    "" : "",
-    "" : ""
-  },
-  {
-    "ID" : "c47",
-    "Name" : "in Proc. 7th IEEE ICACCI",
-    "Venue" : "",
-    "Country" : "",
-    "Month" : "",
-    "Year" : "2018",
-    "Online" : "",
-    "" : "",
-    "" : "",
-    "" : "",
-    "" : ""
-  },
-  {
-    "ID" : "c48",
-    "Name" : "ISEC",
-    "Venue" : "Jabalpur",
-    "Country" : "India",
-    "Month" : "February",
-    "Year" : "2020",
-    "Online" : "",
-    "" : "",
-    "" : "",
-    "" : "",
-    "" : ""
-  },
-  {
-    "ID" : "c49",
-    "Name" : "14th IFIP TC9 Human Choice and Computers Conference",
-    "Venue" : "Tokyo",
-    "Country" : "",
-    "Month" : "September",
-    "Year" : "2020",
-    "Online" : "",
-    "" : "",
-    "" : "",
-    "" : "",
-    "" : ""
-  },
-  {
-    "ID" : "c50",
-    "Name" : "The 36th ACM/SIGAPP Symposium on Applied Computing (SAC ’21)",
-    "Venue" : "Virtual Event",
-    "Country" : " Republic of Korea",
-    "Month" : "March",
-    "Year" : "2021",
-    "Online" : "",
-    "" : "",
-    "" : "",
-    "" : "",
-    "" : ""
-  }
-];
-
 PeopleDB = [
   {
     "Email" : "sujitkc@iiitb.ac.in",
@@ -722,8 +38,8 @@ PeopleDB = [
   {
     "Email" : "nikhila.kn@iiitb.ac.in",
     "First Name" : "Nikhila",
-    "Middle Name" : "K.",
-    "Last Name" : "Narayan",
+    "Middle Name" : "",
+    "Last Name" : "KN",
     "Member Type" : "memberstudent",
     "webpage" : "people/nikhila.html",
     "linktype" : "relative"
@@ -1315,6 +631,7 @@ PeopleDB = [
   }
 ];
 
+
 SupervisorDB = [
   {
     "ID" : "1",
@@ -1426,31 +743,406 @@ SupervisorDB = [
   }
 ];
 
-ConferencePublicationsDB = [
+
+AuthorsDB = [
   {
-    "Publication Number" : "c1",
-    "Title" : "Towards Automatic Training Design",
-    "Platform" : "c1",
-    "Online" : ""
+    "ID" : "c1",
+    "author" : "sujitkc@iiitb.ac.in"
   },
   {
-    "Publication Number" : "c2",
-    "Title" : "SymTest : A Framework for Symbolic Testing of Embedded Software",
-    "Platform" : "c2",
-    "Online" : "http://dl.acm.org/citation.cfm?id=2856642"
+    "ID" : "c2",
+    "author" : "sujitkc@iiitb.ac.in"
+  },
+  {
+    "ID" : "c2",
+    "author" : "rameshari1958@gmail.com"
+  },
+  {
+    "ID" : "c3",
+    "author" : "sujitkc@iiitb.ac.in"
+  },
+  {
+    "ID" : "c4",
+    "author" : "sujitkc@iiitb.ac.in"
+  },
+  {
+    "ID" : "c5",
+    "author" : "sukanta.bhatt@philips.com"
+  },
+  {
+    "ID" : "c5",
+    "author" : "sujitkc@iiitb.ac.in"
+  },
+  {
+    "ID" : "c6",
+    "author" : "sujitkc@iiitb.ac.in"
+  },
+  {
+    "ID" : "c7",
+    "author" : "sujitkc@iiitb.ac.in"
+  },
+  {
+    "ID" : "c8",
+    "author" : "sujitkc@iiitb.ac.in"
+  },
+  {
+    "ID" : "c9",
+    "author" : "sujitkc@iiitb.ac.in"
+  },
+  {
+    "ID" : "c10",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c11",
+    "author" : "narahari@iisc.ac.in"
+  },
+  {
+    "ID" : "c12",
+    "author" : "narahari@iisc.ac.in"
+  },
+  {
+    "ID" : "c13",
+    "author" : "narahari@iisc.ac.in"
+  },
+  {
+    "ID" : "c16",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c16",
+    "author" : "manoranjan@iitbbs.ac.in"
+  },
+  {
+    "ID" : "c16",
+    "author" : "rameshari1958@gmail.com"
+  },
+  {
+    "ID" : "c17",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c18",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c19",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c20",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c21",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c22",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c23",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c24",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c25",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c26",
+    "author" : "gracy.joseph@iiitb.org"
+  },
+  {
+    "ID" : "c26",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c27",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c32",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c33",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c34",
+    "author" : "ramakrishnan.raman@iiitb.org"
+  },
+  {
+    "ID" : "c34",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c35",
+    "author" : "gracy.joseph@iiitb.org"
+  },
+  {
+    "ID" : "c35",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c35",
+    "author" : "varsha.suresh@iiitb.ac.in"
+  },
+  {
+    "ID" : "c36",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c36",
+    "author" : "ddas@iiitb.ac.in"
+  },
+  {
+    "ID" : "c37",
+    "author" : "avijit.mandal@iiitb.org"
+  },
+  {
+    "ID" : "c37",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c37",
+    "author" : "sreeja.nair@in.abb.com"
+  },
+  {
+    "ID" : "c38",
+    "author" : "maithily.diwan@iiitb.org"
+  },
+  {
+    "ID" : "c38",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c39",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c40",
+    "author" : "gracy.joseph@iiitb.org"
+  },
+  {
+    "ID" : "c40",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c40",
+    "author" : "abidha.vp@iiitb.ac.in"
+  },
+  {
+    "ID" : "c41",
+    "author" : "ramakrishnan.raman@iiitb.org"
+  },
+  {
+    "ID" : "c41",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c42",
+    "author" : "ramakrishnan.raman@iiitb.org"
+  },
+  {
+    "ID" : "c42",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c43",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c44",
+    "author" : "gracy.joseph@iiitb.org"
+  },
+  {
+    "ID" : "c44",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c45",
+    "author" : "ramakrishnan.raman@iiitb.org"
+  },
+  {
+    "ID" : "c45",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c46",
+    "author" : "surabhi.jha@iiitb.org"
+  },
+  {
+    "ID" : "c46",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c47",
+    "author" : "avijit.mandal@iiitb.org"
+  },
+  {
+    "ID" : "c47",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c47",
+    "author" : "devina.mohan@in.abb.com"
+  },
+  {
+    "ID" : "c48",
+    "author" : "abhi.singh.hal@gmail.com"
+  },
+  {
+    "ID" : "c48",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c49",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c50",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c51",
+    "author" : "sulochan.naik@iiitb.ac.in"
+  },
+  {
+    "ID" : "c51",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c52",
+    "author" : "nitin.bhatia@iiitb.ac.in"
+  },
+  {
+    "ID" : "c52",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c52",
+    "author" : "sujitkc@iiitb.ac.in"
+  },
+  {
+    "ID" : "c53",
+    "author" : "varsha.suresh@iiitb.ac.in"
+  },
+  {
+    "ID" : "c53",
+    "author" : "sujitkc@iiitb.ac.in"
+  },
+  {
+    "ID" : "c54",
+    "author" : "abhi.singh.hal@gmail.com"
+  },
+  {
+    "ID" : "c54",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "c55",
+    "author" : "ganesha@iiitb.ac.in"
+  },
+  {
+    "ID" : "c56",
+    "author" : "ganesha@iiitb.ac.in"
+  },
+  {
+    "ID" : "c57",
+    "author" : "ganesha@iiitb.ac.in"
+  },
+  {
+    "ID" : "c58",
+    "author" : "sujitkc@iiitb.ac.in"
+  },
+  {
+    "ID" : "c58",
+    "author" : "karthika.venkatesan@iiitb.ac.in"
+  },
+  {
+    "ID" : "c59",
+    "author" : "shivamkumar.singh@iiitb.org"
+  },
+  {
+    "ID" : "c59",
+    "author" : "sujitkc@iiitb.ac.in"
+  },
+  {
+    "ID" : "c59",
+    "author" : "jdinesh@iiitb.ac.i"
+  },
+  {
+    "ID" : "c60",
+    "author" : "nikhila.kn@iiitb.ac.in"
+  },
+  {
+    "ID" : "c60",
+    "author" : "sujitkc@iiitb.ac.in"
+  },
+  {
+    "ID" : "c60",
+    "author" : "manish.gupta@iiitb.ac.in"
+  },
+  {
+    "ID" : "c61",
+    "author" : "nikhila.kn@iiitb.ac.in"
+  },
+  {
+    "ID" : "c61",
+    "author" : "sujitkc@iiitb.ac.in"
+  },
+  {
+    "ID" : "c62",
+    "author" : "sujitkc@iiitb.ac.in"
+  },
+  {
+    "ID" : "c63",
+    "author" : "ananta.kumar@iiitb.ac.in"
+  },
+  {
+    "ID" : "c63",
+    "author" : "sujitkc@iiitb.ac.in"
+  },
+  {
+    "ID" : "c64",
+    "author" : "ananta.kumar@iiitb.ac.in"
+  },
+  {
+    "ID" : "w1",
+    "author" : "sujitkc@iiitb.ac.in"
+  },
+  {
+    "ID" : "w1",
+    "author" : "khusbu.bubna@iiitb.org"
+  },
+  {
+    "ID" : "w2",
+    "author" : "sujitkc@iiitb.ac.in"
+  },
+  {
+    "ID" : "w2",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "w3",
+    "author" : "nitin.bhatia@iiitb.ac.in"
+  },
+  {
+    "ID" : "w3",
+    "author" : "meenakshi@iiitb.ac.in"
+  },
+  {
+    "ID" : "w3",
+    "author" : "sujitkc@iiitb.ac.in"
   }
 ];
 
-FacultyDB = [
-  {
-    "Email" : "sujitkc@iiitb.ac.in",
-    "employeeID" : "1252"
-  },
-  {
-    "Email" : "meenakshi@iiitb.ac.in",
-    "employeeID" : "xxxx"
-  }
-];
 
 StudentsDB = [
   {
@@ -1608,26 +1300,1043 @@ StudentsDB = [
   }
 ];
 
+
+WorkshopsDB = [
+  {
+    "ID" : "w1",
+    "Name" : "MODSYM 2016",
+    "Conference" : "c2",
+    "Online" : ""
+  },
+  {
+    "ID" : "w2",
+    "Name" : "SEED 2015",
+    "Conference" : "c65",
+    "Online" : ""
+  },
+  {
+    "ID" : "w3",
+    "Name" : "Doctoral Symposium",
+    "Conference" : "c66",
+    "Online" : ""
+  }
+];
+
+
 WorkshopPublicationsDB = [
   {
     "Publication Number" : "w1",
     "Title" : "ACT (Abstract to Concrete Tests) - A tool for generating Concrete test cases from Formal Specification of Web Applications",
-    "Forum" : "MODSYM 2016",
-    "Venue" : "Goa",
-    "Day" : " INDIA",
-    "Month" : "February",
-    "Year" : "2016",
     "Online" : "http://ceur-ws.org/Vol-1561/paper3.pdf"
   },
   {
     "Publication Number" : "w2",
     "Title" : "Graduate Course in Software Testing",
-    "Forum" : "SEED 2015",
-    "Venue" : "Bangalore",
-    "Day" : " INDIA",
-    "Month" : "February",
-    "Year" : "2015",
+    "Online" : ""
+  },
+  {
+    "Publication Number" : "w3",
+    "Title" : "Formalizing GPU Instruction Set Architecture in Coq",
     "Online" : ""
   }
 ];
+
+
+FacultyDB = [
+  {
+    "Email" : "sujitkc@iiitb.ac.in",
+    "employeeID" : "1252"
+  },
+  {
+    "Email" : "meenakshi@iiitb.ac.in",
+    "employeeID" : "xxxx"
+  }
+];
+
+
+ConferencePublicationsDB = [
+  {
+    "Publication Number" : "c1",
+    "Title" : "Towards Automatic Training Design",
+    "Platform" : "c1",
+    "Online" : "https://ieeexplore.ieee.org/document/8049080"
+  },
+  {
+    "Publication Number" : "c2",
+    "Title" : "SymTest : A Framework for Symbolic Testing of Embedded Software",
+    "Platform" : "c2",
+    "Online" : "https://dl.acm.org/doi/10.1145/2856636.2856642"
+  },
+  {
+    "Publication Number" : "c3",
+    "Title" : "Test-the-REST: An Approach to Testing RESTful Web-services",
+    "Platform" : "c3",
+    "Online" : "https://ieeexplore.ieee.org/document/5359602/"
+  },
+  {
+    "Publication Number" : "c4",
+    "Title" : "Using Spreadsheets for Finite State Modelling",
+    "Platform" : "c4",
+    "Online" : "https://dl.acm.org/doi/10.1145/1506216.1506223"
+  },
+  {
+    "Publication Number" : "c5",
+    "Title" : "Web Services Testing: New Challenges, New Approaches",
+    "Platform" : "c5",
+    "Online" : ""
+  },
+  {
+    "Publication Number" : "c6",
+    "Title" : "Software Reliability Prediction in Philips Healthcare -- An Experience Report",
+    "Platform" : "c6",
+    "Online" : ""
+  },
+  {
+    "Publication Number" : "c7",
+    "Title" : "Test Sequence Computation for Regression Testing of Reactive Systems",
+    "Platform" : "c7",
+    "Online" : "https://dl.acm.org/doi/10.1145/1342211.1342238"
+  },
+  {
+    "Publication Number" : "c8",
+    "Title" : "Specification Based Regression Testing using Explicit State Space Enumeration",
+    "Platform" : "c8",
+    "Online" : "https://ieeexplore.ieee.org/document/4031805"
+  },
+  {
+    "Publication Number" : "c9",
+    "Title" : "Connectedness Testing of RESTful Web-Services",
+    "Platform" : "c9",
+    "Online" : "https://dl.acm.org/doi/10.1145/1730874.1730902"
+  },
+  {
+    "Publication Number" : "c10",
+    "Title" : "Formal verification of avionics self-adaptive software",
+    "Platform" : "c10",
+    "Online" : "https://dl.acm.org/doi/10.1145/2856636.2856658"
+  },
+  {
+    "Publication Number" : "c11",
+    "Title" : "A Robust and Scalable Architecture for Airborne Radar Simulation",
+    "Platform" : "c11",
+    "Online" : "https://ieeexplore.ieee.org/document/1273308"
+  },
+  {
+    "Publication Number" : "c12",
+    "Title" : "A Robust Design of Airborne Radar Simulation Software using design patterns",
+    "Platform" : "c12",
+    "Online" : ""
+  },
+  {
+    "Publication Number" : "c13",
+    "Title" : "Airborne Radar Data Processor Simulation Using Software In The-Loop Model",
+    "Platform" : "c13",
+    "Online" : ""
+  },
+  {
+    "Publication Number" : "c14",
+    "Title" : "Specifying and Constructing Safety-Critical Real-time Systems using TAU",
+    "Platform" : "c14",
+    "Online" : ""
+  },
+  {
+    "Publication Number" : "c15",
+    "Title" : "Perspectives on the use of Model Based Development Approach For Safety Critical Avionics Software Development",
+    "Platform" : "c15",
+    "Online" : ""
+  },
+  {
+    "Publication Number" : "c16",
+    "Title" : "Architectural Semantics of AADL using Event-B",
+    "Platform" : "c16",
+    "Online" : "https://ieeexplore.ieee.org/abstract/document/7019780"
+  },
+  {
+    "Publication Number" : "c17",
+    "Title" : "Verification of Message Sequence Structures",
+    "Platform" : "c17",
+    "Online" : ""
+  },
+  {
+    "Publication Number" : "c18",
+    "Title" : "Improving estimation accuracy by using Case Based Reasoning and a combined estimation approach",
+    "Platform" : "c18",
+    "Online" : "https://dl.acm.org/doi/10.1145/2134254.2134267"
+  },
+  {
+    "Publication Number" : "c19",
+    "Title" : "A framework for decentralized access control",
+    "Platform" : "c19",
+    "Online" : "https://dl.acm.org/doi/10.1145/1229285.1229302"
+  },
+  {
+    "Publication Number" : "c20",
+    "Title" : "Formal safety analysis of mode transitions in aircraft flight control system",
+    "Platform" : "c20",
+    "Online" : "https://ieeexplore.ieee.org/document/4391854"
+  },
+  {
+    "Publication Number" : "c21",
+    "Title" : "Tool for Translating Simulink Models into Input Language of a Model Checker",
+    "Platform" : "c21",
+    "Online" : "https://link.springer.com/chapter/10.1007/11901433_33"
+  },
+  {
+    "Publication Number" : "c22",
+    "Title" : "A framework for rapid-prototyping of context based ubiquitous computing applications",
+    "Platform" : "c22",
+    "Online" : "https://ieeexplore.ieee.org/document/1636192"
+  },
+  {
+    "Publication Number" : "c23",
+    "Title" : "Reasoning about Layered Message Passing Systems",
+    "Platform" : "c23",
+    "Online" : "https://dl.acm.org/doi/abs/10.1016/j.cl.2004.02.003"
+  },
+  {
+    "Publication Number" : "c24",
+    "Title" : "Beyond Message Sequence Graphs",
+    "Platform" : "c24",
+    "Online" : "https://link.springer.com/chapter/10.1007/3-540-45294-X_22"
+  },
+  {
+    "Publication Number" : "c25",
+    "Title" : "Reasoning about Message Passing in Finite State Environments",
+    "Platform" : "c25",
+    "Online" : "https://dl.acm.org/doi/10.5555/646253.683928"
+  },
+  {
+    "Publication Number" : "c26",
+    "Title" : "Safety Validation of an Embedded Real-time System at Hardware-Software Integration Test Environment",
+    "Platform" : "c26",
+    "Online" : "https://link.springer.com/chapter/10.1007/978-981-10-1023-1_5"
+  },
+  {
+    "Publication Number" : "c27",
+    "Title" : "Incorporating Adaptivity using Learning in Avionics Self Adaptive Software: A Case Study",
+    "Platform" : "c27",
+    "Online" : "https://ieeexplore.ieee.org/document/7732051"
+  },
+  {
+    "Publication Number" : "c28",
+    "Title" : "A systematic and effective method of mechanizing Allocation in system modeling of Aircraft Navigation Products using SysML",
+    "Platform" : "c28",
+    "Online" : ""
+  },
+  {
+    "Publication Number" : "c29",
+    "Title" : "Improving the Kinetics and Effectiveness of Systems Engineering - Perspectives on Integrated use of SysML, AADL, and UML for Aircraft Navigation Product Lines",
+    "Platform" : "c29",
+    "Online" : ""
+  },
+  {
+    "Publication Number" : "c30",
+    "Title" : "The Modeling and Analysis of Aircraft In-Trail Procedures Using SysML",
+    "Platform" : "c30",
+    "Online" : ""
+  },
+  {
+    "Publication Number" : "c31",
+    "Title" : "Perspectives on Lean Systems Engineering in Avionics Product Development",
+    "Platform" : "c31",
+    "Online" : ""
+  },
+  {
+    "Publication Number" : "c32",
+    "Title" : "Design of a Power Aware Methodology in IoT based on Hidden Markov Model",
+    "Platform" : "c32",
+    "Online" : "https://ieeexplore.ieee.org/document/7945458"
+  },
+  {
+    "Publication Number" : "c33",
+    "Title" : "Static Vulnerability Analysis for Secure Mobile Platforms",
+    "Platform" : "c33",
+    "Online" : "https://dl.acm.org/doi/10.1145/3021460.3021484"
+  },
+  {
+    "Publication Number" : "c34",
+    "Title" : "Knowledge Based Decision Framework For Architecting Complex Systems",
+    "Platform" : "c34",
+    "Online" : "https://dl.acm.org/doi/10.1145/3019612.3019766"
+  },
+  {
+    "Publication Number" : "c35",
+    "Title" : "Automatic Generation of Safety Validation Test cases from System Architecture Fault Trees",
+    "Platform" : "c35",
+    "Online" : "https://ieeexplore.ieee.org/document/8102108"
+  },
+  {
+    "Publication Number" : "c36",
+    "Title" : "Efficient Anomaly Detection Method for Power Saving in massive IoT architectures",
+    "Platform" : "c36",
+    "Online" : "https://link.springer.com/chapter/10.1007/978-3-319-72344-0_21"
+  },
+  {
+    "Publication Number" : "c37",
+    "Title" : "A static analyzer for industrial robotic applications",
+    "Platform" : "c37",
+    "Online" : "https://ieeexplore.ieee.org/document/8109242"
+  },
+  {
+    "Publication Number" : "c38",
+    "Title" : "A framework for modelling and verifying IoT communication protocols",
+    "Platform" : "c38",
+    "Online" : "https://link.springer.com/chapter/10.1007/978-3-319-69483-2_16"
+  },
+  {
+    "Publication Number" : "c39",
+    "Title" : "Method level power estimation and optimization in next generation smart phones",
+    "Platform" : "c39",
+    "Online" : "https://ieeexplore.ieee.org/document/8125974"
+  },
+  {
+    "Publication Number" : "c40",
+    "Title" : "Model-based safety analysis: Automatic generation of safety validation test cases",
+    "Platform" : "c40",
+    "Online" : ""
+  },
+  {
+    "Publication Number" : "c41",
+    "Title" : "Knowledge based decision model for architecting and evolving complex system-of-systems",
+    "Platform" : "c41",
+    "Online" : ""
+  },
+  {
+    "Publication Number" : "c42",
+    "Title" : "Knowledge value stream framework for architecting complex products",
+    "Platform" : "c42",
+    "Online" : "https://ieeexplore.ieee.org/abstract/document/7998412"
+  },
+  {
+    "Publication Number" : "c43",
+    "Title" : "Incorporating Formal Methods and Measures Obtained through Analysis, Simulation Testing for Dependable Self-Adaptive Software in Avionics Systems",
+    "Platform" : "c43",
+    "Online" : "https://dl.acm.org/doi/10.1145/3140107.3140128"
+  },
+  {
+    "Publication Number" : "c44",
+    "Title" : "Model-based Safety Validation for Embedded Real-time Systems",
+    "Platform" : "c44",
+    "Online" : "https://link.springer.com/chapter/10.1007/978-981-10-4121-1_6"
+  },
+  {
+    "Publication Number" : "c45",
+    "Title" : "Learning framework for maturing architecture design decisions for evolving complex SoS",
+    "Platform" : "c45",
+    "Online" : "https://ieeexplore.ieee.org/document/8428733"
+  },
+  {
+    "Publication Number" : "c46",
+    "Title" : "Worst case execution time estimation for control code of automation systems",
+    "Platform" : "c46",
+    "Online" : "https://ieeexplore.ieee.org/document/8441723"
+  },
+  {
+    "Publication Number" : "c47",
+    "Title" : "A generic static analysis framework for domain specific languages",
+    "Platform" : "c47",
+    "Online" : "https://ieeexplore.ieee.org/document/8502576"
+  },
+  {
+    "Publication Number" : "c48",
+    "Title" : "Formal Verification of Datarace in Safety Critical ARINC653 compliant RTOS",
+    "Platform" : "c48",
+    "Online" : "https://ieeexplore.ieee.org/document/8554955"
+  },
+  {
+    "Publication Number" : "c49",
+    "Title" : "Avionics Self-adaptive Software: Towards Formal Verification and Validation",
+    "Platform" : "c49",
+    "Online" : "https://link.springer.com/chapter/10.1007/978-3-030-05366-6_1"
+  },
+  {
+    "Publication Number" : "c50",
+    "Title" : "FrAppLe: A Framework for Apprenticeship Learning",
+    "Platform" : "c50",
+    "Online" : "https://dl.acm.org/doi/10.1145/3299771.3299796"
+  },
+  {
+    "Publication Number" : "c51",
+    "Title" : "Efficient Power Saving Method for WiFi Direct Devices in IoT based on Hidden Markov Model",
+    "Platform" : "c51",
+    "Online" : "https://ieeexplore.ieee.org/document/8711299"
+  },
+  {
+    "Publication Number" : "c52",
+    "Title" : "Formalizing GPU Instruction Set Architecture in Coq",
+    "Platform" : "c52",
+    "Online" : "https://dl.acm.org/doi/abs/10.1145/3299771.3299798"
+  },
+  {
+    "Publication Number" : "c53",
+    "Title" : "Automated Test Case Generation for Programmable Logic Controller Code",
+    "Platform" : "c53",
+    "Online" : "https://dl.acm.org/doi/10.1145/3299771.3299799"
+  },
+  {
+    "Publication Number" : "c54",
+    "Title" : "Static analysis for detecting high-level races in RTOS kernels",
+    "Platform" : "c54",
+    "Online" : "https://www.springerprofessional.de/en/static-analysis-for-detecting-high-level-races-in-rtos-kernels/17196666"
+  },
+  {
+    "Publication Number" : "c55",
+    "Title" : "Image processing application development on software configurable processor Array",
+    "Platform" : "c55",
+    "Online" : ""
+  },
+  {
+    "Publication Number" : "c56",
+    "Title" : "Implementation of compute intensive algorithms on software configurable processor, International Conference on Computer Architecture",
+    "Platform" : "c56",
+    "Online" : ""
+  },
+  {
+    "Publication Number" : "c57",
+    "Title" : "Intuitive content rendering by intelligently organizing browser tabs for enhanced user experience and better screen space utilization. Smart Tabs - A new invention for intelligently organizing the browser tabs IEEE",
+    "Platform" : "c57",
+    "Online" : "https://ieeexplore.ieee.org/document/7154861"
+  },
+  {
+    "Publication Number" : "c58",
+    "Title" : "StaBL: Statecharts with Local Variables",
+    "Platform" : "c58",
+    "Online" : "https://dl.acm.org/doi/10.1145/3385032.3385040"
+  },
+  {
+    "Publication Number" : "c59",
+    "Title" : "Automated Testing of Refreshable Braille Display",
+    "Platform" : "c59",
+    "Online" : "https://link.springer.com/chapter/10.1007/978-3-030-62803-1_15"
+  },
+  {
+    "Publication Number" : "c60",
+    "Title" : "Discovering Multiple Design Approaches in Programming Assignment Submissions",
+    "Platform" : "c60",
+    "Online" : "https://dl.acm.org/doi/10.1145/3412841.3442140"
+  },
+  {
+    "Publication Number" : "c61",
+    "Title" : "Physics Simulation based Approach to Node Clustering",
+    "Platform" : "c61",
+    "Online" : ""
+  },
+  {
+    "Publication Number" : "c62",
+    "Title" : "Automated Evaluation of Programming Assignment --An Experience Report",
+    "Platform" : "c62",
+    "Online" : ""
+  },
+  {
+    "Publication Number" : "c63",
+    "Title" : "Detecting Heartbeat Architectural Tactic in Source Code Using Program Analysis",
+    "Platform" : "c63",
+    "Online" : ""
+  },
+  {
+    "Publication Number" : "c64",
+    "Title" : "Detecting Code Smells using Deep Learning",
+    "Platform" : "c64",
+    "Online" : "https://ieeexplore.ieee.org/document/8929628"
+  }
+];
+
+
+ConferencesDB = [
+  {
+    "ID" : "c1",
+    "Name" : "MITE 2016",
+    "Venue" : "Madurai, INDIA",
+    "Country" : "India",
+    "Month" : "December",
+    "Year" : "2016",
+    "Online" : ""
+  },
+  {
+    "ID" : "c2",
+    "Name" : "ISEC 2016",
+    "Venue" : "Goa, INDIA",
+    "Country" : "India",
+    "Month" : "February",
+    "Year" : "2016",
+    "Online" : ""
+  },
+  {
+    "ID" : "c3",
+    "Name" : "ISEC 2010",
+    "Venue" : "Mysore, INDIA",
+    "Country" : "India",
+    "Month" : "February",
+    "Year" : "2010",
+    "Online" : ""
+  },
+  {
+    "ID" : "c4",
+    "Name" : "ISEC 2009",
+    "Venue" : "Pune, INDIA",
+    "Country" : "India",
+    "Month" : "February",
+    "Year" : "2009",
+    "Online" : ""
+  },
+  {
+    "ID" : "c5",
+    "Name" : "STeP-IN Summit",
+    "Venue" : "Bangalore, INDIA",
+    "Country" : "India",
+    "Month" : "February",
+    "Year" : "2010",
+    "Online" : ""
+  },
+  {
+    "ID" : "c6",
+    "Name" : "ISSRE",
+    "Venue" : "Mysore, INDIA",
+    "Country" : "India",
+    "Month" : "2009",
+    "Year" : "2009",
+    "Online" : ""
+  },
+  {
+    "ID" : "c7",
+    "Name" : "ISEC 2008",
+    "Venue" : "Hyderabad, INDIA",
+    "Country" : "India",
+    "Month" : "February",
+    "Year" : "2008",
+    "Online" : ""
+  },
+  {
+    "ID" : "c8",
+    "Name" : "ICSEA 2006",
+    "Venue" : "Tahiti, French Polynesia",
+    "Country" : "French Polynesia",
+    "Month" : "",
+    "Year" : "2006",
+    "Online" : ""
+  },
+  {
+    "ID" : "c9",
+    "Name" : "ISEC 2010",
+    "Venue" : "Mysore, INDIA",
+    "Country" : "India",
+    "Month" : "February",
+    "Year" : "2010",
+    "Online" : ""
+  },
+  {
+    "ID" : "c10",
+    "Name" : "ISEC 2016",
+    "Venue" : "Goa, INDIA",
+    "Country" : "India",
+    "Month" : "February",
+    "Year" : "2016",
+    "Online" : ""
+  },
+  {
+    "ID" : "c11",
+    "Name" : "IEEE Region 10 Technical Conference on Convergent Technologies For The Asia-Pacific",
+    "Venue" : "Bangalore, India",
+    "Country" : "India",
+    "Month" : "October",
+    "Year" : "2003",
+    "Online" : ""
+  },
+  {
+    "ID" : "c12",
+    "Name" : "National Conference on Object Oriented Technology 2003 (NCOOT 2003)",
+    "Venue" : "Lonere, Maharastra, India",
+    "Country" : "India",
+    "Month" : "August",
+    "Year" : "2003",
+    "Online" : ""
+  },
+  {
+    "ID" : "c13",
+    "Name" : "International Radar Symposium India",
+    "Venue" : "Bangalore, India",
+    "Country" : "India",
+    "Month" : "December",
+    "Year" : "2003",
+    "Online" : ""
+  },
+  {
+    "ID" : "c14",
+    "Name" : "Telelogic User Group Conference",
+    "Venue" : "Miami, Florida, USA",
+    "Country" : "USA",
+    "Month" : "October",
+    "Year" : "2004",
+    "Online" : ""
+  },
+  {
+    "ID" : "c15",
+    "Name" : "International Conference on Aerospace Science and Technology (INCAST) 2008",
+    "Venue" : "National Science Seminar Complex IISc, Bangalore, India",
+    "Country" : "India",
+    "Month" : "",
+    "Year" : "2008",
+    "Online" : ""
+  },
+  {
+    "ID" : "c16",
+    "Name" : "IEEE International Conference on Computing, Communication and Information Technology (IC3I)",
+    "Venue" : "",
+    "Country" : "",
+    "Month" : "",
+    "Year" : "2014",
+    "Online" : ""
+  },
+  {
+    "ID" : "c17",
+    "Name" : "International Conference on Distributed Computing and Internet Technology (ICDCIT)",
+    "Venue" : "171-182, LNCS 7753, Springer",
+    "Country" : "",
+    "Month" : "",
+    "Year" : "2013",
+    "Online" : ""
+  },
+  {
+    "ID" : "c18",
+    "Name" : "ACM, India Software Engineering Conference (ISEC)",
+    "Venue" : "Kanpur, India",
+    "Country" : "India",
+    "Month" : "",
+    "Year" : "2012",
+    "Online" : ""
+  },
+  {
+    "ID" : "c19",
+    "Name" : "ACM Conference on Computer and Communications Security (ASIACCS)",
+    "Venue" : "Singapore",
+    "Country" : "Singapore",
+    "Month" : "March",
+    "Year" : "2007",
+    "Online" : ""
+  },
+  {
+    "ID" : "c20",
+    "Name" : "26th IEEE Digital Avionics Systems Conference (DASC)",
+    "Venue" : "Salt Lake City, UT",
+    "Country" : "USA",
+    "Month" : "October",
+    "Year" : "2007",
+    "Online" : ""
+  },
+  {
+    "ID" : "c21",
+    "Name" : "8th International Conference on Formal Engineering Methods (ICFEM)",
+    "Venue" : "LNCS, Volume No. 4260, 606-620",
+    "Country" : "",
+    "Month" : "",
+    "Year" : "2006",
+    "Online" : ""
+  },
+  {
+    "ID" : "c22",
+    "Name" : "IEEE International Conference on Sensor networks, Ubiquitous and Trustworthy Computing (SUTC)",
+    "Venue" : "306-311",
+    "Country" : "",
+    "Month" : "",
+    "Year" : "2006",
+    "Online" : ""
+  },
+  {
+    "ID" : "c23",
+    "Name" : "4th International Conference on Verification, Model Checking and Abstract Interpretation (VMCAI)",
+    "Venue" : "LNCS, Volume No. 2575, 268-282, 2003",
+    "Country" : "",
+    "Month" : "",
+    "Year" : "2003",
+    "Online" : ""
+  },
+  {
+    "ID" : "c24",
+    "Name" : "21st Foundations of Software Technology and Theoretical Computer Science (FSTTCS) Conference",
+    "Venue" : "LNCS, Volume No. 2245, 256-267",
+    "Country" : "",
+    "Month" : "",
+    "Year" : "2001",
+    "Online" : ""
+  },
+  {
+    "ID" : "c25",
+    "Name" : "27th International Colloquium on Automata, Lauguages and Programming (ICALP)",
+    "Venue" : "LNCS, Volume No.1853, 487-498",
+    "Country" : "",
+    "Month" : "",
+    "Year" : "2000",
+    "Online" : ""
+  },
+  {
+    "ID" : "c26",
+    "Name" : "9th Intl. Conf. on Advanced Computing and Communication Technologies",
+    "Venue" : "Springer Advances in Intelligent System and Computing Series",
+    "Country" : "",
+    "Month" : "",
+    "Year" : "2015",
+    "Online" : ""
+  },
+  {
+    "ID" : "c27",
+    "Name" : "5th International Conference on Computing, Communications and Informatics (ICACCI 2016)",
+    "Venue" : "Jaipur, INDIA",
+    "Country" : "India",
+    "Month" : "",
+    "Year" : "2016",
+    "Online" : ""
+  },
+  {
+    "ID" : "c28",
+    "Name" : "National Conference on Emerging Technologies in Computer Science 2010 (NCETCS-2010)",
+    "Venue" : "Bangalore, INDIA",
+    "Country" : "India",
+    "Month" : "",
+    "Year" : "2010",
+    "Online" : ""
+  },
+  {
+    "ID" : "c29",
+    "Name" : "4th Asia-Pacific Conference on Systems Engineering (APCOSE 2010)",
+    "Venue" : "National Taiwan Ocean University, Keelung, TAIWAN",
+    "Country" : "Taiwan",
+    "Month" : "",
+    "Year" : "2010",
+    "Online" : ""
+  },
+  {
+    "ID" : "c30",
+    "Name" : "5th Asia-Pacific Conference on Systems Engineering (APCOSE 2011)",
+    "Venue" : "SOUTH KOREA",
+    "Country" : "Korea",
+    "Month" : "October",
+    "Year" : "2011",
+    "Online" : ""
+  },
+  {
+    "ID" : "c31",
+    "Name" : "5th Asia-Pacific Conference on Systems Engineering (APCOSE 2011)",
+    "Venue" : "SOUTH KOREA",
+    "Country" : "Korea",
+    "Month" : "October",
+    "Year" : "2011",
+    "Online" : ""
+  },
+  {
+    "ID" : "c32",
+    "Name" : "Proceedings of COMSNETS-17",
+    "Venue" : "INDIA",
+    "Country" : "India",
+    "Month" : "",
+    "Year" : "2017",
+    "Online" : ""
+  },
+  {
+    "ID" : "c33",
+    "Name" : "Innovations in Software Engineering Conference (ISEC) 2017",
+    "Venue" : "Jaipur, INDIA",
+    "Country" : "India",
+    "Month" : "",
+    "Year" : "2017",
+    "Online" : ""
+  },
+  {
+    "ID" : "c34",
+    "Name" : "32nd ACM Symposium on Applied Computing  ACM SAC 2017",
+    "Venue" : "Marrakech, Morocco",
+    "Country" : "Morocco",
+    "Month" : "April 03-06",
+    "Year" : "2017",
+    "Online" : ""
+  },
+  {
+    "ID" : "c35",
+    "Name" : "ACM, India Software Engineering Conference (ISEC)",
+    "Venue" : "Hyderabad, India",
+    "Country" : "India",
+    "Month" : "9th - 11th February",
+    "Year" : "2018",
+    "Online" : ""
+  },
+  {
+    "ID" : "c36",
+    "Name" : "ICDCIT, LNCS 10772, Springer",
+    "Venue" : "",
+    "Country" : "",
+    "Month" : "",
+    "Year" : "2018",
+    "Online" : ""
+  },
+  {
+    "ID" : "c37",
+    "Name" : "28th IEEE ISSRE",
+    "Venue" : "Toulouse, France",
+    "Country" : "France",
+    "Month" : "",
+    "Year" : "2017",
+    "Online" : ""
+  },
+  {
+    "ID" : "c38",
+    "Name" : "SETTA 2017, Springer LNCS 10606, pages 266-280",
+    "Venue" : "China",
+    "Country" : "China",
+    "Month" : "",
+    "Year" : "2017",
+    "Online" : ""
+  },
+  {
+    "ID" : "c39",
+    "Name" : "IEEE ICACCI 2017, 1010-1016",
+    "Venue" : "",
+    "Country" : "",
+    "Month" : "",
+    "Year" : "2017",
+    "Online" : ""
+  },
+  {
+    "ID" : "c40",
+    "Name" : "in 36th IEEE/AIAA Digital Avionics Systems Conference (DASC)",
+    "Venue" : "Florida",
+    "Country" : "Florida",
+    "Month" : "September",
+    "Year" : "2017",
+    "Online" : ""
+  },
+  {
+    "ID" : "c41",
+    "Name" : "INCOSE International Symposium, 27(1)",
+    "Venue" : "Wiley",
+    "Country" : "Wiley",
+    "Month" : "July",
+    "Year" : "2017",
+    "Online" : ""
+  },
+  {
+    "ID" : "c42",
+    "Name" : "IEEE Technology and Engineering Management Conference (TEMSCON)",
+    "Venue" : "",
+    "Country" : "",
+    "Month" : "",
+    "Year" : "2017",
+    "Online" : ""
+  },
+  {
+    "ID" : "c43",
+    "Name" : "10th Annual ACM India Compute Conference",
+    "Venue" : "Bhopal",
+    "Country" : "Bhopal",
+    "Month" : "",
+    "Year" : "2017",
+    "Online" : ""
+  },
+  {
+    "ID" : "c44",
+    "Name" : "Formal Methods for Safety and Security Case Studies for Aerospace Applications, Nanda, Manju, Jeppu, Yogananda (Eds.), Springer",
+    "Venue" : "",
+    "Country" : "",
+    "Month" : "May",
+    "Year" : "2017",
+    "Online" : ""
+  },
+  {
+    "ID" : "c45",
+    "Name" : "in Proc. IEEE 13th System of Systems Engineering Conference",
+    "Venue" : "Paris, France",
+    "Country" : "France",
+    "Month" : "June",
+    "Year" : "2018",
+    "Online" : ""
+  },
+  {
+    "ID" : "c46",
+    "Name" : "in Proc. IEEE 4th International Conference on Advances in Computing and Communication Engineering",
+    "Venue" : "Paris, France",
+    "Country" : "France",
+    "Month" : "June",
+    "Year" : "2018",
+    "Online" : ""
+  },
+  {
+    "ID" : "c47",
+    "Name" : "in 2018 IEEE 23rd International Conference on Emerging Technologies and Factory Automation",
+    "Venue" : "Italy",
+    "Country" : "Italy",
+    "Month" : "September",
+    "Year" : "2018",
+    "Online" : ""
+  },
+  {
+    "ID" : "c48",
+    "Name" : "in Proc. 7th IEEE ICACCI",
+    "Venue" : "",
+    "Country" : "",
+    "Month" : "",
+    "Year" : "2018",
+    "Online" : ""
+  },
+  {
+    "ID" : "c49",
+    "Name" : "ICDCIT ",
+    "Venue" : "",
+    "Country" : "",
+    "Month" : "",
+    "Year" : "2019",
+    "Online" : ""
+  },
+  {
+    "ID" : "c50",
+    "Name" : "ISEC ",
+    "Venue" : "",
+    "Country" : "India",
+    "Month" : "",
+    "Year" : "2019",
+    "Online" : ""
+  },
+  {
+    "ID" : "c51",
+    "Name" : "11th International Conference on Communication Systems & Networks",
+    "Venue" : "Bengaluru, India ",
+    "Country" : "India",
+    "Month" : "January 7-11",
+    "Year" : "2019",
+    "Online" : ""
+  },
+  {
+    "ID" : "c52",
+    "Name" : "Proceedings of the 12th Innovations on Software Engineering Conference",
+    "Venue" : "Pune, India",
+    "Country" : "India",
+    "Month" : "February 14-16",
+    "Year" : "2019",
+    "Online" : ""
+  },
+  {
+    "ID" : "c53",
+    "Name" : "Proceedings of the 12th Innovations on Software Engineering Conference",
+    "Venue" : "Pune, India",
+    "Country" : "India",
+    "Month" : "February 14-16",
+    "Year" : "2019",
+    "Online" : ""
+  },
+  {
+    "ID" : "c54",
+    "Name" : "Proceedings of Formal Methods - The Next 30 Years - Third World Congress, Springer LNCS 11800, 337-353",
+    "Venue" : "",
+    "Country" : "",
+    "Month" : "",
+    "Year" : "2019",
+    "Online" : ""
+  },
+  {
+    "ID" : "c55",
+    "Name" : "International Conference on Emerging Trends in Engineering (ICETE)",
+    "Venue" : "",
+    "Country" : "",
+    "Month" : "",
+    "Year" : "",
+    "Online" : ""
+  },
+  {
+    "ID" : "c56",
+    "Name" : "International Conference on Computer Architecture, Networking & Applications(IC-CANA)",
+    "Venue" : "",
+    "Country" : "",
+    "Month" : "",
+    "Year" : "",
+    "Online" : ""
+  },
+  {
+    "ID" : "c57",
+    "Name" : "Advance Computing Conference (IACC)",
+    "Venue" : "",
+    "Country" : "",
+    "Month" : "",
+    "Year" : "2015",
+    "Online" : ""
+  },
+  {
+    "ID" : "c58",
+    "Name" : "ISEC",
+    "Venue" : "Jabalpur, INDIA",
+    "Country" : "India",
+    "Month" : "February",
+    "Year" : "2020",
+    "Online" : ""
+  },
+  {
+    "ID" : "c59",
+    "Name" : "14th IFIP TC9 Human Choice and Computers Conference",
+    "Venue" : "Tokyo",
+    "Country" : "Tokyo",
+    "Month" : "September",
+    "Year" : "2020",
+    "Online" : ""
+  },
+  {
+    "ID" : "c60",
+    "Name" : "The 36th ACM/SIGAPP Symposium on Applied Computing (SAC 21)",
+    "Venue" : "Virtual Event, Republic of Korea",
+    "Country" : "Republic Of Korea",
+    "Month" : "March 22 26",
+    "Year" : "2021",
+    "Online" : ""
+  },
+  {
+    "ID" : "c61",
+    "Name" : "3rd International Conference on Engineering Mathematics and Computing (ICEMC 2020)",
+    "Venue" : "HIT Haldia",
+    "Country" : "Haldia",
+    "Month" : "February 5-7",
+    "Year" : "2020",
+    "Online" : ""
+  },
+  {
+    "ID" : "c62",
+    "Name" : "The Future of Learning Conference 2020",
+    "Venue" : "IIM BANGALORE",
+    "Country" : "Bangalore",
+    "Month" : "January 3-4",
+    "Year" : "2020",
+    "Online" : ""
+  },
+  {
+    "ID" : "c63",
+    "Name" : "ICOOSEDP 2020: International Conference on Object-Oriented Software Engineering and Design Patterns",
+    "Venue" : "Vienna, Austria",
+    "Country" : "Austria",
+    "Month" : "December 24-25",
+    "Year" : "2020",
+    "Online" : ""
+  },
+  {
+    "ID" : "c64",
+    "Name" : "TENCON 2019 - 2019 IEEE Region 10 Conference (TENCON)",
+    "Venue" : "Kochi, India",
+    "Country" : "India",
+    "Month" : "October 17-20",
+    "Year" : "2019",
+    "Online" : ""
+  },
+  {
+    "ID" : "c65",
+    "Name" : "ISEC 2015",
+    "Venue" : "Bangalore",
+    "Country" : "India",
+    "Month" : "February",
+    "Year" : "2015",
+    "Online" : ""
+  },
+  {
+    "ID" : "c66",
+    "Name" : "ISEC 2019",
+    "Venue" : "Bangalore",
+    "Country" : "India",
+    "Month" : "February",
+    "Year" : "2019",
+    "Online" : ""
+  }
+];
+
 

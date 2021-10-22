@@ -2,21 +2,16 @@ WorkshopPublicationsDB = [
   {
     "Publication Number" : "w1",
     "Title" : "ACT (Abstract to Concrete Tests) - A tool for generating Concrete test cases from Formal Specification of Web Applications",
-    "Forum" : "MODSYM 2016",
-    "Venue" : "Goa",
-    "Day" : " INDIA",
-    "Month" : "February",
-    "Year" : "2016",
     "Online" : "http://ceur-ws.org/Vol-1561/paper3.pdf"
   },
   {
     "Publication Number" : "w2",
     "Title" : "Graduate Course in Software Testing",
-    "Forum" : "SEED 2015",
-    "Venue" : "Bangalore",
-    "Day" : " INDIA",
-    "Month" : "February",
-    "Year" : "2015",
+    "Online" : ""
+  },
+  {
+    "Publication Number" : "w3",
+    "Title" : "Formalizing GPU Instruction Set Architecture in Coq",
     "Online" : ""
   }
 ];

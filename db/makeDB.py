@@ -2,6 +2,7 @@
 
 import csv
 import sys
+import subprocess
 
 def read_csv(fname):
   with open(fname, "r") as fin:
@@ -28,20 +29,32 @@ def write_json(data, table):
         fout.write(ws + "}")
     fout.write("\n];\n\n")
 
+alltables = {
+  "AuthorsDB",
+  "ConferencePublicationsDB",
+  "ConferencesDB",
+  "WorkshopsDB",
+  "FacultyDB",
+  "PeopleDB",
+  "StudentsDB",
+  "SupervisorDB",
+  "WorkshopPublicationsDB"
+}
+
+def merge_all_tables():
+  print("Merging ...")
+  with open("DB.json", "w") as fout:
+    for table in alltables:
+      with open("json/" + table + ".json", "r") as fin:
+        data = fin.read()
+        fout.write(data + "\n")
+
 def write_all_tables():
-  alltables = {
-    "AuthorsDB",
-    "ConferencePublicationsDB",
-    "ConferencesDB",
-    "FacultyDB",
-    "PeopleDB",
-    "StudentsDB",
-    "SupervisorDB",
-    "WorkshopPublicationsDB"
-  }
   for table in alltables:
+    print("Reading " + table + "...")
     data = read_csv("csv/" + table + ".csv")
     write_json(data, table)
+  merge_all_tables()
 
 if __name__ == "__main__":
   if(len(sys.argv) >= 1 and sys.argv[-1] != "-a"):

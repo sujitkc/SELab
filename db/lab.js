@@ -118,6 +118,7 @@ class Lab {
   constructor() {
     this.people       = [];
     this.conferences  = [];
+    this.workshops    = [];
     this.publications = [];
 
     this.addFacultyMembers();
@@ -248,6 +249,7 @@ class Lab {
   addConferences() {
     for(let conf of ConferencesDB) {
       let c = new Conference(
+        conf["ID"],
         conf["Name"],
         conf["Month"],
         conf["Year"],
@@ -260,6 +262,16 @@ class Lab {
   }
 
   addWorkshops() {
+    for(let workshop of WorkshopsDB) {
+      let conf = this.getConferenceByID(workshop["Conference"]);
+      let w = new Workshop(
+        workshop["ID"],
+        workshop["Name"],
+        conf,
+        workshop["Online"]
+      );
+      this.workshops.push(w);
+    }
 
   }
 
@@ -291,6 +303,33 @@ class Lab {
     for(let p of this.people) {
       if(emailID == p.id) {
         return p;
+      }
+    }
+    return null;
+  }
+
+  getConferenceByID(id) {
+    for(let c of this.conferences) {
+      if(id == c.id) {
+        return c;
+      }
+    }
+    return null;
+  }
+
+  getWorkshopByID(id) {
+    for(let w of this.workshops) {
+      if(id == w.id) {
+        return w;
+      }
+    }
+    return null;
+  }
+
+  getJournalByID(id) {
+    for(let j of this.journals) {
+      if(id == j.id) {
+        return j;
       }
     }
     return null;
@@ -344,19 +383,20 @@ class Publication {
 }
 
 class PublicationPlatform {
-  constructor(name) {
-    this.name = name;
+  constructor(id, name, online) {
+    this.id     = id;
+    this.name   = name;
+    this.online = online;
   }
 }
 
 class Conference extends PublicationPlatform {
-  constructor(name, month, year, venue, country, online) {
-    super(name);
+  constructor(id, name, month, year, venue, country, online) {
+    super(id, name, online);
     this.month   = month;
     this.year    = year;
     this.venue   = venue;
     this.country = country;
-    this.online  = online;
   }
 
   toString() {
@@ -370,9 +410,8 @@ class Conference extends PublicationPlatform {
 }
 
 class Workshop extends PublicationPlatform {
-  constructor(name, date, conference) {
-    super(name);
-    this.date = date;
+  constructor(id, name, conference, online) {
+    super(id, name, online);
     this.conference = conference;
   }
 
@@ -382,8 +421,8 @@ class Workshop extends PublicationPlatform {
 }
 
 class Journal extends PublicationPlatform {
-  constructor(name) {
-    super(name);
+  constructor(id, name) {
+    super(id, name);
   }
 
   toHTML() {

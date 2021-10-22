@@ -30,6 +30,34 @@
 \begin{document}
 \maketitle
 
+\section{Maintenance Workflow}
+\begin{center}
+\begin{tikzpicture}
+\node[rectangle](csv1){CSF File};
+\node[rectangle, draw=black, right = of csv1](mod){Modify};
+\node[rectangle, draw=black, align= center, right = 2.5cm of mod](gen){Generate \\ JSON DB};
+\node[rectangle, right = of gen](json){JSON DB};
+
+\draw[->](csv1) -- (mod);
+\draw[->](mod) -- node[align=center, outer sep = 0.1cm, above]{CSV File \\ (modified)}(gen);
+\draw[->](gen) -- (json);
+\end{tikzpicture}
+\end{center}
+
+\section{Page Load}
+\begin{center}
+\begin{tikzpicture}
+\node[rectangle, right = of gen](json){JSON DB};
+\node[rectangle, draw=black, right = of json](parse){Parse};
+\node[rectangle, align= center, right = of parse](om){Object \\ model \\ instance};
+
+\draw[->](json) -- (parse);
+\draw[->](parse) -- (om);
+\end{tikzpicture}
+\end{center}
+
+
+
 \section{Object Model}
 \begin{center}
 \resizebox{\textwidth}{!}{
@@ -78,6 +106,18 @@
 \draw[BrickRed, -] (conference) |- (j2);
 \draw[BrickRed, -] (workshop) |- (j2);
 \draw[BrickRed, -] (journal) to (j2);
+
+\node[circle, draw=black, fill=black, minimum height=0, minimum width=0, inner sep=0, below=0.5cm of workshop.200](j5) {};
+
+\draw [-, BrickRed] (workshop.200) -- 
+	node[black, near end, left]{\tiny{workshop}}
+	node[black, near end, right]{\tiny{0..N}}
+	(j5); 
+\draw [-, BrickRed] (j5) -|
+	node[black, near end, left]{\tiny{conference}}
+	node[black, near end, right]{\tiny{1}}
+		(conference.-30); 
+
 
 \node[rectangle, draw=black, fill=yellow!50, below = of student](programme) {Programme};
 \node[rectangle, draw=black, fill=yellow!50, below left=of programme](phd) {PhD};

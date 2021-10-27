@@ -1,0 +1,21 @@
+WorkshopsDB = [
+  {
+    "ID" : "w1",
+    "Name" : "MODSYM 2016",
+    "Conference" : "c2",
+    "Online" : ""
+  },
+  {
+    "ID" : "w2",
+    "Name" : "SEED 2015",
+    "Conference" : "c65",
+    "Online" : ""
+  },
+  {
+    "ID" : "w3",
+    "Name" : "Doctoral Symposium",
+    "Conference" : "c66",
+    "Online" : ""
+  }
+];
+

@@ -14,9 +14,22 @@
     <script src="../js/gallery.js"> </script>
     <link href="../css/bootstrap.css" rel="stylesheet">
     <link href="../css/gallery.css" rel="stylesheet">
+ 
+    <script src="../db/json/DB.json"></script>
+
+    <script src="../db/lab.js"> </script>
+    <script src="../db/api.js"> </script>
+
     <link rel="stylesheet" type="text/css" href="../css/selab.css">   
+    <script>
+      function displayPublications() {
+        let element = document.getElementById("confpubs");
+        let theLab = Lab.getInstance();
+        element.innerHTML = API.html_of_publications(theLab.publications);
+      }
+    </script>
   </head>
-<body onload='nav_bar ("../"); pubs ("")'>
+<body onload='nav_bar ("../"); pubs (""); displayPublications()'>
 
     <div class="container">
       <div class="page-header">
@@ -28,6 +41,7 @@
 			<li><a href="publications.html">Publications</a></li>
 		</ol>	
 	<h3>Publications</h3>
+  	<p id = "confpubs"></p>
 	<p id = "pubs"></p>
   </body>
 </html>

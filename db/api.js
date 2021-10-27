@@ -15,16 +15,17 @@ class API {
   // to be added to an HTML file, typically in the 
   // person webpages of all the lab members.
   static html_of_publications(publications) {
+    
     let pubNames = publications.map(
         function(x) {
-          return x.name;
+          return x.title;
         }
       );
-    let strPubs = pubNames.reduce(
-        function(x, y) { return x + y; },
+    var strPubs = "<ul>" + pubNames.reduce(
+        function(x, y) { return x + "<li>" + y; },
         ""
-      );
-    return strPubs;
+      ) + "</ul>";
+    return "<h1>All Publications</h1>" + strPubs;
   }
 
   static peopleListtoHTML(list) {

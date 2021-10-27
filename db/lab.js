@@ -116,13 +116,18 @@ class Lab {
   static baseURL = "file:///home/sujit/IIITB/SELab/website/SELab/";
 
   constructor() {
-    this.people       = [];
-    this.conferences  = [];
-    this.workshops    = [];
-    this.publications = [];
+    this.people              = [];
+    this.conferences         = [];
+    this.workshops           = [];
+    this.journals            = [];
+    this.techreportplatforms = [];
+    this.patentplatforms     = [];
+ 
+    this.publications        = [];
 
     this.addFacultyMembers();
     this.addStudents();
+    this.addOtherPeople();
     this.addConferences();
     this.addWorkshops();
     this.addJournals();
@@ -246,6 +251,10 @@ class Lab {
     }
   }
 
+  addOtherPeople() {
+
+  }
+
   addConferences() {
     for(let conf of ConferencesDB) {
       let c = new Conference(
@@ -284,7 +293,32 @@ class Lab {
   }
 
   addConferencePublications() {
+    for(let cpub of ConferencePublicationsDB) {
+      let pubid = cpub["Publication Number"];
+      let title = cpub["Title"];
+      let platform = cpub["Platform"];
+      let online = cpub["Online"];
 
+      let conference = this.getConferenceByID(pubid);
+
+      let publication = new Publication(pubid, title, conference, online);
+      let auths = AuthorsDB.filter(
+          function(x) {
+            return x["ID"] == pubid;
+          }
+        );
+      //console.log("Authors = " + auths);
+      for(let auth of auths) {
+        let author = this.getPersonByEmailID(auth["author"]);
+        if(author == null) {
+          console.log("Author " + auth["author"] + " not found.");
+        }
+        else {
+          publication.addAuthor(author);
+        }
+      }
+      this.publications.push(publication);
+    }
   }
 
   addWorkshopPublications() {
@@ -335,6 +369,22 @@ class Lab {
     return null;
   }
 
+  getPublicationPlatformByID(id) {
+    var platform = this.getConferenceByID(id);
+    if(platform != null) {
+      return platform;
+    }
+    platform = this.getWorkshopByID(id);
+    if(platform != null) {
+      return platform;
+    }
+    platform = this.getJournalByID(id);
+    if(platform != null) {
+      return platform;
+    }
+    
+  }
+
   getMemberFaculty() {
     return this.people.filter(
       function(x) { return x.type == membertype.MEMBERFACULTY; }
@@ -346,6 +396,7 @@ class Lab {
       function(x) { return x.type == membertype.MEMBERSTUDENT; }
     ); 
   }
+
   static getInstance() {
     if(Lab.instance == null) {
       Lab.instance = new Lab();
@@ -360,14 +411,15 @@ class Lab {
 }
 
 class Publication {
-  constructor(title, authors, platform) {
+  constructor(id, title, platform, online) {
     this.title = title;
-    this.authors = authors;
+    this.authors = [];
     this.platform = platform;
+    this.online = online;
   }
 
   addAuthor(author) {
-    this.authods.push(author);
+    this.authors.push(author);
   }
 
   toHTML() {

@@ -140,10 +140,26 @@ class Lab {
 
   // extra Person specific fields from the json object in people.
   extractPersonDetails(p) {
+    let emailID    = p["Email"];
     let firstName  = p["First Name"];
     let middleName = p["Middle Name"];
     let lastName   = p["Last Name"];
     let name = new Name(firstName, middleName, lastName);
+
+    var memtype = null;
+    if(p["Member Type"] == "memberfaculty") {
+      memtype = membertype.MEMBERFACULTY;
+    }
+    else if(p["Member Type"] == "memberstudent") {
+      memtype = membertype.MEMBERSTUDENT;
+    }
+    else if(p["Member Type"] == "externalfaculty") {
+      memtype = membertype.EXTERNALFACULTY;
+    }
+    else {
+      memtype = membertype.EXTERNAL;
+    }
+    
     var webpage = null;
     if(p["webpage"] != null) {
       if(p["linktype" == "absolute"]) {
@@ -156,7 +172,7 @@ class Lab {
     else {
       webpage = "";
     }
-    return new Person(null, name, null, webpage);
+    return new Person(emailID, name, memtype, webpage);
   }
 
   addFacultyMembers() {
@@ -174,7 +190,6 @@ class Lab {
   }
 
   addStudents() {
-    let faculty = this.getMemberFaculty();
     var person = null; 
     for(let st of StudentsDB) {
       var name = null;
@@ -252,7 +267,14 @@ class Lab {
   }
 
   addOtherPeople() {
+    for(let p of PeopleDB) {
+      let per = this.extractPersonDetails(p);
+      if(per.type == membertype.EXTERNALFACULTY || per.type == membertype.EXTERNAL) {
+        this.people.push(per);
+      }
+    }
 
+   
   }
 
   addConferences() {

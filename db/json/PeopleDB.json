@@ -459,15 +459,6 @@ PeopleDB = [
     "linktype" : ""
   },
   {
-    "Email" : "",
-    "First Name" : "",
-    "Middle Name" : "",
-    "Last Name" : "",
-    "Member Type" : "",
-    "webpage" : "",
-    "linktype" : ""
-  },
-  {
     "Email" : "20",
     "First Name" : "Muralikrishna",
     "Middle Name" : "",

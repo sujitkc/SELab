@@ -587,7 +587,7 @@ ConferencesDB = [
   {
     "ID" : "c66",
     "Name" : "ISEC 2019",
-    "Venue" : "Bangalore",
+    "Venue" : "Pune",
     "Country" : "India",
     "Month" : "February",
     "Year" : "2019",

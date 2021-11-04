@@ -1,4 +1,4 @@
-ConferencePublicationsDB = [
+PublicationsDB = [
   {
     "Publication Number" : "c1",
     "Title" : "Towards Automatic Training Design",

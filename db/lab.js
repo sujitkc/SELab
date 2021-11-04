@@ -72,11 +72,6 @@ class Faculty extends Person {
       }
     );
   }
-
-  // temporary -- just for testing; to be removed.
-  getPublications() {
-    return [this.id, this.name, "publication"];
-  }
 }
 
 class Student extends Person {
@@ -132,10 +127,7 @@ class Lab {
     this.addWorkshops();
     this.addJournals();
     this.addTechReportPlatforms();
-    this.addConferencePublications();
-    this.addWorkshopPublications();
-    this.addJournalPublications();
-    this.addTechReports();
+    this.addPublications();
   }
 
   // extra Person specific fields from the json object in people.
@@ -303,7 +295,6 @@ class Lab {
       );
       this.workshops.push(w);
     }
-
   }
 
   addJournals() {
@@ -314,22 +305,21 @@ class Lab {
 
   }
 
-  addConferencePublications() {
-    for(let cpub of ConferencePublicationsDB) {
-      let pubid = cpub["Publication Number"];
-      let title = cpub["Title"];
-      let platform = cpub["Platform"];
-      let online = cpub["Online"];
 
-      let conference = this.getConferenceByID(pubid);
+  addPublications() {
+    for(let pub of PublicationsDB) {
+      let pubid = pub["Publication Number"];
+      let title = pub["Title"];
+      let plmid = pub["Platform"];
+      let online = pub["Online"];
 
-      let publication = new Publication(pubid, title, conference, online);
+      var platform = this.getPublicationPlatformByID(plmid);
+      let publication = new Publication(pubid, title, platform, online);
       let auths = AuthorsDB.filter(
           function(x) {
             return x["ID"] == pubid;
           }
         );
-      //console.log("Authors = " + auths);
       for(let auth of auths) {
         let author = this.getPersonByEmailID(auth["author"]);
         if(author == null) {
@@ -341,18 +331,6 @@ class Lab {
       }
       this.publications.push(publication);
     }
-  }
-
-  addWorkshopPublications() {
-
-  }
-
-  addJournalPublications() {
-
-  }
-
-  addTechReports() {
-
   }
 
   getPersonByEmailID(emailID) {
@@ -401,10 +379,7 @@ class Lab {
       return platform;
     }
     platform = this.getJournalByID(id);
-    if(platform != null) {
-      return platform;
-    }
-    
+    return platform;
   }
 
   getMemberFaculty() {

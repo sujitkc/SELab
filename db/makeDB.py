@@ -31,19 +31,18 @@ def write_json(data, table):
 
 alltables = {
   "AuthorsDB",
-  "ConferencePublicationsDB",
+  "PublicationsDB",
   "ConferencesDB",
   "WorkshopsDB",
   "FacultyDB",
   "PeopleDB",
   "StudentsDB",
   "SupervisorDB",
-  "WorkshopPublicationsDB"
 }
 
 def merge_all_tables():
   print("Merging ...")
-  with open("DB.json", "w") as fout:
+  with open("json/DB.json", "w") as fout:
     for table in alltables:
       with open("json/" + table + ".json", "r") as fin:
         data = fin.read()

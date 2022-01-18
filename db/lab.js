@@ -19,7 +19,8 @@ const membertype = {
 
 const term = {
   AUGUST  : 1,
-  JANUARY : 2
+  JANUARY : 2,
+  SUMMER  : 3
 }
 
 const programme = {
@@ -72,6 +73,23 @@ class Faculty extends Person {
       }
     );
   }
+
+  getCourses() {
+    let fac = this;
+    let theLab = Lab.getInstance();
+   
+    let courses = theLab.courses.filter(
+      function(x) {
+        console.log("course = ");
+        console.log(x);
+        let tf = x.instructors.includes(fac)
+        console.log(x.name + " has " + fac.id + " as instructor : " + tf);
+        return tf;
+      }
+    );
+    console.log(courses);
+    return courses;
+  }
 }
 
 class Student extends Person {
@@ -104,6 +122,44 @@ class Student extends Person {
   }
 }
 
+class Course {
+  constructor(id, name, instructors, weblink) {
+    this.id          = id;
+    this.name        = name;
+    this.instructors = instructors;
+    this.weblink     = weblink;
+  }
+
+  addInstructor(i) {
+    this.instructors.push(i);
+  }
+
+  toHTML() {
+    return "<a href=\"" + this.weblink + "\">" + this.name + "</a>";
+  }
+}
+
+class NormalCourse extends Course {
+  constructor(id, name, instructors, weblink) {
+    super(id, name, instructors, weblink);
+  }
+}
+
+class OnlineCourse extends Course {
+  constructor(id, name, instructors, weblink, platform) {
+    super(id, name, instructors, weblink);
+    this.platform = platform;
+  }
+}
+
+class CourseOffering {
+  constructor(course, term, year) {
+    this.course = course;
+    this.term   = term;
+    this.year   = year;
+  }
+}
+
 class Lab {
 
   static instance = null;
@@ -117,8 +173,9 @@ class Lab {
     this.journals            = [];
     this.techreportplatforms = [];
     this.patentplatforms     = [];
- 
     this.publications        = [];
+    this.courses             = [];
+    this.courseOfferings     = [];
 
     this.addFacultyMembers();
     this.addStudents();
@@ -128,6 +185,9 @@ class Lab {
     this.addJournals();
     this.addTechReportPlatforms();
     this.addPublications();
+    this.addCourses();
+    this.addInstructors();
+    this.addCourseOfferings();
   }
 
   // extra Person specific fields from the json object in people.
@@ -331,6 +391,34 @@ class Lab {
       }
       this.publications.push(publication);
     }
+  }
+
+  addCourses() {
+    for(let i in CoursesDB) {
+      let course = CoursesDB[i];
+      let c = new Course(course["ID"], course["Name"], [], course["Weblink"]);
+      let instructorIDs = [];
+      for(let iindex in InstructorsDB) {
+        let instr = InstructorsDB[iindex];
+        if(instr["CourseID"] == c.id) {
+          instructorIDs.push(instr["Instructor"]);
+        }
+      }
+      console.log("Instructor ID = " + instructorIDs);
+      for(let iindex in instructorIDs) {
+        let id = instructorIDs[iindex];
+        c.addInstructor(this.getPersonByEmailID(id));
+      }
+      this.courses.push(c);
+    }
+  }
+
+  addInstructors() {
+
+  }
+
+  addCourseOfferings() {
+
   }
 
   getPersonByEmailID(emailID) {

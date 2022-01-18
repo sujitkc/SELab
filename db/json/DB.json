@@ -1,268 +1,75 @@
-StudentsDB = [
+InstructorsDB = [
   {
-    "Email" : "karthika.venkatesan@iiitb.ac.in",
-    "Roll Number" : "",
-    "Joining Year" : "2014",
-    "Term" : "August",
-    "Graduating Year" : "",
-    "Programme" : "Ph.D.",
-    "Registration Type" : "Part time"
+    "CourseID" : "course1",
+    "Instructor" : "sujitkc@iiitb.ac.in"
   },
   {
-    "Email" : "varsha.suresh@iiitb.ac.in",
-    "Roll Number" : "",
-    "Joining Year" : "2017",
-    "Term" : "January",
-    "Graduating Year" : "",
-    "Programme" : "Ph.D.",
-    "Registration Type" : "Full time"
+    "CourseID" : "course2",
+    "Instructor" : "sujitkc@iiitb.ac.in"
   },
   {
-    "Email" : "nikhila.kn@iiitb.ac.in",
-    "Roll Number" : "",
-    "Joining Year" : "2017",
-    "Term" : "August",
-    "Graduating Year" : "",
-    "Programme" : "Ph.D.",
-    "Registration Type" : "Full time"
+    "CourseID" : "course3",
+    "Instructor" : "sujitkc@iiitb.ac.in"
   },
   {
-    "Email" : "ganesha@iiitb.ac.in",
-    "Roll Number" : "",
-    "Joining Year" : "2019",
-    "Term" : "August",
-    "Graduating Year" : "",
-    "Programme" : "Ph.D.",
-    "Registration Type" : "Part time"
+    "CourseID" : "course4",
+    "Instructor" : "sujitkc@iiitb.ac.in"
   },
   {
-    "Email" : "nitin.bhatia@iiitb.ac.in",
-    "Roll Number" : "",
-    "Joining Year" : "",
-    "Term" : "",
-    "Graduating Year" : "2019",
-    "Programme" : "MS",
-    "Registration Type" : "Part time"
+    "CourseID" : "course5",
+    "Instructor" : "sujitkc@iiitb.ac.in"
   },
   {
-    "Email" : "khusbu.bubna@iiitb.org",
-    "Roll Number" : "",
-    "Joining Year" : "2014",
-    "Term" : "August",
-    "Graduating Year" : "",
-    "Programme" : "MS",
-    "Registration Type" : "Full time"
+    "CourseID" : "course6",
+    "Instructor" : "sujitkc@iiitb.ac.in"
   },
   {
-    "Email" : "maithily.diwan@iiitb.org",
-    "Roll Number" : "",
-    "Joining Year" : "",
-    "Term" : "",
-    "Graduating Year" : "",
-    "Programme" : "MS",
-    "Registration Type" : "Full time"
+    "CourseID" : "course7",
+    "Instructor" : "sujitkc@iiitb.ac.in"
   },
   {
-    "Email" : "ramakrishnan.raman@iiitb.org",
-    "Roll Number" : "",
-    "Joining Year" : "",
-    "Term" : "",
-    "Graduating Year" : "",
-    "Programme" : "Ph.D.",
-    "Registration Type" : "Part time"
+    "CourseID" : "course8",
+    "Instructor" : "sujitkc@iiitb.ac.in"
   },
   {
-    "Email" : "rajanikanth.kashi@iiitb.org",
-    "Roll Number" : "",
-    "Joining Year" : "",
-    "Term" : "",
-    "Graduating Year" : "",
-    "Programme" : "Ph.D.",
-    "Registration Type" : "Part time"
+    "CourseID" : "course9",
+    "Instructor" : "sujitkc@iiitb.ac.in"
   },
   {
-    "Email" : "gracy.joseph@iiitb.org",
-    "Roll Number" : "",
-    "Joining Year" : "2013",
-    "Term" : "",
-    "Graduating Year" : "",
-    "Programme" : "Ph.D.",
-    "Registration Type" : "Part time"
+    "CourseID" : "course10",
+    "Instructor" : "meenakshi@iiitb.ac.in"
   },
   {
-    "Email" : "avijit.mandal@iiitb.org",
-    "Roll Number" : "",
-    "Joining Year" : "",
-    "Term" : "",
-    "Graduating Year" : "",
-    "Programme" : "Ph.D.",
-    "Registration Type" : "Part time"
+    "CourseID" : "course11",
+    "Instructor" : "meenakshi@iiitb.ac.in"
   },
   {
-    "Email" : "abhi.singh.hal@gmail.com",
-    "Roll Number" : "",
-    "Joining Year" : "",
-    "Term" : "",
-    "Graduating Year" : "",
-    "Programme" : "Ph.D.",
-    "Registration Type" : "Part time"
+    "CourseID" : "course12",
+    "Instructor" : "meenakshi@iiitb.ac.in"
   },
   {
-    "Email" : "sulochan.naik@iiitb.ac.in",
-    "Roll Number" : "",
-    "Joining Year" : "",
-    "Term" : "",
-    "Graduating Year" : "",
-    "Programme" : "Ph.D.",
-    "Registration Type" : "Part time"
+    "CourseID" : "course13",
+    "Instructor" : "meenakshi@iiitb.ac.in"
   },
   {
-    "Email" : "ananta.kumar@iiitb.ac.in",
-    "Roll Number" : "",
-    "Joining Year" : "",
-    "Term" : "",
-    "Graduating Year" : "",
-    "Programme" : "MS",
-    "Registration Type" : "Part time"
+    "CourseID" : "course14",
+    "Instructor" : "meenakshi@iiitb.ac.in"
   },
   {
-    "Email" : "aritra.bhowmick@iiitb.ac.in",
-    "Roll Number" : "",
-    "Joining Year" : "",
-    "Term" : "",
-    "Graduating Year" : "",
-    "Programme" : "MS",
-    "Registration Type" : "Full time"
+    "CourseID" : "course15",
+    "Instructor" : "meenakshi@iiitb.ac.in"
   },
   {
-    "Email" : "nagalakshmi@iiitb.ac.in",
-    "Roll Number" : "",
-    "Joining Year" : "",
-    "Term" : "",
-    "Graduating Year" : "",
-    "Programme" : "Ph.D.",
-    "Registration Type" : "Full time"
+    "CourseID" : "course16",
+    "Instructor" : "meenakshi@iiitb.ac.in"
   },
   {
-    "Email" : "surabhi.jha@iiitb.org",
-    "Roll Number" : "",
-    "Joining Year" : "",
-    "Term" : "",
-    "Graduating Year" : "",
-    "Programme" : "MS",
-    "Registration Type" : "Full time"
-  }
-];
-
-
-SupervisorDB = [
-  {
-    "ID" : "1",
-    "Student" : "karthika.venkatesan@iiitb.ac.in",
-    "Faculty" : "sujitkc@iiitb.ac.in",
-    "Role" : "Supervisor"
+    "CourseID" : "course17",
+    "Instructor" : "meenakshi@iiitb.ac.in"
   },
   {
-    "ID" : "2",
-    "Student" : "varsha.suresh@iiitb.ac.in",
-    "Faculty" : "sujitkc@iiitb.ac.in",
-    "Role" : "Supervisor"
-  },
-  {
-    "ID" : "3",
-    "Student" : "nikhila.kn@iiitb.ac.in",
-    "Faculty" : "sujitkc@iiitb.ac.in",
-    "Role" : "Supervisor"
-  },
-  {
-    "ID" : "4",
-    "Student" : "ganesha@iiitb.ac.in",
-    "Faculty" : "sujitkc@iiitb.ac.in",
-    "Role" : "Supervisor"
-  },
-  {
-    "ID" : "5",
-    "Student" : "nitin.bhatia@iiitb.ac.in",
-    "Faculty" : "meenakshi@iiitb.ac.in",
-    "Role" : "Supervisor"
-  },
-  {
-    "ID" : "6",
-    "Student" : "nitin.bhatia@iiitb.ac.in",
-    "Faculty" : "sujitkc@iiitb.ac.in",
-    "Role" : "Co-supervisor"
-  },
-  {
-    "ID" : "7",
-    "Student" : "khusbu.bubna@iiitb.org",
-    "Faculty" : "sujitkc@iiitb.ac.in",
-    "Role" : "Supervisor"
-  },
-  {
-    "ID" : "8",
-    "Student" : "maithily.diwan@iiitb.org",
-    "Faculty" : "meenakshi@iiitb.ac.in",
-    "Role" : "Supervisor"
-  },
-  {
-    "ID" : "9",
-    "Student" : "ramakrishnan.raman@iiitb.org",
-    "Faculty" : "meenakshi@iiitb.ac.in",
-    "Role" : "Supervisor"
-  },
-  {
-    "ID" : "10",
-    "Student" : "rajanikanth.kashi@iiitb.org",
-    "Faculty" : "meenakshi@iiitb.ac.in",
-    "Role" : "Supervisor"
-  },
-  {
-    "ID" : "11",
-    "Student" : "gracy.joseph@iiitb.org",
-    "Faculty" : "meenakshi@iiitb.ac.in",
-    "Role" : "Supervisor"
-  },
-  {
-    "ID" : "12",
-    "Student" : "avijit.mandal@iiitb.org",
-    "Faculty" : "meenakshi@iiitb.ac.in",
-    "Role" : "Supervisor"
-  },
-  {
-    "ID" : "13",
-    "Student" : "abhi.singh.hal@gmail.com",
-    "Faculty" : "meenakshi@iiitb.ac.in",
-    "Role" : "Supervisor"
-  },
-  {
-    "ID" : "14",
-    "Student" : "sulochan.naik@iiitb.ac.in",
-    "Faculty" : "meenakshi@iiitb.ac.in",
-    "Role" : "Supervisor"
-  },
-  {
-    "ID" : "15",
-    "Student" : "ananta.kumar@iiitb.ac.in",
-    "Faculty" : "sujitkc@iiitb.ac.in",
-    "Role" : "Supervisor"
-  },
-  {
-    "ID" : "16",
-    "Student" : "aritra.bhowmick@iiitb.ac.in",
-    "Faculty" : "meenakshi@iiitb.ac.in",
-    "Role" : "Supervisor"
-  },
-  {
-    "ID" : "17",
-    "Student" : "nagalakshmi@iiitb.ac.in",
-    "Faculty" : "meenakshi@iiitb.ac.in",
-    "Role" : "Supervisor"
-  },
-  {
-    "ID" : "18",
-    "Student" : "surabhi.jha@iiitb.org",
-    "Faculty" : "meenakshi@iiitb.ac.in",
-    "Role" : "Supervisor"
+    "CourseID" : "course18",
+    "Instructor" : "meenakshi@iiitb.ac.in"
   }
 ];
 
@@ -669,6 +476,225 @@ PublicationsDB = [
     "Title" : "Formalizing GPU Instruction Set Architecture in Coq",
     "Platform" : "w3",
     "Online" : ""
+  }
+];
+
+
+CoursesOfferingsDB = [
+  {
+    "ID" : "course1",
+    "Term" : "August",
+    "Year" : "2013"
+  },
+  {
+    "ID" : "course1",
+    "Term" : "January",
+    "Year" : "2014"
+  },
+  {
+    "ID" : "course1",
+    "Term" : "January",
+    "Year" : "2015"
+  },
+  {
+    "ID" : "course2",
+    "Term" : "August",
+    "Year" : "2019"
+  },
+  {
+    "ID" : "course2",
+    "Term" : "August",
+    "Year" : "2020"
+  },
+  {
+    "ID" : "course3",
+    "Term" : "January",
+    "Year" : "2014"
+  },
+  {
+    "ID" : "course3",
+    "Term" : "January",
+    "Year" : "2015"
+  },
+  {
+    "ID" : "course3",
+    "Term" : "January",
+    "Year" : "2016"
+  },
+  {
+    "ID" : "course3",
+    "Term" : "January",
+    "Year" : "2017"
+  },
+  {
+    "ID" : "course3",
+    "Term" : "January",
+    "Year" : "2018"
+  },
+  {
+    "ID" : "course3",
+    "Term" : "January",
+    "Year" : "2019"
+  },
+  {
+    "ID" : "course3",
+    "Term" : "January",
+    "Year" : "2020"
+  },
+  {
+    "ID" : "course3",
+    "Term" : "January",
+    "Year" : "2021"
+  },
+  {
+    "ID" : "course4",
+    "Term" : "August",
+    "Year" : "2014"
+  },
+  {
+    "ID" : "course4",
+    "Term" : "August",
+    "Year" : "2015"
+  },
+  {
+    "ID" : "course4",
+    "Term" : "August",
+    "Year" : "2016"
+  },
+  {
+    "ID" : "course4",
+    "Term" : "August",
+    "Year" : "2017"
+  },
+  {
+    "ID" : "course4",
+    "Term" : "August",
+    "Year" : "2018"
+  },
+  {
+    "ID" : "course4",
+    "Term" : "August",
+    "Year" : "2019"
+  },
+  {
+    "ID" : "course4",
+    "Term" : "August",
+    "Year" : "2020"
+  },
+  {
+    "ID" : "course5",
+    "Term" : "August",
+    "Year" : "2015"
+  },
+  {
+    "ID" : "course5",
+    "Term" : "August",
+    "Year" : "2016"
+  },
+  {
+    "ID" : "course6",
+    "Term" : "August",
+    "Year" : "2016"
+  },
+  {
+    "ID" : "course6",
+    "Term" : "August",
+    "Year" : "2017"
+  },
+  {
+    "ID" : "course6",
+    "Term" : "August",
+    "Year" : "2018"
+  },
+  {
+    "ID" : "course7",
+    "Term" : "Summer",
+    "Year" : "2018"
+  },
+  {
+    "ID" : "course7",
+    "Term" : "Summer",
+    "Year" : "2019"
+  },
+  {
+    "ID" : "course7",
+    "Term" : "Summer",
+    "Year" : "2020"
+  },
+  {
+    "ID" : "course7",
+    "Term" : "Summer",
+    "Year" : "2021"
+  },
+  {
+    "ID" : "course8",
+    "Term" : "Summer",
+    "Year" : "2013"
+  },
+  {
+    "ID" : "course8",
+    "Term" : "Summer",
+    "Year" : "2014"
+  },
+  {
+    "ID" : "course8",
+    "Term" : "Summer",
+    "Year" : "2015"
+  },
+  {
+    "ID" : "course8",
+    "Term" : "Summer",
+    "Year" : "2017"
+  },
+  {
+    "ID" : "course9",
+    "Term" : "August",
+    "Year" : "2021"
+  },
+  {
+    "ID" : "course10",
+    "Term" : "",
+    "Year" : ""
+  },
+  {
+    "ID" : "course11",
+    "Term" : "",
+    "Year" : ""
+  },
+  {
+    "ID" : "course12",
+    "Term" : "",
+    "Year" : ""
+  },
+  {
+    "ID" : "course13",
+    "Term" : "",
+    "Year" : ""
+  },
+  {
+    "ID" : "course14",
+    "Term" : "",
+    "Year" : ""
+  },
+  {
+    "ID" : "course15",
+    "Term" : "",
+    "Year" : ""
+  },
+  {
+    "ID" : "course16",
+    "Term" : "",
+    "Year" : ""
+  },
+  {
+    "ID" : "course17",
+    "Term" : "",
+    "Year" : ""
+  },
+  {
+    "ID" : "course18",
+    "Term" : "",
+    "Year" : ""
   }
 ];
 
@@ -1298,6 +1324,151 @@ PeopleDB = [
 ];
 
 
+CoursesDB = [
+  {
+    "ID" : "course1",
+    "Name" : "Software Testing",
+    "Mode" : "Normal",
+    "Platform" : "",
+    "Weblink" : ""
+  },
+  {
+    "ID" : "course2",
+    "Name" : "Program Analysis for Software Engineering",
+    "Mode" : "Normal",
+    "Platform" : "",
+    "Weblink" : ""
+  },
+  {
+    "ID" : "course3",
+    "Name" : "Programming Languages",
+    "Mode" : "Normal",
+    "Platform" : "",
+    "Weblink" : ""
+  },
+  {
+    "ID" : "course4",
+    "Name" : "Programming I - Python",
+    "Mode" : "Normal",
+    "Platform" : "",
+    "Weblink" : ""
+  },
+  {
+    "ID" : "course5",
+    "Name" : "Programming II",
+    "Mode" : "Normal",
+    "Platform" : "",
+    "Weblink" : ""
+  },
+  {
+    "ID" : "course6",
+    "Name" : "Compilers",
+    "Mode" : "Normal",
+    "Platform" : "",
+    "Weblink" : ""
+  },
+  {
+    "ID" : "course7",
+    "Name" : "Foundations of Programming",
+    "Mode" : "Normal",
+    "Platform" : "",
+    "Weblink" : ""
+  },
+  {
+    "ID" : "course8",
+    "Name" : "Programming with Java",
+    "Mode" : "Normal",
+    "Platform" : "",
+    "Weblink" : ""
+  },
+  {
+    "ID" : "course9",
+    "Name" : "Software Design Practices",
+    "Mode" : "Normal",
+    "Platform" : "",
+    "Weblink" : ""
+  },
+  {
+    "ID" : "course10",
+    "Name" : "Graph Theory",
+    "Mode" : "Normal",
+    "Platform" : "",
+    "Weblink" : ""
+  },
+  {
+    "ID" : "course11",
+    "Name" : "Theory of Computation",
+    "Mode" : "Normal",
+    "Platform" : "",
+    "Weblink" : ""
+  },
+  {
+    "ID" : "course12",
+    "Name" : "Logic in Computer Science",
+    "Mode" : "Normal",
+    "Platform" : "",
+    "Weblink" : ""
+  },
+  {
+    "ID" : "course13",
+    "Name" : "Discrete Mathematics",
+    "Mode" : "Normal",
+    "Platform" : "",
+    "Weblink" : ""
+  },
+  {
+    "ID" : "course14",
+    "Name" : "Software Engineering",
+    "Mode" : "Normal",
+    "Platform" : "",
+    "Weblink" : ""
+  },
+  {
+    "ID" : "course15",
+    "Name" : "Formal Verification",
+    "Mode" : "Normal",
+    "Platform" : "",
+    "Weblink" : ""
+  },
+  {
+    "ID" : "course16",
+    "Name" : "Design and Analysis of Algorithms",
+    "Mode" : "Normal",
+    "Platform" : "",
+    "Weblink" : ""
+  },
+  {
+    "ID" : "course17",
+    "Name" : "Software Testing",
+    "Mode" : "Online",
+    "Platform" : "NPTEL",
+    "Weblink" : ""
+  }
+];
+
+
+WorkshopsDB = [
+  {
+    "ID" : "w1",
+    "Name" : "MODSYM 2016",
+    "Conference" : "c2",
+    "Online" : ""
+  },
+  {
+    "ID" : "w2",
+    "Name" : "SEED 2015",
+    "Conference" : "c65",
+    "Online" : ""
+  },
+  {
+    "ID" : "w3",
+    "Name" : "Doctoral Symposium",
+    "Conference" : "c66",
+    "Online" : ""
+  }
+];
+
+
 ConferencesDB = [
   {
     "ID" : "c1",
@@ -1896,28 +2067,6 @@ ConferencesDB = [
 ];
 
 
-WorkshopsDB = [
-  {
-    "ID" : "w1",
-    "Name" : "MODSYM 2016",
-    "Conference" : "c2",
-    "Online" : ""
-  },
-  {
-    "ID" : "w2",
-    "Name" : "SEED 2015",
-    "Conference" : "c65",
-    "Online" : ""
-  },
-  {
-    "ID" : "w3",
-    "Name" : "Doctoral Symposium",
-    "Conference" : "c66",
-    "Online" : ""
-  }
-];
-
-
 AuthorsDB = [
   {
     "ID" : "c1",
@@ -2314,6 +2463,275 @@ AuthorsDB = [
   {
     "ID" : "w3",
     "author" : "sujitkc@iiitb.ac.in"
+  }
+];
+
+
+StudentsDB = [
+  {
+    "Email" : "karthika.venkatesan@iiitb.ac.in",
+    "Roll Number" : "",
+    "Joining Year" : "2014",
+    "Term" : "August",
+    "Graduating Year" : "",
+    "Programme" : "Ph.D.",
+    "Registration Type" : "Part time"
+  },
+  {
+    "Email" : "varsha.suresh@iiitb.ac.in",
+    "Roll Number" : "",
+    "Joining Year" : "2017",
+    "Term" : "January",
+    "Graduating Year" : "",
+    "Programme" : "Ph.D.",
+    "Registration Type" : "Full time"
+  },
+  {
+    "Email" : "nikhila.kn@iiitb.ac.in",
+    "Roll Number" : "",
+    "Joining Year" : "2017",
+    "Term" : "August",
+    "Graduating Year" : "",
+    "Programme" : "Ph.D.",
+    "Registration Type" : "Full time"
+  },
+  {
+    "Email" : "ganesha@iiitb.ac.in",
+    "Roll Number" : "",
+    "Joining Year" : "2019",
+    "Term" : "August",
+    "Graduating Year" : "",
+    "Programme" : "Ph.D.",
+    "Registration Type" : "Part time"
+  },
+  {
+    "Email" : "nitin.bhatia@iiitb.ac.in",
+    "Roll Number" : "",
+    "Joining Year" : "",
+    "Term" : "",
+    "Graduating Year" : "2019",
+    "Programme" : "MS",
+    "Registration Type" : "Part time"
+  },
+  {
+    "Email" : "khusbu.bubna@iiitb.org",
+    "Roll Number" : "",
+    "Joining Year" : "2014",
+    "Term" : "August",
+    "Graduating Year" : "",
+    "Programme" : "MS",
+    "Registration Type" : "Full time"
+  },
+  {
+    "Email" : "maithily.diwan@iiitb.org",
+    "Roll Number" : "",
+    "Joining Year" : "",
+    "Term" : "",
+    "Graduating Year" : "",
+    "Programme" : "MS",
+    "Registration Type" : "Full time"
+  },
+  {
+    "Email" : "ramakrishnan.raman@iiitb.org",
+    "Roll Number" : "",
+    "Joining Year" : "",
+    "Term" : "",
+    "Graduating Year" : "",
+    "Programme" : "Ph.D.",
+    "Registration Type" : "Part time"
+  },
+  {
+    "Email" : "rajanikanth.kashi@iiitb.org",
+    "Roll Number" : "",
+    "Joining Year" : "",
+    "Term" : "",
+    "Graduating Year" : "",
+    "Programme" : "Ph.D.",
+    "Registration Type" : "Part time"
+  },
+  {
+    "Email" : "gracy.joseph@iiitb.org",
+    "Roll Number" : "",
+    "Joining Year" : "2013",
+    "Term" : "",
+    "Graduating Year" : "",
+    "Programme" : "Ph.D.",
+    "Registration Type" : "Part time"
+  },
+  {
+    "Email" : "avijit.mandal@iiitb.org",
+    "Roll Number" : "",
+    "Joining Year" : "",
+    "Term" : "",
+    "Graduating Year" : "",
+    "Programme" : "Ph.D.",
+    "Registration Type" : "Part time"
+  },
+  {
+    "Email" : "abhi.singh.hal@gmail.com",
+    "Roll Number" : "",
+    "Joining Year" : "",
+    "Term" : "",
+    "Graduating Year" : "",
+    "Programme" : "Ph.D.",
+    "Registration Type" : "Part time"
+  },
+  {
+    "Email" : "sulochan.naik@iiitb.ac.in",
+    "Roll Number" : "",
+    "Joining Year" : "",
+    "Term" : "",
+    "Graduating Year" : "",
+    "Programme" : "Ph.D.",
+    "Registration Type" : "Part time"
+  },
+  {
+    "Email" : "ananta.kumar@iiitb.ac.in",
+    "Roll Number" : "",
+    "Joining Year" : "",
+    "Term" : "",
+    "Graduating Year" : "",
+    "Programme" : "MS",
+    "Registration Type" : "Part time"
+  },
+  {
+    "Email" : "aritra.bhowmick@iiitb.ac.in",
+    "Roll Number" : "",
+    "Joining Year" : "",
+    "Term" : "",
+    "Graduating Year" : "",
+    "Programme" : "MS",
+    "Registration Type" : "Full time"
+  },
+  {
+    "Email" : "nagalakshmi@iiitb.ac.in",
+    "Roll Number" : "",
+    "Joining Year" : "",
+    "Term" : "",
+    "Graduating Year" : "",
+    "Programme" : "Ph.D.",
+    "Registration Type" : "Full time"
+  },
+  {
+    "Email" : "surabhi.jha@iiitb.org",
+    "Roll Number" : "",
+    "Joining Year" : "",
+    "Term" : "",
+    "Graduating Year" : "",
+    "Programme" : "MS",
+    "Registration Type" : "Full time"
+  }
+];
+
+
+SupervisorDB = [
+  {
+    "ID" : "1",
+    "Student" : "karthika.venkatesan@iiitb.ac.in",
+    "Faculty" : "sujitkc@iiitb.ac.in",
+    "Role" : "Supervisor"
+  },
+  {
+    "ID" : "2",
+    "Student" : "varsha.suresh@iiitb.ac.in",
+    "Faculty" : "sujitkc@iiitb.ac.in",
+    "Role" : "Supervisor"
+  },
+  {
+    "ID" : "3",
+    "Student" : "nikhila.kn@iiitb.ac.in",
+    "Faculty" : "sujitkc@iiitb.ac.in",
+    "Role" : "Supervisor"
+  },
+  {
+    "ID" : "4",
+    "Student" : "ganesha@iiitb.ac.in",
+    "Faculty" : "sujitkc@iiitb.ac.in",
+    "Role" : "Supervisor"
+  },
+  {
+    "ID" : "5",
+    "Student" : "nitin.bhatia@iiitb.ac.in",
+    "Faculty" : "meenakshi@iiitb.ac.in",
+    "Role" : "Supervisor"
+  },
+  {
+    "ID" : "6",
+    "Student" : "nitin.bhatia@iiitb.ac.in",
+    "Faculty" : "sujitkc@iiitb.ac.in",
+    "Role" : "Co-supervisor"
+  },
+  {
+    "ID" : "7",
+    "Student" : "khusbu.bubna@iiitb.org",
+    "Faculty" : "sujitkc@iiitb.ac.in",
+    "Role" : "Supervisor"
+  },
+  {
+    "ID" : "8",
+    "Student" : "maithily.diwan@iiitb.org",
+    "Faculty" : "meenakshi@iiitb.ac.in",
+    "Role" : "Supervisor"
+  },
+  {
+    "ID" : "9",
+    "Student" : "ramakrishnan.raman@iiitb.org",
+    "Faculty" : "meenakshi@iiitb.ac.in",
+    "Role" : "Supervisor"
+  },
+  {
+    "ID" : "10",
+    "Student" : "rajanikanth.kashi@iiitb.org",
+    "Faculty" : "meenakshi@iiitb.ac.in",
+    "Role" : "Supervisor"
+  },
+  {
+    "ID" : "11",
+    "Student" : "gracy.joseph@iiitb.org",
+    "Faculty" : "meenakshi@iiitb.ac.in",
+    "Role" : "Supervisor"
+  },
+  {
+    "ID" : "12",
+    "Student" : "avijit.mandal@iiitb.org",
+    "Faculty" : "meenakshi@iiitb.ac.in",
+    "Role" : "Supervisor"
+  },
+  {
+    "ID" : "13",
+    "Student" : "abhi.singh.hal@gmail.com",
+    "Faculty" : "meenakshi@iiitb.ac.in",
+    "Role" : "Supervisor"
+  },
+  {
+    "ID" : "14",
+    "Student" : "sulochan.naik@iiitb.ac.in",
+    "Faculty" : "meenakshi@iiitb.ac.in",
+    "Role" : "Supervisor"
+  },
+  {
+    "ID" : "15",
+    "Student" : "ananta.kumar@iiitb.ac.in",
+    "Faculty" : "sujitkc@iiitb.ac.in",
+    "Role" : "Supervisor"
+  },
+  {
+    "ID" : "16",
+    "Student" : "aritra.bhowmick@iiitb.ac.in",
+    "Faculty" : "meenakshi@iiitb.ac.in",
+    "Role" : "Supervisor"
+  },
+  {
+    "ID" : "17",
+    "Student" : "nagalakshmi@iiitb.ac.in",
+    "Faculty" : "meenakshi@iiitb.ac.in",
+    "Role" : "Supervisor"
+  },
+  {
+    "ID" : "18",
+    "Student" : "surabhi.jha@iiitb.org",
+    "Faculty" : "meenakshi@iiitb.ac.in",
+    "Role" : "Supervisor"
   }
 ];
 

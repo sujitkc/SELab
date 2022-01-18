@@ -38,12 +38,16 @@ alltables = {
   "PeopleDB",
   "StudentsDB",
   "SupervisorDB",
+  "CoursesDB",
+  "CoursesOfferingsDB",
+  "InstructorsDB",
 }
 
 def merge_all_tables():
   print("Merging ...")
   with open("json/DB.json", "w") as fout:
     for table in alltables:
+      print("merging " + table)
       with open("json/" + table + ".json", "r") as fin:
         data = fin.read()
         fout.write(data + "\n")

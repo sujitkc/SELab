@@ -43,4 +43,21 @@ class API {
     let mystudents = theLab.getPersonByEmailID(id).getStudents();
     element.innerHTML = API.peopleListtoHTML(mystudents);
   }
+
+  // Display the list of all students working with the given 
+  // faculty member.
+  static displayCourses(id, elementId) {
+    let element = document.getElementById(elementId);
+    let theLab = Lab.getInstance();
+    let mycourses = theLab.getPersonByEmailID(id).getCourses();
+    let strCourses = mycourses.map(
+      function(c) { return c.toHTML(); }
+    );
+    var htmlCourses = "<ul>" + strCourses.reduce(
+        function(x, y) { return x + "<li>" + y; },
+        ""
+      ) + "</ul>";
+    element.innerHTML = htmlCourses;
+  }
+
 }

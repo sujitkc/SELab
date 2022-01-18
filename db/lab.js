@@ -11,29 +11,36 @@ class Name {
 }
 
 const membertype = {
-  MEMBERFACULTY   : 1,
-  MEMBERSTUDENT   : 2,
-  EXTERNALFACULTY : 3,
-  EXTERNAL        : 4
+  MEMBERFACULTY: 1,
+  MEMBERSTUDENT: 2,
+  EXTERNALFACULTY: 3,
+  EXTERNAL: 4
 }
 
 const term = {
-  AUGUST  : 1,
-  JANUARY : 2,
-  SUMMER  : 3
+  AUGUST: "August",
+  JANUARY: "January",
+  SUMMER: "Summer"
 }
 
 const programme = {
-  PHD : 1,
-  MSR : 2,
-  MTECH : 3,
-  IMTECH : 4,
-  MSCDT : 5
+  PHD: 1,
+  MSR: 2,
+  MTECH: 3,
+  IMTECH: 4,
+  MSCDT: 5
 }
 
 const registration = {
-  FT : 1,
-  PT : 2
+  FT: 1,
+  PT: 2
+}
+
+class Semester {
+  constructor(term, year) {
+    this.term = term;
+    this.year = year;
+  }
 }
 
 class Person {
@@ -47,7 +54,7 @@ class Person {
   getPublications() {
     let theLab = Lab.getInstance();
     return theLab.publications.filter(
-      function(x) {
+      function (x) {
         x.authors.includes(this);
       }
     );
@@ -68,7 +75,7 @@ class Faculty extends Person {
     let fac = this;
     let theLab = Lab.getInstance();
     return theLab.getMemberStudents().filter(
-      function(x) {
+      function (x) {
         return (x.supervisor == fac) || (x.coSupervisors.includes(fac));
       }
     );
@@ -77,43 +84,39 @@ class Faculty extends Person {
   getCourses() {
     let fac = this;
     let theLab = Lab.getInstance();
-   
+
     let courses = theLab.courses.filter(
-      function(x) {
-        console.log("course = ");
-        console.log(x);
+      function (x) {
         let tf = x.instructors.includes(fac)
-        console.log(x.name + " has " + fac.id + " as instructor : " + tf);
         return tf;
       }
     );
-    console.log(courses);
     return courses;
   }
 }
 
 class Student extends Person {
   constructor(
-      id,
-      name,
-      rollNumber,
-      supervisor,
-      coSupervisors,
-      joiningTerm,
-      joiningYear,
-      graduatingYear,
-      programme,
-      registrationType,
-      webpage
+    id,
+    name,
+    rollNumber,
+    supervisor,
+    coSupervisors,
+    joiningTerm,
+    joiningYear,
+    graduatingYear,
+    programme,
+    registrationType,
+    webpage
   ) {
     super(id, name, membertype.MEMBERSTUDENT, webpage);
-    this.rollNumber       = rollNumber;
-    this.supervisor       = supervisor;
-    this.coSupervisors    = coSupervisors;
-    this.joiningTerm      = joiningTerm;
-    this.joiningYear      = joiningYear;
-    this.graduatingYear   = graduatingYear;
-    this.programme        = programme;
+    this.rollNumber = rollNumber;
+    this.supervisor = supervisor;
+    this.coSupervisors = coSupervisors;
+    this.joiningTerm = joiningTerm;
+    this.joiningYear = joiningYear;
+    this.graduatingYear = graduatingYear;
+    this.programme = programme;
     this.registrationType = registrationType;
   }
 
@@ -123,19 +126,30 @@ class Student extends Person {
 }
 
 class Course {
-  constructor(id, name, instructors, weblink) {
-    this.id          = id;
-    this.name        = name;
+  constructor(id, name, instructors, offerings, weblink) {
+    this.id = id;
+    this.name = name;
     this.instructors = instructors;
-    this.weblink     = weblink;
+    this.offerings = offerings;
+    this.weblink = weblink;
   }
 
-  addInstructor(i) {
-    this.instructors.push(i);
+  addInstructor(instructor) {
+    this.instructors.push(instructor);
+  }
+
+  addOfferings(offering) {
+    this.offerings.push(offering);
   }
 
   toHTML() {
-    return "<a href=\"" + this.weblink + "\">" + this.name + "</a>";
+    let strOfferings = this.offerings.map(
+      function(o) { return o.term + " - " + o.year }
+    ).reduce(
+      function(x, y) { return x + ", " + y; }, ""
+    );
+
+    return "<a href=\"" + this.weblink + "\">" + this.name + "</a> ("  + strOfferings + ")";
   }
 }
 
@@ -155,8 +169,8 @@ class OnlineCourse extends Course {
 class CourseOffering {
   constructor(course, term, year) {
     this.course = course;
-    this.term   = term;
-    this.year   = year;
+    this.term = term;
+    this.year = year;
   }
 }
 
@@ -167,15 +181,14 @@ class Lab {
   static baseURL = "file:///home/sujit/IIITB/SELab/website/SELab/";
 
   constructor() {
-    this.people              = [];
-    this.conferences         = [];
-    this.workshops           = [];
-    this.journals            = [];
+    this.people = [];
+    this.conferences = [];
+    this.workshops = [];
+    this.journals = [];
     this.techreportplatforms = [];
-    this.patentplatforms     = [];
-    this.publications        = [];
-    this.courses             = [];
-    this.courseOfferings     = [];
+    this.patentplatforms = [];
+    this.publications = [];
+    this.courses = [];
 
     this.addFacultyMembers();
     this.addStudents();
@@ -187,34 +200,33 @@ class Lab {
     this.addPublications();
     this.addCourses();
     this.addInstructors();
-    this.addCourseOfferings();
   }
 
   // extra Person specific fields from the json object in people.
   extractPersonDetails(p) {
-    let emailID    = p["Email"];
-    let firstName  = p["First Name"];
+    let emailID = p["Email"];
+    let firstName = p["First Name"];
     let middleName = p["Middle Name"];
-    let lastName   = p["Last Name"];
+    let lastName = p["Last Name"];
     let name = new Name(firstName, middleName, lastName);
 
     var memtype = null;
-    if(p["Member Type"] == "memberfaculty") {
+    if (p["Member Type"] == "memberfaculty") {
       memtype = membertype.MEMBERFACULTY;
     }
-    else if(p["Member Type"] == "memberstudent") {
+    else if (p["Member Type"] == "memberstudent") {
       memtype = membertype.MEMBERSTUDENT;
     }
-    else if(p["Member Type"] == "externalfaculty") {
+    else if (p["Member Type"] == "externalfaculty") {
       memtype = membertype.EXTERNALFACULTY;
     }
     else {
       memtype = membertype.EXTERNAL;
     }
-    
+
     var webpage = null;
-    if(p["webpage"] != null) {
-      if(p["linktype" == "absolute"]) {
+    if (p["webpage"] != null) {
+      if (p["linktype" == "absolute"]) {
         webpage = p["webpage"];
       }
       else {
@@ -228,89 +240,89 @@ class Lab {
   }
 
   addFacultyMembers() {
-    for(let fac of FacultyDB) {
+    for (let fac of FacultyDB) {
       var person = null;
-      for(let p of PeopleDB) {
-        if(p.Email == fac.Email) {
+      for (let p of PeopleDB) {
+        if (p.Email == fac.Email) {
           person = this.extractPersonDetails(p);
           break;
         }
       }
-      var f = new Faculty(fac.Email, person.name, fac.employeeID, person.webpage); 
+      var f = new Faculty(fac.Email, person.name, fac.employeeID, person.webpage);
       this.people.push(f);
     }
   }
 
   addStudents() {
-    var person = null; 
-    for(let st of StudentsDB) {
+    var person = null;
+    for (let st of StudentsDB) {
       var name = null;
-      for(let p of PeopleDB) {
-        if(p.Email == st.Email) {
+      for (let p of PeopleDB) {
+        if (p.Email == st.Email) {
           person = this.extractPersonDetails(p);
         }
       }
 
       let jyear = parseInt(st["Joining Year"]);
       var jterm = null;
-      if(st["Term"] == "January") {
+      if (st["Term"] == "January") {
         jterm = term.JANUARY;
       }
       else {
         jterm = term.AUGUST;
       }
       var prog = null;
-      if(st["Programme"] == "Ph.D.") {
+      if (st["Programme"] == "Ph.D.") {
         prog = programme.PHD;
       }
-      else if(st["Programme"] == "MS") {
+      else if (st["Programme"] == "MS") {
         prog = programme.MSR;
       }
-      else if(st["Programme"] == "M.Tech") {
+      else if (st["Programme"] == "M.Tech") {
         prog = programme.MTECH;
       }
-      else if(st["Programme"] == "iMTech") {
+      else if (st["Programme"] == "iMTech") {
         prog = programme.IMTECH;
       }
-      else if(st["Programme"] == "M.Sc Digital Society") {
+      else if (st["Programme"] == "M.Sc Digital Society") {
         prog = programme.MSCDT;
       }
       else {
         prog = programme.PHD;
       }
       var registrationType = null;
-      if(st["Registration Type"] == "Full Time") {
+      if (st["Registration Type"] == "Full Time") {
         registrationType = registration.FT;
       }
-      else if(st["Registration Type"] == "Part Time") {
+      else if (st["Registration Type"] == "Part Time") {
         registrationType = registration.PT;
       }
       let gyear = parseInt(st["Graduating Year"]);
       var student = new Student(
-                      st.Email,
-                      person.name,
-                      st["Roll Number"],
-                      null,
-                      [],
-                      jterm,
-                      jyear,
-                      gyear,
-                      prog,
-                      registrationType,
-                      person.webpage);
+        st.Email,
+        person.name,
+        st["Roll Number"],
+        null,
+        [],
+        jterm,
+        jyear,
+        gyear,
+        prog,
+        registrationType,
+        person.webpage);
       let sups = SupervisorDB.filter(
-        function(x) { 
+        function (x) {
           return x["Student"] == student.id && x["Role"] == "Supervisor";
         }
       );
       let sup = sups[0]; // sup expected to have one and only one element.
       student.supervisor = this.getPersonByEmailID(sup["Faculty"]);
       let cosups = SupervisorDB.filter(
-        function(x) {
+        function (x) {
           return x["Student"] == student.id && x["Role"] == "Co-supervisor";
         }
       );
-      for(let cosup of cosups) {
+      for (let cosup of cosups) {
         let cosupervisor = this.getPersonByEmailID(cosup["Faculty"]);
         student.addCosupervisor(cosupervisor);
       }
@@ -319,18 +331,16 @@ class Lab {
   }
 
   addOtherPeople() {
-    for(let p of PeopleDB) {
+    for (let p of PeopleDB) {
       let per = this.extractPersonDetails(p);
-      if(per.type == membertype.EXTERNALFACULTY || per.type == membertype.EXTERNAL) {
+      if (per.type == membertype.EXTERNALFACULTY || per.type == membertype.EXTERNAL) {
         this.people.push(per);
       }
     }
-
-   
   }
 
   addConferences() {
-    for(let conf of ConferencesDB) {
+    for (let conf of ConferencesDB) {
       let c = new Conference(
         conf["ID"],
         conf["Name"],
@@ -345,7 +355,7 @@ class Lab {
   }
 
   addWorkshops() {
-    for(let workshop of WorkshopsDB) {
+    for (let workshop of WorkshopsDB) {
       let conf = this.getConferenceByID(workshop["Conference"]);
       let w = new Workshop(
         workshop["ID"],
@@ -367,7 +377,7 @@ class Lab {
 
 
   addPublications() {
-    for(let pub of PublicationsDB) {
+    for (let pub of PublicationsDB) {
       let pubid = pub["Publication Number"];
       let title = pub["Title"];
       let plmid = pub["Platform"];
@@ -376,13 +386,13 @@ class Lab {
       var platform = this.getPublicationPlatformByID(plmid);
       let publication = new Publication(pubid, title, platform, online);
       let auths = AuthorsDB.filter(
-          function(x) {
-            return x["ID"] == pubid;
-          }
-        );
-      for(let auth of auths) {
+        function (x) {
+          return x["ID"] == pubid;
+        }
+      );
+      for (let auth of auths) {
         let author = this.getPersonByEmailID(auth["author"]);
-        if(author == null) {
+        if (author == null) {
           console.log("Author " + auth["author"] + " not found.");
         }
         else {
@@ -394,21 +404,26 @@ class Lab {
   }
 
   addCourses() {
-    for(let i in CoursesDB) {
+    for (let i in CoursesDB) {
       let course = CoursesDB[i];
-      let c = new Course(course["ID"], course["Name"], [], course["Weblink"]);
-      let instructorIDs = [];
-      for(let iindex in InstructorsDB) {
-        let instr = InstructorsDB[iindex];
-        if(instr["CourseID"] == c.id) {
-          instructorIDs.push(instr["Instructor"]);
-        }
-      }
-      console.log("Instructor ID = " + instructorIDs);
-      for(let iindex in instructorIDs) {
+      let c = new Course(course["ID"], course["Name"], [], [], course["Weblink"]);
+
+      let instructorIDs = InstructorsDB.filter(
+        function(i) { return i["CourseID"] == c.id  }
+      ).map(
+        function(i) { return i["Instructor"] }
+      );
+      for (let iindex in instructorIDs) {
         let id = instructorIDs[iindex];
         c.addInstructor(this.getPersonByEmailID(id));
       }
+
+      let offerings = CoursesOfferingsDB.filter(
+        function(o) { return o["ID"] == c.id; }
+      ).map(
+        function(o) { return new Semester(o["Term"], parseInt(o["Year"]))}
+      );
+      c.offerings = offerings;
       this.courses.push(c);
     }
   }
@@ -422,8 +437,8 @@ class Lab {
   }
 
   getPersonByEmailID(emailID) {
-    for(let p of this.people) {
-      if(emailID == p.id) {
+    for (let p of this.people) {
+      if (emailID == p.id) {
         return p;
       }
     }
@@ -431,8 +446,8 @@ class Lab {
   }
 
   getConferenceByID(id) {
-    for(let c of this.conferences) {
-      if(id == c.id) {
+    for (let c of this.conferences) {
+      if (id == c.id) {
         return c;
       }
     }
@@ -440,8 +455,8 @@ class Lab {
   }
 
   getWorkshopByID(id) {
-    for(let w of this.workshops) {
-      if(id == w.id) {
+    for (let w of this.workshops) {
+      if (id == w.id) {
         return w;
       }
     }
@@ -449,8 +464,8 @@ class Lab {
   }
 
   getJournalByID(id) {
-    for(let j of this.journals) {
-      if(id == j.id) {
+    for (let j of this.journals) {
+      if (id == j.id) {
         return j;
       }
     }
@@ -459,11 +474,11 @@ class Lab {
 
   getPublicationPlatformByID(id) {
     var platform = this.getConferenceByID(id);
-    if(platform != null) {
+    if (platform != null) {
       return platform;
     }
     platform = this.getWorkshopByID(id);
-    if(platform != null) {
+    if (platform != null) {
       return platform;
     }
     platform = this.getJournalByID(id);
@@ -472,18 +487,18 @@ class Lab {
 
   getMemberFaculty() {
     return this.people.filter(
-      function(x) { return x.type == membertype.MEMBERFACULTY; }
-    ); 
+      function (x) { return x.type == membertype.MEMBERFACULTY; }
+    );
   }
 
   getMemberStudents() {
     return this.people.filter(
-      function(x) { return x.type == membertype.MEMBERSTUDENT; }
-    ); 
+      function (x) { return x.type == membertype.MEMBERSTUDENT; }
+    );
   }
 
   static getInstance() {
-    if(Lab.instance == null) {
+    if (Lab.instance == null) {
       Lab.instance = new Lab();
     }
     return Lab.instance;
@@ -509,20 +524,20 @@ class Publication {
 
   toHTML() {
     authorNames = this.authors.map(
-        function(author) { return author.name; }
-      );
+      function (author) { return author.name; }
+    );
     strAuthors = this.authorNames.reduce(
-        function(x, y) { return x + y },
-        ""
-      );
+      function (x, y) { return x + y },
+      ""
+    );
     return this.title + " " + strAuthors + " " + this.platform.toHTML();
   }
 }
 
 class PublicationPlatform {
   constructor(id, name, online) {
-    this.id     = id;
-    this.name   = name;
+    this.id = id;
+    this.name = name;
     this.online = online;
   }
 }
@@ -530,9 +545,9 @@ class PublicationPlatform {
 class Conference extends PublicationPlatform {
   constructor(id, name, month, year, venue, country, online) {
     super(id, name, online);
-    this.month   = month;
-    this.year    = year;
-    this.venue   = venue;
+    this.month = month;
+    this.year = year;
+    this.venue = venue;
     this.country = country;
   }
 

@@ -170,12 +170,13 @@ class Course {
 
   toHTML() {
     let strOfferings = this.offerings.map(
-      function(o) { return o.term + " - " + o.year }
+      o => o.term + " - " + o.year
     ).reduce(
       function(x, y) { return x + ", " + y; }, ""
     );
 
-    return "<a href=\"" + this.weblink + "\">" + this.name + "</a> ("  + strOfferings + ")";
+    return "<a href=\"" + this.weblink + "\">" + this.name + "</a> ("
+      + strOfferings + ")";
   }
 }
 

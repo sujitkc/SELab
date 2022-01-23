@@ -18,11 +18,7 @@ class API {
     if(publications.length == 0) {
       return "";
     }
-    let pubNames = publications.map(
-        function(x) {
-          return x.toHTML();
-        }
-      );
+    let pubNames = publications.map(x => x.toHTML());
     var strPubs = "<ul>" + pubNames.reduce(
         function(x, y) { return x + "<li>" + y; },
         ""
@@ -67,9 +63,7 @@ class API {
   }
 
   static peopleListtoHTML(list) {
-    let htmls = list.map(
-      function(x) { return x.toHTML(); }
-    );
+    let htmls = list.map(x => x.toHTML());
     return API.reduceStrings(htmls);
   }
 
@@ -88,9 +82,7 @@ class API {
     let element = document.getElementById(elementId);
     let theLab = Lab.getInstance();
     let mycourses = theLab.getPersonByEmailID(id).getCourses();
-    let strCourses = mycourses.map(
-      function(c) { return c.toHTML(); }
-    );
+    let strCourses = mycourses.map(c => c.toHTML());
     var htmlCourses = "<ul>" + strCourses.reduce(
         function(x, y) { return x + "<li>" + y; },
         ""

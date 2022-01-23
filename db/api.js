@@ -14,18 +14,56 @@ class API {
 
   // to be added to an HTML file, typically in the 
   // person webpages of all the lab members.
-  static html_of_publications(publications) {
-    
+  static html_of_publications(publications, header) {
+    if(publications.length == 0) {
+      return "";
+    }
     let pubNames = publications.map(
         function(x) {
-          return x.title;
+          return x.toHTML();
         }
       );
     var strPubs = "<ul>" + pubNames.reduce(
         function(x, y) { return x + "<li>" + y; },
         ""
       ) + "</ul>";
-    return "<h1>All Publications</h1>" + strPubs;
+    return "<h2>" + header + "</h2>" + strPubs;
+  }
+
+  static all_publications(publications) {
+    return this.html_of_publications(publications, "All Publications");
+  }
+
+  static conference_publications(publications) {
+    return this.html_of_publications(publications, "Conference Publications");
+  }
+
+  static workshop_publications(publications) {
+    return this.html_of_publications(publications, "Workshop Publications");
+  }
+
+  static journal_publications(publications) {
+    return this.html_of_publications(publications, "Journal Publications");
+  }
+
+  static technical_reports(publications) {
+    this.html_of_publications(publications, "Technical Reports");
+  }
+
+  static displayPublications(emailID) {
+    let conf = document.getElementById("myconfpublications");
+    let workshop = document.getElementById("myjournalpublications");
+    let journal = document.getElementById("myworkshoppublications");
+    let techrep = document.getElementById("mytechreports");
+
+    let theLab = Lab.getInstance();
+    let myself = theLab.getPersonByEmailID(emailID);
+    let myconfpubs = myself.getConferencePublications();
+    console.log(myconfpubs);
+    conf.innerHTML = API.conference_publications(myconfpubs);
+    workshop.innerHTML = API.workshop_publications(myself.getWorkshopPublications());
+    journal.innerHTML = API.journal_publications(myself.getJournalPublications());
+    techrep.innerHTML = API.technical_reports(myself.getTechnicalReports());
   }
 
   static peopleListtoHTML(list) {
@@ -59,5 +97,4 @@ class API {
       ) + "</ul>";
     element.innerHTML = htmlCourses;
   }
-
 }

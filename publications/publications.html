@@ -12,9 +12,11 @@
     <link rel="stylesheet" type="text/css" href="../css/selab.css">   
     <script>
       function displayPublications() {
-        let element = document.getElementById("confpubs");
+        let element = document.getElementById("allpubs");
         let theLab = Lab.getInstance();
-        element.innerHTML = API.html_of_publications(theLab.publications);
+        let strpub = API.all_publications(theLab.publications);
+        console.log("All publications"); 
+        element.innerHTML = strpub;
       }
     </script>
   </head>
@@ -29,6 +31,6 @@
 			<li><a href="publications.html">Publications</a></li>
 		</ol>	
 	<h3>Publications</h3>
-  	<p id = "confpubs"></p>
+  	<p id = "allpubs"></p>
   </body>
 </html>

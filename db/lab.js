@@ -52,12 +52,38 @@ class Person {
   }
 
   getPublications() {
-    let theLab = Lab.getInstance();
-    return theLab.publications.filter(
-      function (x) {
-        x.authors.includes(this);
-      }
+    return Lab.getInstance().publications.filter(
+        x => x.authors.includes(this)
     );
+  }
+
+  getRecentPublications() {
+    let thisYear = new Date().getFullYear();
+    return Lab.getInstance().publications.filter(
+        x => x.authors.includes(this) && (x.platform.year > thisYear - 5) 
+    );
+  }
+
+  getSpecificPublications(platformType) {
+    return this.getRecentPublications().filter(
+      x => x.platform instanceof platformType
+    )
+  }
+
+  getConferencePublications() {
+    return this.getSpecificPublications(Conference);
+  }
+
+  getJournalPublications() {
+    return this.getSpecificPublications(Journal);
+  }
+
+  getWorkshopPublications() {
+    return this.getSpecificPublications(Workshop);
+  }
+
+  getTechnicalReports() {
+    return this.getSpecificPublications(TechnicalReportPlatform);
   }
 
   toHTML() {
@@ -523,11 +549,11 @@ class Publication {
   }
 
   toHTML() {
-    authorNames = this.authors.map(
-      function (author) { return author.name; }
+    let authorNames = this.authors.map(
+      function (author) { return author.toHTML(); }
     );
-    strAuthors = this.authorNames.reduce(
-      function (x, y) { return x + y },
+    let strAuthors = authorNames.reduce(
+      function (x, y) { return x + ", " + y },
       ""
     );
     return this.title + " " + strAuthors + " " + this.platform.toHTML();
@@ -535,18 +561,18 @@ class Publication {
 }
 
 class PublicationPlatform {
-  constructor(id, name, online) {
-    this.id = id;
-    this.name = name;
+  constructor(id, name, month, year, online) {
+    this.id     = id;
+    this.name   = name;
+    this.month  = month;
+    this.year   = year;
     this.online = online;
   }
 }
 
 class Conference extends PublicationPlatform {
   constructor(id, name, month, year, venue, country, online) {
-    super(id, name, online);
-    this.month = month;
-    this.year = year;
+    super(id, name, month, year, online);
     this.venue = venue;
     this.country = country;
   }
@@ -557,13 +583,13 @@ class Conference extends PublicationPlatform {
   }
 
   toHTML() {
-    return this.name;
+    return this.toString();
   }
 }
 
 class Workshop extends PublicationPlatform {
   constructor(id, name, conference, online) {
-    super(id, name, online);
+    super(id, name, conference.month, conference.year, online);
     this.conference = conference;
   }
 
@@ -573,8 +599,8 @@ class Workshop extends PublicationPlatform {
 }
 
 class Journal extends PublicationPlatform {
-  constructor(id, name) {
-    super(id, name);
+  constructor(id, name, month, year, online) {
+    super(id, name, month, year, online);
   }
 
   toHTML() {

@@ -216,6 +216,7 @@ class Lab {
     this.patentplatforms = [];
     this.recentPublications = [];
 	this.oldPublications = [];
+	this.publications = [];
     this.courses = [];
 
     this.addFacultyMembers();
@@ -432,6 +433,7 @@ class Lab {
 	  } else {
 		 this.oldPublications.push(publication); 
 	  }
+	  this.publications.push(publication);
     }
   }
 

@@ -20,8 +20,7 @@ class API {
     }
     let pubNames = publications.map(x => x.toHTML());
     var strPubs = "<ul>" + pubNames.reduce(
-        function(x, y) { return x + "<li>" + y; },
-        ""
+        (x, y) => x + "<li>" + y, ""
       ) + "</ul>";
     return "<h2>" + header + "</h2>" + strPubs;
   }
@@ -59,7 +58,7 @@ class API {
     conf.innerHTML = API.conference_publications(myconfpubs);
     workshop.innerHTML = API.workshop_publications(myself.getWorkshopPublications());
     journal.innerHTML = API.journal_publications(myself.getJournalPublications());
-    techrep.innerHTML = API.technical_reports(myself.getTechnicalReports());
+//    techrep.innerHTML = API.technical_reports(myself.getTechnicalReports());
   }
 
   static peopleListtoHTML(list) {

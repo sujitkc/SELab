@@ -214,7 +214,8 @@ class Lab {
     this.journals = [];
     this.techreportplatforms = [];
     this.patentplatforms = [];
-    this.publications = [];
+    this.recentPublications = [];
+	this.oldPublications = [];
     this.courses = [];
 
     this.addFacultyMembers();
@@ -426,7 +427,11 @@ class Lab {
           publication.addAuthor(author);
         }
       }
-      this.publications.push(publication);
+	  if (platform.year >= 2010) {
+         this.recentPublications.push(publication);
+	  } else {
+		 this.oldPublications.push(publication); 
+	  }
     }
   }
 

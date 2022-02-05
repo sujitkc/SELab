@@ -40,8 +40,12 @@
 	  
         let element = document.getElementById(id);
         let theLab = Lab.getInstance();
-        let strpub = API.all_publications(theLab.publications);
-        console.log("All publications"); 
+		let strpub = ''
+		if (id === 'publications') {
+            strpub = API.all_publications(theLab.recentPublications);
+		} else if (id === 'oldPublications') {
+		    strpub = API.all_publications(theLab.oldPublications);
+		}
         element.innerHTML = strpub;
        }
        

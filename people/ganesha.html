@@ -3,8 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>IIIT-B SELab Page</title>
+
+    <script src="../db/json/DB.json"></script>
+    <script src="../db/lab.js"> </script>
+    <script src="../db/api.js"> </script>
+
+
   </head>
-<body>
+<body onload="API.displayPublications('ganesha@iiitb.ac.in');">
 
     <div>
 
@@ -32,6 +38,12 @@
 <p>He is currently a part time PhD research scholar in IIIT – Bangalore sponsored by Samsung R&D Institute India – Bangalore.</p>
 Courses taken till now: Program Analysis for Software Engineering, Software Testing.
 </br></br>
-  <p id = "pubs"></p>
+
+  <h2>Recent Publications</h2>
+  <a id="myconfpublications"></a>
+  <a id="myjournalpublications"></a>
+  <a id="myworkshoppublications"></a>
+  <a id="mytechreports"></a>
+
 </body>
 </html>

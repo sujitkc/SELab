@@ -3,8 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>IIIT-B SELab Page</title>
+    <script src="../db/json/DB.json"></script>
+    <script src="../db/lab.js"> </script>
+    <script src="../db/api.js"> </script>
+
+
   </head>
-<body>
+<body onload="API.displayPublications('varsha.suresh@iiitb.ac.in');">
 
     <div>
 
@@ -33,7 +38,11 @@ research work.</br></br>
 Her other interests are Dance, Music, Drawing etc.</br></br>
 Courses taken till now: Compiler Design, Software Testing, Theory of
 Computation, Programming Languages, Formal verification of SOCs.
-  <h3>Publications</h3>
-  <p id = "pubs"></p>
+
+  <h2>Recent Publications</h2>
+  <a id="myconfpublications"></a>
+  <a id="myjournalpublications"></a>
+  <a id="myworkshoppublications"></a>
+  <a id="mytechreports"></a>
 </body>
 </html>

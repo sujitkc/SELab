@@ -3,8 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>IIIT-B SELab Page</title>
+    <script src="../db/json/DB.json"></script>
+    <script src="../db/lab.js"> </script>
+    <script src="../db/api.js"> </script>
+
+
   </head>
-<body>
+<body onload="API.displayPublications('maithily.diwan@iiitb.org');">
 
     <div>
 
@@ -33,8 +38,12 @@
 	<p>Her other interests include Music, Dance, Yoga, Gardening and Painting.</p>
 	Courses taken till now: Discrete Mathematics, Data Structures and Algorithm, Formal Specifications
 <br>
-	<h3>Publications</h3>
-	<p id = "pubs"></p>
+
+  <h2>Recent Publications</h2>
+  <a id="myconfpublications"></a>
+  <a id="myjournalpublications"></a>
+  <a id="myworkshoppublications"></a>
+  <a id="mytechreports"></a>
 		
 </body>
 </html>

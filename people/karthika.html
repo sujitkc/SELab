@@ -3,8 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>IIIT-B SELab Page</title>
+    <script src="../db/json/DB.json"></script>
+    <script src="../db/lab.js"> </script>
+    <script src="../db/api.js"> </script>
+
+
   </head>
-<body>
+<body onload="API.displayPublications('karthika.venkatesan@iiitb.ac.in');">
 
     <div>
 
@@ -28,7 +33,12 @@
 	<p>She has done her M.E software engineering from College of Engineering Guindy,Anna University, Chennai. Her research interests are semantics, e-learning, augmented reality, ontology, natural language processing.</p>
 	<p>Her other interests are Drawing, Music, Singing.</p>
 	Courses taken till now: Compiler Design, Automated Formal Verification, Theory of Computation
-  <h3>Publications</h3>
-  <p id = "pubs"></p>
+
+  <h2>Recent Publications</h2>
+  <a id="myconfpublications"></a>
+  <a id="myjournalpublications"></a>
+  <a id="myworkshoppublications"></a>
+  <a id="mytechreports"></a>
+
 </body>
 </html>

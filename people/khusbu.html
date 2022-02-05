@@ -3,8 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>IIIT-B SELab Page</title>
+    <script src="../db/json/DB.json"></script>
+    <script src="../db/lab.js"> </script>
+    <script src="../db/api.js"> </script>
+
+
   </head>
-<body>
+<body onload="API.displayPublications('khusbu.bubna@iiitb.org');">
 
     <div>
       <div>
@@ -22,7 +27,12 @@
 
 	<p>Before joining IIIT-Bangalore Khusbu completed her B.Tech in Computer Science and Engineering from Institute of Engineering and Management, Kolkata under West Bengal University of Technology in 2013.</p>
 	Courses taken till now: Software Testing, Design and Analysis of Safety Critical Systems, Programming Languages, OOAD,UML and Web methods.
-<h1>Publications</h1>
-<p id = "pubs"></p>
+
+  <h2>Recent Publications</h2>
+  <a id="myconfpublications"></a>
+  <a id="myjournalpublications"></a>
+  <a id="myworkshoppublications"></a>
+  <a id="mytechreports"></a>
+
 </body>
 </html>

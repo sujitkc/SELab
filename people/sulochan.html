@@ -3,8 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>IIIT-B SELab Page</title>
+
+    <script src="../db/json/DB.json"></script>
+    <script src="../db/lab.js"> </script>
+    <script src="../db/api.js"> </script>
+
+
   </head>
-<body>
+<body onload="API.displayPublications('sulochan.naik@iiitb.ac.in');">
 
     <div>
 
@@ -25,6 +31,12 @@
 		<p><b>Research Interest : </b></p>
 <h3>Biographical Sketch</h3>
 </br></br>
-  <p id = "pubs"></p>
+
+  <h2>Recent Publications</h2>
+  <a id="myconfpublications"></a>
+  <a id="myjournalpublications"></a>
+  <a id="myworkshoppublications"></a>
+  <a id="mytechreports"></a>
+
 </body>
 </html>

@@ -3,13 +3,7 @@ class API {
   // HTML dump of publication array
   // Where to use: Wherever a list of publications needs
   static reduceStrings(strings) {
-    var s = "<ul>";
-    s+= strings.reduce(
-      function(x, y) { return x + "<li>" + y; },
-      ""
-    );
-    s += "</ul>";
-    return s;
+    return "<ul>" + strings.reduce( (x, y) => x + "<li>" + y, "" ) + "</ul>";
   }
 
   // to be added to an HTML file, typically in the 
@@ -19,11 +13,9 @@ class API {
       return "";
     }
     let pubNames = publications.map(x => x.toHTML());
-    var strPubs = "<ul>" + pubNames.reduce(
-        (x, y) => x + "<li>" + y, ""
-      ) + "</ul>";
-    return "<h2>" + header + "</h2>" + strPubs;
-  }
+    return "<h2>" + header + "</h2>" + "<ul>" +
+      pubNames.reduce( (x, y) => x + "<li>" + y, "") + "</ul>";
+    }
 
   static all_publications(publications) {
     return this.html_of_publications(publications, "All Publications");

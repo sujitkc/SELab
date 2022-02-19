@@ -1,36 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <title>IIIT-B SELab Page</title>
- 
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <script src="../db/json/DB.json"></script>
-
     <script src="../db/lab.js"> </script>
     <script src="../db/api.js"> </script>
-
-    <link rel="stylesheet" type="text/css" href="../css/selab.css">   
-    <script>
-      function displayPublications() {
-        let element = document.getElementById("allpubs");
-        let theLab = Lab.getInstance();
-        let strpub = API.all_publications(theLab.publications);
-        console.log("All publications"); 
-        element.innerHTML = strpub;
-      }
-    </script>
+    <link rel="stylesheet" type="text/css" href="../css/new_style.css">   
   </head>
-<body onload='displayPublications()'>
+  
 
-    <div class="container">
-      <div class="page-header">
-        <h1>Software Engineering Lab, IIIT-B </h1>
-      </div>    
-		<ol>
-			<li><a href="../index.html">Home </a></li>
-			<li><a href="publications.html">Publications</a></li>
-		</ol>	
-	<h3>Publications</h3>
-  	<p id = "allpubs"></p>
+<body>
+
+<div class="tab">
+  <button class="tablinks" onclick="displayPublications(event, 'publications')" id="defaultOpen">Publications</button>
+  <button class="tablinks" onclick="displayPublications(event, 'oldPublications')">Publications prior to 2010</button>
+</div>
+
+<div id="publications" class="tabcontent">
+</div>
+
+<div id="oldPublications" class="tabcontent">
+</div>
+
+    <script>
+      function displayPublications(evt, id) {
+	    var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        
+		tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+  
+        document.getElementById(id).style.display = "block";
+        evt.currentTarget.className += " active";
+	  
+        let element = document.getElementById(id);
+        let theLab = Lab.getInstance();
+		let strpub = ''
+		if (id === 'publications') {
+            strpub = API.all_publications(theLab.recentPublications);
+		} else if (id === 'oldPublications') {
+		    strpub = API.all_publications(theLab.oldPublications);
+		}
+        element.innerHTML = strpub;
+       }
+       
+	   // Get the element with id="defaultOpen" and click on it
+       document.getElementById("defaultOpen").click();
+    </script>
+  	
   </body>
 </html>

@@ -1,0 +1,84 @@
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  color: #0056b3;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+
+ul li {
+	margin-bottom: 18px!important;
+    margin-left: 36px;
+    position: relative;
+    background: #ededed00!important;
+    border: 0 solid #ccc!important;
+	color: #203245;
+	line-height: 24px;
+	-webkit-tap-highlight-color: transparent;
+	transition: all .2s linear;
+}
+
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+  border-top: 4px solid #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background: #fff;
+  border-top: 4px solid #015483;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  border: 1px solid #ccc;
+  border-top: none;
+  background: #fff;
+  padding: 3em 2em;
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,.2);
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+
+.tabcontent h2 {
+    font-size: 20px;
+	color: #015483;
+	font-weight: bold;
+}
+
+
+.mobile-mode {
+    display: block;
+}
